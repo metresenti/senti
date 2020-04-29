@@ -1,1 +1,1 @@
-Sitemap: https://metresenti.github.io/senti/sitemap.xml
+Sitemap: https://sentimetre.com/sitemap.xml
