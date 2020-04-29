@@ -176,6 +176,29 @@ window.onload = wrap_img;
     
     
 <div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df_testp</span><span class="o">=</span><span class="n">df_testp</span><span class="p">[[</span> <span class="s1">&#39;Company Name&#39;</span><span class="p">,</span> <span class="s1">&#39;CIK&#39;</span><span class="p">,</span> <span class="s1">&#39;Date&#39;</span><span class="p">,</span> <span class="s1">&#39;Ticker&#39;</span><span class="p">,</span>
+       <span class="s1">&#39;Exchange&#39;</span><span class="p">,</span> <span class="s1">&#39;SIC&#39;</span><span class="p">,</span>  <span class="s1">&#39;pred&#39;</span><span class="p">,</span> <span class="s1">&#39;prof0.0&#39;</span><span class="p">,</span> <span class="s1">&#39;prof-1.0&#39;</span><span class="p">,</span>
+       <span class="s1">&#39;prof1.0&#39;</span><span class="p">,</span> <span class="s1">&#39;return1&amp;2&#39;</span><span class="p">,</span> <span class="s1">&#39;return1&amp;2&amp;3&#39;</span><span class="p">,</span> <span class="s1">&#39;return1&amp;2&amp;3&amp;4&#39;</span><span class="p">,</span> <span class="s1">&#39;return2&#39;</span><span class="p">,</span>
+       <span class="s1">&#39;return1&#39;</span><span class="p">,</span> <span class="s1">&#39;return3&#39;</span><span class="p">,</span> <span class="s1">&#39;return4&#39;</span><span class="p">,</span> <span class="s1">&#39;4_day_return&#39;</span><span class="p">,</span> <span class="s1">&#39;cumulative_return1&#39;</span><span class="p">,</span>
+       <span class="s1">&#39;cumulative_return1&amp;2&#39;</span><span class="p">,</span> <span class="s1">&#39;cumulative_return1&amp;2&amp;3&#39;</span><span class="p">,</span>
+       <span class="s1">&#39;cumulative_return1&amp;2&amp;3&amp;4&#39;</span><span class="p">]]</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+<span class="n">df_testp</span><span class="p">[</span><span class="s1">&#39;indexx&#39;</span><span class="p">]</span><span class="o">=</span><span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">df_testp</span><span class="p">))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
 
 <div class="output_wrapper">
 <div class="output">
@@ -226,16 +249,16 @@ window.onload = wrap_img;
   <thead>
     <tr style="text-align: right;">
       <th></th>
-      <th>Unnamed: 0</th>
-      <th>level_0</th>
-      <th>index</th>
-      <th>text</th>
-      <th>is_valid</th>
-      <th>label</th>
-      <th>Form Type</th>
       <th>Company Name</th>
       <th>CIK</th>
       <th>Date</th>
+      <th>Ticker</th>
+      <th>Exchange</th>
+      <th>SIC</th>
+      <th>pred</th>
+      <th>prof0.0</th>
+      <th>prof-1.0</th>
+      <th>prof1.0</th>
       <th>...</th>
       <th>return2</th>
       <th>return1</th>
@@ -252,16 +275,16 @@ window.onload = wrap_img;
   <tbody>
     <tr>
       <th>0</th>
-      <td>0</td>
-      <td>0</td>
-      <td>1832</td>
-      <td>ITEM 7.          MANAGEMENT'S  DISCUSSION AND ...</td>
-      <td>False</td>
-      <td>-1.0</td>
-      <td>10-K</td>
       <td>HURCO COMPANIES INC</td>
       <td>315374</td>
       <td>20190104</td>
+      <td>HURC</td>
+      <td>NASDAQ</td>
+      <td>3823.0</td>
+      <td>1.0</td>
+      <td>0.161854</td>
+      <td>0.347908</td>
+      <td>0.490238</td>
       <td>...</td>
       <td>1.010168</td>
       <td>0.962444</td>
@@ -276,16 +299,16 @@ window.onload = wrap_img;
     </tr>
     <tr>
       <th>1</th>
-      <td>1</td>
-      <td>1</td>
-      <td>5823</td>
-      <td>ITEM 7. MANAGEMENT’S DISCUSSION AND ANALYSIS O...</td>
-      <td>False</td>
-      <td>1.0</td>
-      <td>10-K</td>
       <td>XSUNX INC</td>
       <td>1039466</td>
       <td>20190107</td>
+      <td>XSNX</td>
+      <td>OTC</td>
+      <td>3081.0</td>
+      <td>1.0</td>
+      <td>0.126500</td>
+      <td>0.400347</td>
+      <td>0.473153</td>
       <td>...</td>
       <td>1.000000</td>
       <td>1.166667</td>
@@ -300,16 +323,16 @@ window.onload = wrap_img;
     </tr>
     <tr>
       <th>2</th>
-      <td>2</td>
-      <td>2</td>
-      <td>759</td>
-      <td>ITEM 7.  MANAGEMENT’S DISCUSSION AND ANALYSIS ...</td>
-      <td>False</td>
-      <td>-1.0</td>
-      <td>10-K</td>
       <td>FUELCELL ENERGY INC</td>
       <td>886128</td>
       <td>20190110</td>
+      <td>FCEL</td>
+      <td>NASDAQ</td>
+      <td>3690.0</td>
+      <td>1.0</td>
+      <td>0.120616</td>
+      <td>0.392821</td>
+      <td>0.486563</td>
       <td>...</td>
       <td>1.038462</td>
       <td>0.945455</td>
@@ -324,16 +347,16 @@ window.onload = wrap_img;
     </tr>
     <tr>
       <th>3</th>
-      <td>3</td>
-      <td>3</td>
-      <td>1954</td>
-      <td>ITEM 7  MANAGEMENT'S DISCUSSION AND ANALYSIS O...</td>
-      <td>False</td>
-      <td>0.0</td>
-      <td>10-K</td>
       <td>FIRST REAL ESTATE INVESTMENT TRUST OF NEW JERSEY</td>
       <td>36840</td>
       <td>20190111</td>
+      <td>FREVS</td>
+      <td>OTC</td>
+      <td>6798.0</td>
+      <td>1.0</td>
+      <td>0.133306</td>
+      <td>0.374441</td>
+      <td>0.492253</td>
       <td>...</td>
       <td>1.000000</td>
       <td>1.000000</td>
@@ -348,16 +371,16 @@ window.onload = wrap_img;
     </tr>
     <tr>
       <th>4</th>
-      <td>4</td>
-      <td>4</td>
-      <td>5777</td>
-      <td>ITEM 7.  MANAGEMENT'S DISCUSSION AND ANALYSIS ...</td>
-      <td>False</td>
-      <td>1.0</td>
-      <td>10-K</td>
       <td>URSTADT BIDDLE PROPERTIES INC</td>
       <td>1029800</td>
       <td>20190111</td>
+      <td>UBA</td>
+      <td>NYSE</td>
+      <td>6798.0</td>
+      <td>1.0</td>
+      <td>0.100598</td>
+      <td>0.417170</td>
+      <td>0.482232</td>
       <td>...</td>
       <td>1.007515</td>
       <td>0.981318</td>
@@ -372,7 +395,7 @@ window.onload = wrap_img;
     </tr>
   </tbody>
 </table>
-<p>5 rows × 39 columns</p>
+<p>5 rows × 23 columns</p>
 </div>
 </div>
 
