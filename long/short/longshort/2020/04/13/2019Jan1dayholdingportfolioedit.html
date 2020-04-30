@@ -343,15 +343,31 @@ window.onload = wrap_img;
 
 <div class="output_area">
 
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>C:\ProgramData\Anaconda3\lib\site-packages\ipykernel_launcher.py:11: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  # This is added back by InteractiveShellApp.init_path()
+C:\ProgramData\Anaconda3\lib\site-packages\ipykernel_launcher.py:18: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 
-<div id="altair-viz-4f60a29c5a85448caa01559c3ab921e5"></div>
+<div id="altair-viz-3d2b6afe725d4a978c01eddaa6971dd0"></div>
 <script type="text/javascript">
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-4f60a29c5a85448caa01559c3ab921e5") {
-      outputDiv = document.getElementById("altair-viz-4f60a29c5a85448caa01559c3ab921e5");
+    if (outputDiv.id !== "altair-viz-3d2b6afe725d4a978c01eddaa6971dd0") {
+      outputDiv = document.getElementById("altair-viz-3d2b6afe725d4a978c01eddaa6971dd0");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
@@ -393,7 +409,7 @@ window.onload = wrap_img;
         .catch(showError)
         .then(() => displayChart(vegaEmbed));
     }
-  })({"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "data": {"name": "data-1f0deebdb82d43cd7a690c03aac47742"}, "mark": "trail", "encoding": {"size": {"type": "quantitative", "field": "cumreturn1"}, "x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturn1"}}, "height": 1000, "width": 1000, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-1f0deebdb82d43cd7a690c03aac47742": [{"Date": "2019-01-04T00:00:00", "pred": 1.0, "labelr1": -3.755620206294635, "cumreturn1": 1.0}, {"Date": "2019-01-07T00:00:00", "pred": 1.0, "labelr1": 16.66666666666668, "cumreturn1": 0.9624437979370537}, {"Date": "2019-01-10T00:00:00", "pred": 1.0, "labelr1": -5.454545454545447, "cumreturn1": 1.1228510975932293}, {"Date": "2019-01-11T00:00:00", "pred": 1.0, "labelr1": -3.8952669483643056, "cumreturn1": 1.0616046740881442}, {"Date": "2019-01-14T00:00:00", "pred": 1.0, "labelr1": 1.7530560680689227, "cumreturn1": 1.0202523380960982}, {"Date": "2019-01-15T00:00:00", "pred": 1.0, "labelr1": -9.090909090909086, "cumreturn1": 1.0381379336187069}, {"Date": "2019-01-17T00:00:00", "pred": 1.0, "labelr1": 0.7462686567164021, "cumreturn1": 0.9437617578351881}, {"Date": "2019-01-18T00:00:00", "pred": 1.0, "labelr1": 0.0, "cumreturn1": 0.950804756027988}, {"Date": "2019-01-23T00:00:00", "pred": 1.0, "labelr1": 25.178736127132957, "cumreturn1": 0.950804756027988}, {"Date": "2019-01-24T00:00:00", "pred": 1.0, "labelr1": -6.909604854810352, "cumreturn1": 1.1902053766325054}, {"Date": "2019-01-25T00:00:00", "pred": 1.0, "labelr1": -0.4761674660768142, "cumreturn1": 1.107966888146492}, {"Date": "2019-01-28T00:00:00", "pred": 1.0, "labelr1": 3.2431582606454277, "cumreturn1": 1.1026911102902346}, {"Date": "2019-01-29T00:00:00", "pred": 1.0, "labelr1": -1.7744428164316242, "cumreturn1": 1.138453128123015}, {"Date": "2019-01-30T00:00:00", "pred": 1.0, "labelr1": -3.2374400205001144, "cumreturn1": 1.1182519283725951}, {"Date": "2019-01-31T00:00:00", "pred": 1.0, "labelr1": -1.7889030352278077, "cumreturn1": 1.0820491929134464}]}}, {"mode": "vega-lite"});
+  })({"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "layer": [{"mark": {"type": "trail", "color": "steelblue"}, "encoding": {"size": {"type": "quantitative", "field": "cumreturn1"}, "x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturn1"}}, "height": 1000, "title": "Portfolio (blue) vs Dow (black) vs SP500 (red)", "width": 1000}, {"mark": {"type": "circle", "color": "black", "size": 40}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturndow"}}, "height": 1000, "width": 1000}, {"mark": {"type": "line", "color": "red"}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturnsp500"}}, "height": 1000, "width": 1000}], "data": {"name": "data-f4e055df31ed175f0dd789e89d8a848c"}, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-f4e055df31ed175f0dd789e89d8a848c": [{"Date": "2019-01-04T00:00:00", "pred": 1.0, "labelr1": -3.755620206294635, "cumreturn1": 1.0, "cumreturndow": 1.0000957048378667, "cumreturnsp500": 1.00004644586317}, {"Date": "2019-01-07T00:00:00", "pred": 1.0, "labelr1": 16.66666666666668, "cumreturn1": 0.9624437979370537, "cumreturndow": 1.00016581589569, "cumreturnsp500": 1.0000883497347945}, {"Date": "2019-01-10T00:00:00", "pred": 1.0, "labelr1": -5.454545454545447, "cumreturn1": 1.1228510975932293, "cumreturndow": 1.0003489739627365, "cumreturnsp500": 1.0002871755492113}, {"Date": "2019-01-11T00:00:00", "pred": 1.0, "labelr1": -3.8952669483643056, "cumreturn1": 1.0616046740881442, "cumreturndow": 1.000347510473054, "cumreturnsp500": 1.000284687240918}, {"Date": "2019-01-14T00:00:00", "pred": 1.0, "labelr1": 1.7530560680689227, "cumreturn1": 1.0202523380960982, "cumreturndow": 1.0002949169484006, "cumreturnsp500": 1.0002487920619216}, {"Date": "2019-01-15T00:00:00", "pred": 1.0, "labelr1": -9.090909090909086, "cumreturn1": 1.0381379336187069, "cumreturndow": 1.0004021654570243, "cumreturnsp500": 1.0003139488134434}, {"Date": "2019-01-17T00:00:00", "pred": 1.0, "labelr1": 0.7462686567164021, "cumreturn1": 0.9437617578351881, "cumreturndow": 1.0005003404688242, "cumreturnsp500": 1.0004401296735324}, {"Date": "2019-01-18T00:00:00", "pred": 1.0, "labelr1": 0.0, "cumreturn1": 0.950804756027988, "cumreturndow": 1.00063223695946, "cumreturnsp500": 1.0005781668580331}, {"Date": "2019-01-23T00:00:00", "pred": 1.0, "labelr1": 25.178736127132957, "cumreturn1": 0.950804756027988, "cumreturndow": 1.0005126143238976, "cumreturnsp500": 1.0005260712931157}, {"Date": "2019-01-24T00:00:00", "pred": 1.0, "labelr1": -6.909604854810352, "cumreturn1": 1.1902053766325054, "cumreturndow": 1.0005263786317862, "cumreturnsp500": 1.0005169603609467}, {"Date": "2019-01-25T00:00:00", "pred": 1.0, "labelr1": -0.4761674660768142, "cumreturn1": 1.107966888146492, "cumreturndow": 1.0006113102564298, "cumreturnsp500": 1.000591921581034}, {"Date": "2019-01-28T00:00:00", "pred": 1.0, "labelr1": 3.2431582606454277, "cumreturn1": 1.1026911102902346, "cumreturndow": 1.0005327940134467, "cumreturnsp500": 1.000507392118728}, {"Date": "2019-01-29T00:00:00", "pred": 1.0, "labelr1": -1.7744428164316242, "cumreturn1": 1.138453128123015, "cumreturndow": 1.0005182237875776, "cumreturnsp500": 1.0005284969873665}, {"Date": "2019-01-30T00:00:00", "pred": 1.0, "labelr1": -3.2374400205001144, "cumreturn1": 1.1182519283725951, "cumreturndow": 1.0006737969773953, "cumreturnsp500": 1.0007055226061667}, {"Date": "2019-01-31T00:00:00", "pred": 1.0, "labelr1": -1.7889030352278077, "cumreturn1": 1.0820491929134464, "cumreturndow": 1.0007598288665127, "cumreturnsp500": 1.0006994461500593}]}}, {"mode": "vega-lite"});
 </script>
 </div>
 
@@ -575,15 +591,31 @@ window.onload = wrap_img;
 
 <div class="output_area">
 
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>C:\ProgramData\Anaconda3\lib\site-packages\ipykernel_launcher.py:11: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  # This is added back by InteractiveShellApp.init_path()
+C:\ProgramData\Anaconda3\lib\site-packages\ipykernel_launcher.py:18: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 
-<div id="altair-viz-c035ce95894a4ae5a52a6fdb2d5dc41a"></div>
+<div id="altair-viz-21d3db52d0174a9e854557b7173eb627"></div>
 <script type="text/javascript">
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-c035ce95894a4ae5a52a6fdb2d5dc41a") {
-      outputDiv = document.getElementById("altair-viz-c035ce95894a4ae5a52a6fdb2d5dc41a");
+    if (outputDiv.id !== "altair-viz-21d3db52d0174a9e854557b7173eb627") {
+      outputDiv = document.getElementById("altair-viz-21d3db52d0174a9e854557b7173eb627");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
@@ -625,7 +657,7 @@ window.onload = wrap_img;
         .catch(showError)
         .then(() => displayChart(vegaEmbed));
     }
-  })({"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "data": {"name": "data-1f0deebdb82d43cd7a690c03aac47742"}, "mark": "trail", "encoding": {"size": {"type": "quantitative", "field": "cumreturn1"}, "x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturn1"}}, "height": 1000, "width": 1000, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-1f0deebdb82d43cd7a690c03aac47742": [{"Date": "2019-01-04T00:00:00", "pred": 1.0, "labelr1": -3.755620206294635, "cumreturn1": 1.0}, {"Date": "2019-01-07T00:00:00", "pred": 1.0, "labelr1": 16.66666666666668, "cumreturn1": 0.9624437979370537}, {"Date": "2019-01-10T00:00:00", "pred": 1.0, "labelr1": -5.454545454545447, "cumreturn1": 1.1228510975932293}, {"Date": "2019-01-11T00:00:00", "pred": 1.0, "labelr1": -3.8952669483643056, "cumreturn1": 1.0616046740881442}, {"Date": "2019-01-14T00:00:00", "pred": 1.0, "labelr1": 1.7530560680689227, "cumreturn1": 1.0202523380960982}, {"Date": "2019-01-15T00:00:00", "pred": 1.0, "labelr1": -9.090909090909086, "cumreturn1": 1.0381379336187069}, {"Date": "2019-01-17T00:00:00", "pred": 1.0, "labelr1": 0.7462686567164021, "cumreturn1": 0.9437617578351881}, {"Date": "2019-01-18T00:00:00", "pred": 1.0, "labelr1": 0.0, "cumreturn1": 0.950804756027988}, {"Date": "2019-01-23T00:00:00", "pred": 1.0, "labelr1": 25.178736127132957, "cumreturn1": 0.950804756027988}, {"Date": "2019-01-24T00:00:00", "pred": 1.0, "labelr1": -6.909604854810352, "cumreturn1": 1.1902053766325054}, {"Date": "2019-01-25T00:00:00", "pred": 1.0, "labelr1": -0.4761674660768142, "cumreturn1": 1.107966888146492}, {"Date": "2019-01-28T00:00:00", "pred": 1.0, "labelr1": 3.2431582606454277, "cumreturn1": 1.1026911102902346}, {"Date": "2019-01-29T00:00:00", "pred": 1.0, "labelr1": -1.7744428164316242, "cumreturn1": 1.138453128123015}, {"Date": "2019-01-30T00:00:00", "pred": 1.0, "labelr1": -3.2374400205001144, "cumreturn1": 1.1182519283725951}, {"Date": "2019-01-31T00:00:00", "pred": 1.0, "labelr1": -1.7889030352278077, "cumreturn1": 1.0820491929134464}]}}, {"mode": "vega-lite"});
+  })({"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "layer": [{"mark": {"type": "trail", "color": "steelblue"}, "encoding": {"size": {"type": "quantitative", "field": "cumreturn1"}, "x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturn1"}}, "height": 1000, "title": "Portfolio (blue) vs Dow (black) vs SP500 (red)", "width": 1000}, {"mark": {"type": "circle", "color": "black", "size": 40}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturndow"}}, "height": 1000, "width": 1000}, {"mark": {"type": "line", "color": "red"}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturnsp500"}}, "height": 1000, "width": 1000}], "data": {"name": "data-f4e055df31ed175f0dd789e89d8a848c"}, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-f4e055df31ed175f0dd789e89d8a848c": [{"Date": "2019-01-04T00:00:00", "pred": 1.0, "labelr1": -3.755620206294635, "cumreturn1": 1.0, "cumreturndow": 1.0000957048378667, "cumreturnsp500": 1.00004644586317}, {"Date": "2019-01-07T00:00:00", "pred": 1.0, "labelr1": 16.66666666666668, "cumreturn1": 0.9624437979370537, "cumreturndow": 1.00016581589569, "cumreturnsp500": 1.0000883497347945}, {"Date": "2019-01-10T00:00:00", "pred": 1.0, "labelr1": -5.454545454545447, "cumreturn1": 1.1228510975932293, "cumreturndow": 1.0003489739627365, "cumreturnsp500": 1.0002871755492113}, {"Date": "2019-01-11T00:00:00", "pred": 1.0, "labelr1": -3.8952669483643056, "cumreturn1": 1.0616046740881442, "cumreturndow": 1.000347510473054, "cumreturnsp500": 1.000284687240918}, {"Date": "2019-01-14T00:00:00", "pred": 1.0, "labelr1": 1.7530560680689227, "cumreturn1": 1.0202523380960982, "cumreturndow": 1.0002949169484006, "cumreturnsp500": 1.0002487920619216}, {"Date": "2019-01-15T00:00:00", "pred": 1.0, "labelr1": -9.090909090909086, "cumreturn1": 1.0381379336187069, "cumreturndow": 1.0004021654570243, "cumreturnsp500": 1.0003139488134434}, {"Date": "2019-01-17T00:00:00", "pred": 1.0, "labelr1": 0.7462686567164021, "cumreturn1": 0.9437617578351881, "cumreturndow": 1.0005003404688242, "cumreturnsp500": 1.0004401296735324}, {"Date": "2019-01-18T00:00:00", "pred": 1.0, "labelr1": 0.0, "cumreturn1": 0.950804756027988, "cumreturndow": 1.00063223695946, "cumreturnsp500": 1.0005781668580331}, {"Date": "2019-01-23T00:00:00", "pred": 1.0, "labelr1": 25.178736127132957, "cumreturn1": 0.950804756027988, "cumreturndow": 1.0005126143238976, "cumreturnsp500": 1.0005260712931157}, {"Date": "2019-01-24T00:00:00", "pred": 1.0, "labelr1": -6.909604854810352, "cumreturn1": 1.1902053766325054, "cumreturndow": 1.0005263786317862, "cumreturnsp500": 1.0005169603609467}, {"Date": "2019-01-25T00:00:00", "pred": 1.0, "labelr1": -0.4761674660768142, "cumreturn1": 1.107966888146492, "cumreturndow": 1.0006113102564298, "cumreturnsp500": 1.000591921581034}, {"Date": "2019-01-28T00:00:00", "pred": 1.0, "labelr1": 3.2431582606454277, "cumreturn1": 1.1026911102902346, "cumreturndow": 1.0005327940134467, "cumreturnsp500": 1.000507392118728}, {"Date": "2019-01-29T00:00:00", "pred": 1.0, "labelr1": -1.7744428164316242, "cumreturn1": 1.138453128123015, "cumreturndow": 1.0005182237875776, "cumreturnsp500": 1.0005284969873665}, {"Date": "2019-01-30T00:00:00", "pred": 1.0, "labelr1": -3.2374400205001144, "cumreturn1": 1.1182519283725951, "cumreturndow": 1.0006737969773953, "cumreturnsp500": 1.0007055226061667}, {"Date": "2019-01-31T00:00:00", "pred": 1.0, "labelr1": -1.7889030352278077, "cumreturn1": 1.0820491929134464, "cumreturndow": 1.0007598288665127, "cumreturnsp500": 1.0006994461500593}]}}, {"mode": "vega-lite"});
 </script>
 </div>
 
@@ -702,15 +734,31 @@ window.onload = wrap_img;
 
 <div class="output_area">
 
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>C:\ProgramData\Anaconda3\lib\site-packages\ipykernel_launcher.py:11: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  # This is added back by InteractiveShellApp.init_path()
+C:\ProgramData\Anaconda3\lib\site-packages\ipykernel_launcher.py:18: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 
-<div id="altair-viz-a5caa00c65004eea9916f9368138a79a"></div>
+<div id="altair-viz-c3725ddf44374911a6a8ef9d98549b5a"></div>
 <script type="text/javascript">
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-a5caa00c65004eea9916f9368138a79a") {
-      outputDiv = document.getElementById("altair-viz-a5caa00c65004eea9916f9368138a79a");
+    if (outputDiv.id !== "altair-viz-c3725ddf44374911a6a8ef9d98549b5a") {
+      outputDiv = document.getElementById("altair-viz-c3725ddf44374911a6a8ef9d98549b5a");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
@@ -752,7 +800,7 @@ window.onload = wrap_img;
         .catch(showError)
         .then(() => displayChart(vegaEmbed));
     }
-  })({"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "data": {"name": "data-d751713988987e9331980363e24189ce"}, "mark": "trail", "encoding": {"size": {"type": "quantitative", "field": "cumreturn1"}, "x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturn1"}}, "height": 1000, "width": 1000, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-d751713988987e9331980363e24189ce": []}}, {"mode": "vega-lite"});
+  })({"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "layer": [{"mark": {"type": "trail", "color": "steelblue"}, "encoding": {"size": {"type": "quantitative", "field": "cumreturn1"}, "x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturn1"}}, "height": 1000, "title": "Portfolio (blue) vs Dow (black) vs SP500 (red)", "width": 1000}, {"mark": {"type": "circle", "color": "black", "size": 40}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturndow"}}, "height": 1000, "width": 1000}, {"mark": {"type": "line", "color": "red"}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturnsp500"}}, "height": 1000, "width": 1000}], "data": {"name": "data-d751713988987e9331980363e24189ce"}, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-d751713988987e9331980363e24189ce": []}}, {"mode": "vega-lite"});
 </script>
 </div>
 
