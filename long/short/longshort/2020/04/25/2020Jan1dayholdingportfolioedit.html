@@ -213,120 +213,154 @@ window.onload = wrap_img;
       <th>pred</th>
       <th>labelr1</th>
       <th>cumreturn1</th>
+      <th>cumreturndow</th>
+      <th>cumreturnsp500</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <th>0</th>
-      <td>20200102</td>
+      <td>2020-01-02</td>
       <td>1.0</td>
       <td>7.058824</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
       <td>1.000000</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>20200103</td>
+      <td>2020-01-03</td>
       <td>1.0</td>
       <td>-2.409297</td>
       <td>1.070588</td>
+      <td>0.992940</td>
+      <td>0.991897</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>20200107</td>
+      <td>2020-01-07</td>
       <td>1.0</td>
       <td>0.000000</td>
       <td>1.044795</td>
+      <td>0.993655</td>
+      <td>0.990124</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>20200110</td>
+      <td>2020-01-10</td>
       <td>1.0</td>
       <td>1.048658</td>
       <td>1.044795</td>
+      <td>1.002302</td>
+      <td>0.998440</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>20200113</td>
+      <td>2020-01-13</td>
       <td>1.0</td>
       <td>0.000000</td>
       <td>1.055751</td>
+      <td>1.009294</td>
+      <td>1.001325</td>
     </tr>
     <tr>
       <th>5</th>
-      <td>20200114</td>
+      <td>2020-01-14</td>
       <td>1.0</td>
       <td>-4.021414</td>
       <td>1.055751</td>
+      <td>1.007766</td>
+      <td>1.002455</td>
     </tr>
     <tr>
       <th>6</th>
-      <td>20200116</td>
+      <td>2020-01-16</td>
       <td>1.0</td>
       <td>-8.333333</td>
       <td>1.013295</td>
+      <td>1.018098</td>
+      <td>1.014855</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>20200121</td>
+      <td>2020-01-21</td>
       <td>1.0</td>
       <td>0.017143</td>
       <td>0.928854</td>
+      <td>1.019319</td>
+      <td>1.011335</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>20200122</td>
+      <td>2020-01-22</td>
       <td>1.0</td>
       <td>-17.226219</td>
       <td>0.929013</td>
+      <td>1.019614</td>
+      <td>1.010997</td>
     </tr>
     <tr>
       <th>9</th>
-      <td>20200123</td>
+      <td>2020-01-23</td>
       <td>1.0</td>
       <td>-7.480315</td>
       <td>0.768979</td>
+      <td>1.020777</td>
+      <td>1.010090</td>
     </tr>
     <tr>
       <th>10</th>
-      <td>20200124</td>
+      <td>2020-01-24</td>
       <td>1.0</td>
       <td>-1.546180</td>
       <td>0.711457</td>
+      <td>1.011547</td>
+      <td>1.004189</td>
     </tr>
     <tr>
       <th>11</th>
-      <td>20200127</td>
+      <td>2020-01-27</td>
       <td>1.0</td>
       <td>1.032011</td>
       <td>0.700457</td>
+      <td>0.995635</td>
+      <td>0.988465</td>
     </tr>
     <tr>
       <th>12</th>
-      <td>20200128</td>
+      <td>2020-01-28</td>
       <td>1.0</td>
       <td>47.863222</td>
       <td>0.707685</td>
+      <td>1.005645</td>
+      <td>0.994944</td>
     </tr>
     <tr>
       <th>13</th>
-      <td>20200129</td>
+      <td>2020-01-29</td>
       <td>1.0</td>
       <td>-31.815968</td>
       <td>1.046406</td>
+      <td>1.004773</td>
+      <td>0.995346</td>
     </tr>
     <tr>
       <th>14</th>
-      <td>20200130</td>
+      <td>2020-01-30</td>
       <td>1.0</td>
       <td>-23.751920</td>
       <td>0.713482</td>
+      <td>1.007922</td>
+      <td>0.999676</td>
     </tr>
     <tr>
       <th>15</th>
-      <td>20200131</td>
+      <td>2020-01-31</td>
       <td>1.0</td>
       <td>4.552298</td>
       <td>0.544016</td>
+      <td>0.990076</td>
+      <td>0.978774</td>
     </tr>
   </tbody>
 </table>
@@ -350,31 +384,15 @@ window.onload = wrap_img;
 
 <div class="output_area">
 
-<div class="output_subarea output_stream output_stderr output_text">
-<pre>C:\ProgramData\Anaconda3\lib\site-packages\ipykernel_launcher.py:11: SettingWithCopyWarning: 
-A value is trying to be set on a copy of a slice from a DataFrame
-
-See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  # This is added back by InteractiveShellApp.init_path()
-C:\ProgramData\Anaconda3\lib\site-packages\ipykernel_launcher.py:18: SettingWithCopyWarning: 
-A value is trying to be set on a copy of a slice from a DataFrame
-
-See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-</pre>
-</div>
-</div>
-
-<div class="output_area">
-
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 
-<div id="altair-viz-c6f661a7e9c7470eb6ff56e820dbfa90"></div>
+<div id="altair-viz-d42ca6825ee441fbafbd6f07f2793156"></div>
 <script type="text/javascript">
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-c6f661a7e9c7470eb6ff56e820dbfa90") {
-      outputDiv = document.getElementById("altair-viz-c6f661a7e9c7470eb6ff56e820dbfa90");
+    if (outputDiv.id !== "altair-viz-d42ca6825ee441fbafbd6f07f2793156") {
+      outputDiv = document.getElementById("altair-viz-d42ca6825ee441fbafbd6f07f2793156");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
@@ -416,7 +434,7 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
         .catch(showError)
         .then(() => displayChart(vegaEmbed));
     }
-  })({"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "layer": [{"mark": {"type": "trail", "color": "steelblue"}, "encoding": {"size": {"type": "quantitative", "field": "cumreturn1"}, "x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturn1"}}, "height": 1000, "title": "Portfolio (blue) vs Dow (black) vs SP500 (red)", "width": 1000}, {"mark": {"type": "circle", "color": "black", "size": 40}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturndow"}}, "height": 1000, "width": 1000}, {"mark": {"type": "line", "color": "red"}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturnsp500"}}, "height": 1000, "width": 1000}], "data": {"name": "data-dcbd24d427c12734a1b5afbca082c6de"}, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-dcbd24d427c12734a1b5afbca082c6de": [{"Date": "2020-01-02T00:00:00", "pred": 1.0, "labelr1": 7.058823529411763, "cumreturn1": 1.0, "cumreturndow": 1.0026898011657828, "cumreturnsp500": 1.0022035792921347}, {"Date": "2020-01-03T00:00:00", "pred": 1.0, "labelr1": -2.4092970521541988, "cumreturn1": 1.0705882352941176, "cumreturndow": 1.0026190125636891, "cumreturnsp500": 1.0021223721145749}, {"Date": "2020-01-07T00:00:00", "pred": 1.0, "labelr1": 0.0, "cumreturn1": 1.0447945845004667, "cumreturndow": 1.0026263320353273, "cumreturnsp500": 1.0021045524381662}, {"Date": "2020-01-10T00:00:00", "pred": 1.0, "labelr1": 1.0486577181208054, "cumreturn1": 1.0447945845004667, "cumreturndow": 1.0027135859081608, "cumreturnsp500": 1.0021889074095758}, {"Date": "2020-01-13T00:00:00", "pred": 1.0, "labelr1": 0.0, "cumreturn1": 1.055750903549339, "cumreturndow": 1.0027835373657934, "cumreturnsp500": 1.0022178639084318}, {"Date": "2020-01-14T00:00:00", "pred": 1.0, "labelr1": -4.021413790064591, "cumreturn1": 1.055750903549339, "cumreturndow": 1.0027683498788604, "cumreturnsp500": 1.002229173082122}, {"Date": "2020-01-16T00:00:00", "pred": 1.0, "labelr1": -8.33333333333333, "cumreturn1": 1.0132947911252745, "cumreturndow": 1.0028710023383576, "cumreturnsp500": 1.0023528583382126}, {"Date": "2020-01-21T00:00:00", "pred": 1.0, "labelr1": 0.01714285714285779, "cumreturn1": 0.9288535585315018, "cumreturndow": 1.002883137900195, "cumreturnsp500": 1.0023181862016424}, {"Date": "2020-01-22T00:00:00", "pred": 1.0, "labelr1": -17.226218824016623, "cumreturn1": 0.9290127905701071, "cumreturndow": 1.0028860369955568, "cumreturnsp500": 1.0023148322605226}, {"Date": "2020-01-23T00:00:00", "pred": 1.0, "labelr1": -7.480314960629925, "cumreturn1": 0.7689790143633972, "cumreturndow": 1.0028974796905001, "cumreturnsp500": 1.0023058416327357}, {"Date": "2020-01-24T00:00:00", "pred": 1.0, "labelr1": -1.5461797031857194, "cumreturn1": 0.7114569621078675, "cumreturndow": 1.0028067960870624, "cumreturnsp500": 1.0022472848183868}, {"Date": "2020-01-27T00:00:00", "pred": 1.0, "labelr1": 1.0320108547580062, "cumreturn1": 0.7004565589628539, "cumreturndow": 1.0026490474411527, "cumreturnsp500": 1.0020903500039071}, {"Date": "2020-01-28T00:00:00", "pred": 1.0, "labelr1": 47.863222208895245, "cumreturn1": 0.707685346684215, "cumreturndow": 1.0027498496100187, "cumreturnsp500": 1.0021560358512946}, {"Date": "2020-01-29T00:00:00", "pred": 1.0, "labelr1": -31.815968346370457, "cumreturn1": 1.0464063567074715, "cumreturndow": 1.002741157030038, "cumreturnsp500": 1.0021600830190838}, {"Date": "2020-01-30T00:00:00", "pred": 1.0, "labelr1": -23.751920139482966, "cumreturn1": 0.713482041483014, "cumreturndow": 1.0027725865363817, "cumreturnsp500": 1.00220367537136}, {"Date": "2020-01-31T00:00:00", "pred": 1.0, "labelr1": 4.552298081631914, "cumreturn1": 0.5440163567804158, "cumreturndow": 1.0025950374251942, "cumreturnsp500": 1.00199412872473}]}}, {"mode": "vega-lite"});
+  })({"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "layer": [{"mark": {"type": "trail", "color": "steelblue"}, "encoding": {"size": {"type": "quantitative", "field": "cumreturn1"}, "x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturn1"}}, "height": 1000, "title": "Portfolio (blue) vs Dow (black) vs SP500 (red)", "width": 1000}, {"mark": {"type": "circle", "color": "black", "size": 40}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturndow"}}, "height": 1000, "width": 1000}, {"mark": {"type": "line", "color": "red"}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturnsp500"}}, "height": 1000, "width": 1000}], "data": {"name": "data-13dfe191e1541e3a4e076513c35da311"}, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-13dfe191e1541e3a4e076513c35da311": [{"Date": "2020-01-02T00:00:00", "pred": 1.0, "labelr1": 7.058823529411763, "cumreturn1": 1.0, "cumreturndow": 1.0, "cumreturnsp500": 1.0}, {"Date": "2020-01-03T00:00:00", "pred": 1.0, "labelr1": -2.4092970521541988, "cumreturn1": 1.0705882352941176, "cumreturndow": 0.9929401294386996, "cumreturnsp500": 0.9918971375439343}, {"Date": "2020-01-07T00:00:00", "pred": 1.0, "labelr1": 0.0, "cumreturn1": 1.0447945845004667, "cumreturndow": 0.9936552740678004, "cumreturnsp500": 0.9901235560436701}, {"Date": "2020-01-10T00:00:00", "pred": 1.0, "labelr1": 1.0486577181208054, "cumreturn1": 1.0447945845004667, "cumreturndow": 1.0023021317047722, "cumreturnsp500": 0.998440141301968}, {"Date": "2020-01-13T00:00:00", "pred": 1.0, "labelr1": 0.0, "cumreturn1": 1.055750903549339, "cumreturndow": 1.0092944070749572, "cumreturnsp500": 1.0013249597823675}, {"Date": "2020-01-14T00:00:00", "pred": 1.0, "labelr1": -4.021413790064591, "cumreturn1": 1.055750903549339, "cumreturndow": 1.0077657974550558, "cumreturnsp500": 1.0024548695852529}, {"Date": "2020-01-16T00:00:00", "pred": 1.0, "labelr1": -8.33333333333333, "cumreturn1": 1.0132947911252745, "cumreturndow": 1.0180978127373623, "cumreturnsp500": 1.0148547855261878}, {"Date": "2020-01-21T00:00:00", "pred": 1.0, "labelr1": 0.01714285714285779, "cumreturn1": 0.9288535585315018, "cumreturndow": 1.0193194711563434, "cumreturnsp500": 1.0113353611215943}, {"Date": "2020-01-22T00:00:00", "pred": 1.0, "labelr1": -17.226218824016623, "cumreturn1": 0.9290127905701071, "cumreturndow": 1.0196141320434693, "cumreturnsp500": 1.0109969496969524}, {"Date": "2020-01-23T00:00:00", "pred": 1.0, "labelr1": -7.480314960629925, "cumreturn1": 0.7689790143633972, "cumreturndow": 1.020777487902699, "cumreturnsp500": 1.0100900991769532}, {"Date": "2020-01-24T00:00:00", "pred": 1.0, "labelr1": -1.5461797031857194, "cumreturn1": 0.7114569621078675, "cumreturndow": 1.0115474536483728, "cumreturnsp500": 1.0041889404730517}, {"Date": "2020-01-27T00:00:00", "pred": 1.0, "labelr1": 1.0320108547580062, "cumreturn1": 0.7004565589628539, "cumreturndow": 0.9956350922933108, "cumreturnsp500": 0.9884650560123315}, {"Date": "2020-01-28T00:00:00", "pred": 1.0, "labelr1": 47.863222208895245, "cumreturn1": 0.707685346684215, "cumreturndow": 1.0056447937894049, "cumreturnsp500": 0.9949443285466829}, {"Date": "2020-01-29T00:00:00", "pred": 1.0, "labelr1": -31.815968346370457, "cumreturn1": 1.0464063567074715, "cumreturndow": 1.0047730262388526, "cumreturnsp500": 0.9953461329059287}, {"Date": "2020-01-30T00:00:00", "pred": 1.0, "labelr1": -23.751920139482966, "cumreturn1": 0.713482041483014, "cumreturndow": 1.0079223454804895, "cumreturnsp500": 0.9996757285461556}, {"Date": "2020-01-31T00:00:00", "pred": 1.0, "labelr1": 4.552298081631914, "cumreturn1": 0.5440163567804158, "cumreturndow": 0.9900762536557943, "cumreturnsp500": 0.9787739196841426}]}}, {"mode": "vega-lite"});
 </script>
 </div>
 
@@ -468,120 +486,154 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
       <th>pred</th>
       <th>labelr1</th>
       <th>cumreturn1</th>
+      <th>cumreturndow</th>
+      <th>cumreturnsp500</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <th>0</th>
-      <td>20200102</td>
+      <td>2020-01-02</td>
       <td>1.0</td>
       <td>7.058824</td>
+      <td>1.000000</td>
+      <td>1.000000</td>
       <td>1.000000</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>20200103</td>
+      <td>2020-01-03</td>
       <td>1.0</td>
       <td>-2.409297</td>
       <td>1.070588</td>
+      <td>0.992940</td>
+      <td>0.991897</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>20200107</td>
+      <td>2020-01-07</td>
       <td>1.0</td>
       <td>0.000000</td>
       <td>1.044795</td>
+      <td>0.993655</td>
+      <td>0.990124</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>20200110</td>
+      <td>2020-01-10</td>
       <td>1.0</td>
       <td>1.048658</td>
       <td>1.044795</td>
+      <td>1.002302</td>
+      <td>0.998440</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>20200113</td>
+      <td>2020-01-13</td>
       <td>1.0</td>
       <td>0.000000</td>
       <td>1.055751</td>
+      <td>1.009294</td>
+      <td>1.001325</td>
     </tr>
     <tr>
       <th>5</th>
-      <td>20200114</td>
+      <td>2020-01-14</td>
       <td>1.0</td>
       <td>-4.021414</td>
       <td>1.055751</td>
+      <td>1.007766</td>
+      <td>1.002455</td>
     </tr>
     <tr>
       <th>6</th>
-      <td>20200116</td>
+      <td>2020-01-16</td>
       <td>1.0</td>
       <td>-8.333333</td>
       <td>1.013295</td>
+      <td>1.018098</td>
+      <td>1.014855</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>20200121</td>
+      <td>2020-01-21</td>
       <td>1.0</td>
       <td>0.017143</td>
       <td>0.928854</td>
+      <td>1.019319</td>
+      <td>1.011335</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>20200122</td>
+      <td>2020-01-22</td>
       <td>1.0</td>
       <td>-17.226219</td>
       <td>0.929013</td>
+      <td>1.019614</td>
+      <td>1.010997</td>
     </tr>
     <tr>
       <th>9</th>
-      <td>20200123</td>
+      <td>2020-01-23</td>
       <td>1.0</td>
       <td>-7.480315</td>
       <td>0.768979</td>
+      <td>1.020777</td>
+      <td>1.010090</td>
     </tr>
     <tr>
       <th>10</th>
-      <td>20200124</td>
+      <td>2020-01-24</td>
       <td>1.0</td>
       <td>-1.546180</td>
       <td>0.711457</td>
+      <td>1.011547</td>
+      <td>1.004189</td>
     </tr>
     <tr>
       <th>11</th>
-      <td>20200127</td>
+      <td>2020-01-27</td>
       <td>1.0</td>
       <td>1.032011</td>
       <td>0.700457</td>
+      <td>0.995635</td>
+      <td>0.988465</td>
     </tr>
     <tr>
       <th>12</th>
-      <td>20200128</td>
+      <td>2020-01-28</td>
       <td>1.0</td>
       <td>47.863222</td>
       <td>0.707685</td>
+      <td>1.005645</td>
+      <td>0.994944</td>
     </tr>
     <tr>
       <th>13</th>
-      <td>20200129</td>
+      <td>2020-01-29</td>
       <td>1.0</td>
       <td>-31.815968</td>
       <td>1.046406</td>
+      <td>1.004773</td>
+      <td>0.995346</td>
     </tr>
     <tr>
       <th>14</th>
-      <td>20200130</td>
+      <td>2020-01-30</td>
       <td>1.0</td>
       <td>-23.751920</td>
       <td>0.713482</td>
+      <td>1.007922</td>
+      <td>0.999676</td>
     </tr>
     <tr>
       <th>15</th>
-      <td>20200131</td>
+      <td>2020-01-31</td>
       <td>1.0</td>
       <td>4.552298</td>
       <td>0.544016</td>
+      <td>0.990076</td>
+      <td>0.978774</td>
     </tr>
   </tbody>
 </table>
@@ -605,31 +657,15 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
 
 <div class="output_area">
 
-<div class="output_subarea output_stream output_stderr output_text">
-<pre>C:\ProgramData\Anaconda3\lib\site-packages\ipykernel_launcher.py:11: SettingWithCopyWarning: 
-A value is trying to be set on a copy of a slice from a DataFrame
-
-See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  # This is added back by InteractiveShellApp.init_path()
-C:\ProgramData\Anaconda3\lib\site-packages\ipykernel_launcher.py:18: SettingWithCopyWarning: 
-A value is trying to be set on a copy of a slice from a DataFrame
-
-See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-</pre>
-</div>
-</div>
-
-<div class="output_area">
-
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 
-<div id="altair-viz-d73913a293604b28906936661b02c2c5"></div>
+<div id="altair-viz-d4d5e6b9dcac455ab1a6155448633ebd"></div>
 <script type="text/javascript">
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-d73913a293604b28906936661b02c2c5") {
-      outputDiv = document.getElementById("altair-viz-d73913a293604b28906936661b02c2c5");
+    if (outputDiv.id !== "altair-viz-d4d5e6b9dcac455ab1a6155448633ebd") {
+      outputDiv = document.getElementById("altair-viz-d4d5e6b9dcac455ab1a6155448633ebd");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
@@ -671,7 +707,7 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
         .catch(showError)
         .then(() => displayChart(vegaEmbed));
     }
-  })({"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "layer": [{"mark": {"type": "trail", "color": "steelblue"}, "encoding": {"size": {"type": "quantitative", "field": "cumreturn1"}, "x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturn1"}}, "height": 1000, "title": "Portfolio (blue) vs Dow (black) vs SP500 (red)", "width": 1000}, {"mark": {"type": "circle", "color": "black", "size": 40}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturndow"}}, "height": 1000, "width": 1000}, {"mark": {"type": "line", "color": "red"}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturnsp500"}}, "height": 1000, "width": 1000}], "data": {"name": "data-dcbd24d427c12734a1b5afbca082c6de"}, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-dcbd24d427c12734a1b5afbca082c6de": [{"Date": "2020-01-02T00:00:00", "pred": 1.0, "labelr1": 7.058823529411763, "cumreturn1": 1.0, "cumreturndow": 1.0026898011657828, "cumreturnsp500": 1.0022035792921347}, {"Date": "2020-01-03T00:00:00", "pred": 1.0, "labelr1": -2.4092970521541988, "cumreturn1": 1.0705882352941176, "cumreturndow": 1.0026190125636891, "cumreturnsp500": 1.0021223721145749}, {"Date": "2020-01-07T00:00:00", "pred": 1.0, "labelr1": 0.0, "cumreturn1": 1.0447945845004667, "cumreturndow": 1.0026263320353273, "cumreturnsp500": 1.0021045524381662}, {"Date": "2020-01-10T00:00:00", "pred": 1.0, "labelr1": 1.0486577181208054, "cumreturn1": 1.0447945845004667, "cumreturndow": 1.0027135859081608, "cumreturnsp500": 1.0021889074095758}, {"Date": "2020-01-13T00:00:00", "pred": 1.0, "labelr1": 0.0, "cumreturn1": 1.055750903549339, "cumreturndow": 1.0027835373657934, "cumreturnsp500": 1.0022178639084318}, {"Date": "2020-01-14T00:00:00", "pred": 1.0, "labelr1": -4.021413790064591, "cumreturn1": 1.055750903549339, "cumreturndow": 1.0027683498788604, "cumreturnsp500": 1.002229173082122}, {"Date": "2020-01-16T00:00:00", "pred": 1.0, "labelr1": -8.33333333333333, "cumreturn1": 1.0132947911252745, "cumreturndow": 1.0028710023383576, "cumreturnsp500": 1.0023528583382126}, {"Date": "2020-01-21T00:00:00", "pred": 1.0, "labelr1": 0.01714285714285779, "cumreturn1": 0.9288535585315018, "cumreturndow": 1.002883137900195, "cumreturnsp500": 1.0023181862016424}, {"Date": "2020-01-22T00:00:00", "pred": 1.0, "labelr1": -17.226218824016623, "cumreturn1": 0.9290127905701071, "cumreturndow": 1.0028860369955568, "cumreturnsp500": 1.0023148322605226}, {"Date": "2020-01-23T00:00:00", "pred": 1.0, "labelr1": -7.480314960629925, "cumreturn1": 0.7689790143633972, "cumreturndow": 1.0028974796905001, "cumreturnsp500": 1.0023058416327357}, {"Date": "2020-01-24T00:00:00", "pred": 1.0, "labelr1": -1.5461797031857194, "cumreturn1": 0.7114569621078675, "cumreturndow": 1.0028067960870624, "cumreturnsp500": 1.0022472848183868}, {"Date": "2020-01-27T00:00:00", "pred": 1.0, "labelr1": 1.0320108547580062, "cumreturn1": 0.7004565589628539, "cumreturndow": 1.0026490474411527, "cumreturnsp500": 1.0020903500039071}, {"Date": "2020-01-28T00:00:00", "pred": 1.0, "labelr1": 47.863222208895245, "cumreturn1": 0.707685346684215, "cumreturndow": 1.0027498496100187, "cumreturnsp500": 1.0021560358512946}, {"Date": "2020-01-29T00:00:00", "pred": 1.0, "labelr1": -31.815968346370457, "cumreturn1": 1.0464063567074715, "cumreturndow": 1.002741157030038, "cumreturnsp500": 1.0021600830190838}, {"Date": "2020-01-30T00:00:00", "pred": 1.0, "labelr1": -23.751920139482966, "cumreturn1": 0.713482041483014, "cumreturndow": 1.0027725865363817, "cumreturnsp500": 1.00220367537136}, {"Date": "2020-01-31T00:00:00", "pred": 1.0, "labelr1": 4.552298081631914, "cumreturn1": 0.5440163567804158, "cumreturndow": 1.0025950374251942, "cumreturnsp500": 1.00199412872473}]}}, {"mode": "vega-lite"});
+  })({"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "layer": [{"mark": {"type": "trail", "color": "steelblue"}, "encoding": {"size": {"type": "quantitative", "field": "cumreturn1"}, "x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturn1"}}, "height": 1000, "title": "Portfolio (blue) vs Dow (black) vs SP500 (red)", "width": 1000}, {"mark": {"type": "circle", "color": "black", "size": 40}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturndow"}}, "height": 1000, "width": 1000}, {"mark": {"type": "line", "color": "red"}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturnsp500"}}, "height": 1000, "width": 1000}], "data": {"name": "data-13dfe191e1541e3a4e076513c35da311"}, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-13dfe191e1541e3a4e076513c35da311": [{"Date": "2020-01-02T00:00:00", "pred": 1.0, "labelr1": 7.058823529411763, "cumreturn1": 1.0, "cumreturndow": 1.0, "cumreturnsp500": 1.0}, {"Date": "2020-01-03T00:00:00", "pred": 1.0, "labelr1": -2.4092970521541988, "cumreturn1": 1.0705882352941176, "cumreturndow": 0.9929401294386996, "cumreturnsp500": 0.9918971375439343}, {"Date": "2020-01-07T00:00:00", "pred": 1.0, "labelr1": 0.0, "cumreturn1": 1.0447945845004667, "cumreturndow": 0.9936552740678004, "cumreturnsp500": 0.9901235560436701}, {"Date": "2020-01-10T00:00:00", "pred": 1.0, "labelr1": 1.0486577181208054, "cumreturn1": 1.0447945845004667, "cumreturndow": 1.0023021317047722, "cumreturnsp500": 0.998440141301968}, {"Date": "2020-01-13T00:00:00", "pred": 1.0, "labelr1": 0.0, "cumreturn1": 1.055750903549339, "cumreturndow": 1.0092944070749572, "cumreturnsp500": 1.0013249597823675}, {"Date": "2020-01-14T00:00:00", "pred": 1.0, "labelr1": -4.021413790064591, "cumreturn1": 1.055750903549339, "cumreturndow": 1.0077657974550558, "cumreturnsp500": 1.0024548695852529}, {"Date": "2020-01-16T00:00:00", "pred": 1.0, "labelr1": -8.33333333333333, "cumreturn1": 1.0132947911252745, "cumreturndow": 1.0180978127373623, "cumreturnsp500": 1.0148547855261878}, {"Date": "2020-01-21T00:00:00", "pred": 1.0, "labelr1": 0.01714285714285779, "cumreturn1": 0.9288535585315018, "cumreturndow": 1.0193194711563434, "cumreturnsp500": 1.0113353611215943}, {"Date": "2020-01-22T00:00:00", "pred": 1.0, "labelr1": -17.226218824016623, "cumreturn1": 0.9290127905701071, "cumreturndow": 1.0196141320434693, "cumreturnsp500": 1.0109969496969524}, {"Date": "2020-01-23T00:00:00", "pred": 1.0, "labelr1": -7.480314960629925, "cumreturn1": 0.7689790143633972, "cumreturndow": 1.020777487902699, "cumreturnsp500": 1.0100900991769532}, {"Date": "2020-01-24T00:00:00", "pred": 1.0, "labelr1": -1.5461797031857194, "cumreturn1": 0.7114569621078675, "cumreturndow": 1.0115474536483728, "cumreturnsp500": 1.0041889404730517}, {"Date": "2020-01-27T00:00:00", "pred": 1.0, "labelr1": 1.0320108547580062, "cumreturn1": 0.7004565589628539, "cumreturndow": 0.9956350922933108, "cumreturnsp500": 0.9884650560123315}, {"Date": "2020-01-28T00:00:00", "pred": 1.0, "labelr1": 47.863222208895245, "cumreturn1": 0.707685346684215, "cumreturndow": 1.0056447937894049, "cumreturnsp500": 0.9949443285466829}, {"Date": "2020-01-29T00:00:00", "pred": 1.0, "labelr1": -31.815968346370457, "cumreturn1": 1.0464063567074715, "cumreturndow": 1.0047730262388526, "cumreturnsp500": 0.9953461329059287}, {"Date": "2020-01-30T00:00:00", "pred": 1.0, "labelr1": -23.751920139482966, "cumreturn1": 0.713482041483014, "cumreturndow": 1.0079223454804895, "cumreturnsp500": 0.9996757285461556}, {"Date": "2020-01-31T00:00:00", "pred": 1.0, "labelr1": 4.552298081631914, "cumreturn1": 0.5440163567804158, "cumreturndow": 0.9900762536557943, "cumreturnsp500": 0.9787739196841426}]}}, {"mode": "vega-lite"});
 </script>
 </div>
 
@@ -748,31 +784,15 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
 
 <div class="output_area">
 
-<div class="output_subarea output_stream output_stderr output_text">
-<pre>C:\ProgramData\Anaconda3\lib\site-packages\ipykernel_launcher.py:11: SettingWithCopyWarning: 
-A value is trying to be set on a copy of a slice from a DataFrame
-
-See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-  # This is added back by InteractiveShellApp.init_path()
-C:\ProgramData\Anaconda3\lib\site-packages\ipykernel_launcher.py:18: SettingWithCopyWarning: 
-A value is trying to be set on a copy of a slice from a DataFrame
-
-See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-</pre>
-</div>
-</div>
-
-<div class="output_area">
-
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 
-<div id="altair-viz-b052d24a42c4468b9026534c3ef54c7f"></div>
+<div id="altair-viz-b4bbc4a498814e6692c17695f1334377"></div>
 <script type="text/javascript">
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-b052d24a42c4468b9026534c3ef54c7f") {
-      outputDiv = document.getElementById("altair-viz-b052d24a42c4468b9026534c3ef54c7f");
+    if (outputDiv.id !== "altair-viz-b4bbc4a498814e6692c17695f1334377") {
+      outputDiv = document.getElementById("altair-viz-b4bbc4a498814e6692c17695f1334377");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
