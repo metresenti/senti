@@ -28,10 +28,6 @@
   
     
   
-    
-  
-    
-  
 
   
   
@@ -66,12 +62,10 @@
   
 
   
-
-  
   
 
   
-      ,"page11": {
+      ,"page10": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
           "url": "https://sentimetre.com/robots.txt",
