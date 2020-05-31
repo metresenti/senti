@@ -212,11 +212,9 @@ window.onload = wrap_img;
       <th>Date</th>
       <th>pred</th>
       <th>labelr1</th>
-      <th>cumreturn1</th>
+      <th>cumreturn1b</th>
       <th>cumreturndow</th>
       <th>cumreturnsp500</th>
-      <th>cumreturn1a</th>
-      <th>cumreturn1b</th>
     </tr>
   </thead>
   <tbody>
@@ -224,126 +222,301 @@ window.onload = wrap_img;
       <th>0</th>
       <td>2019-08-01</td>
       <td>-1.0</td>
-      <td>-3.846154</td>
-      <td>1.038462</td>
+      <td>-90.939569</td>
+      <td>1.909396</td>
       <td>0.992717</td>
       <td>0.996298</td>
-      <td>1.500801</td>
-      <td>1.909396</td>
     </tr>
     <tr>
       <th>1</th>
       <td>2019-08-01</td>
-      <td>-1.0</td>
-      <td>-3.846154</td>
-      <td>1.038462</td>
+      <td>1.0</td>
+      <td>-8.054478</td>
+      <td>1.755604</td>
       <td>0.992717</td>
       <td>0.996298</td>
-      <td>1.500801</td>
-      <td>1.755604</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>2019-08-01</td>
+      <td>2019-08-02</td>
       <td>-1.0</td>
-      <td>-3.846154</td>
-      <td>1.038462</td>
-      <td>0.992717</td>
-      <td>0.996298</td>
-      <td>-0.952738</td>
-      <td>1.909396</td>
+      <td>-173.496498</td>
+      <td>4.801515</td>
+      <td>0.963156</td>
+      <td>0.967435</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>2019-08-01</td>
-      <td>-1.0</td>
-      <td>-3.846154</td>
-      <td>1.038462</td>
-      <td>0.992717</td>
-      <td>0.996298</td>
-      <td>-0.952738</td>
-      <td>1.755604</td>
+      <td>2019-08-02</td>
+      <td>1.0</td>
+      <td>-36.499372</td>
+      <td>3.048992</td>
+      <td>0.963156</td>
+      <td>0.967435</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>2019-08-01</td>
+      <td>2019-08-05</td>
+      <td>-1.0</td>
+      <td>22.720971</td>
+      <td>2.356232</td>
+      <td>0.975694</td>
+      <td>0.979164</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>2019-08-05</td>
       <td>1.0</td>
-      <td>-0.840214</td>
-      <td>1.029736</td>
-      <td>0.992717</td>
-      <td>0.996298</td>
-      <td>1.500801</td>
-      <td>1.909396</td>
+      <td>9.945808</td>
+      <td>2.590578</td>
+      <td>0.975694</td>
+      <td>0.979164</td>
     </tr>
     <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
+      <th>6</th>
+      <td>2019-08-06</td>
+      <td>-1.0</td>
+      <td>-42.291235</td>
+      <td>3.686165</td>
+      <td>0.976442</td>
+      <td>0.978319</td>
     </tr>
     <tr>
-      <th>101</th>
+      <th>7</th>
+      <td>2019-08-06</td>
+      <td>1.0</td>
+      <td>-38.366763</td>
+      <td>2.271903</td>
+      <td>0.976442</td>
+      <td>0.978319</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>2019-08-07</td>
+      <td>-1.0</td>
+      <td>258.775287</td>
+      <td>-3.607220</td>
+      <td>0.994762</td>
+      <td>0.992280</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>2019-08-07</td>
+      <td>1.0</td>
+      <td>30.541644</td>
+      <td>-4.708925</td>
+      <td>0.994762</td>
+      <td>0.992280</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>2019-08-08</td>
+      <td>-1.0</td>
+      <td>-55.502984</td>
+      <td>-7.322519</td>
+      <td>0.988180</td>
+      <td>0.988866</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>2019-08-08</td>
+      <td>1.0</td>
+      <td>1.585977</td>
+      <td>-7.438652</td>
+      <td>0.988180</td>
+      <td>0.988866</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>2019-08-09</td>
+      <td>-1.0</td>
+      <td>-45.874031</td>
+      <td>-10.851062</td>
+      <td>0.976009</td>
+      <td>0.974158</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>2019-08-09</td>
+      <td>1.0</td>
+      <td>-25.201096</td>
+      <td>-8.116475</td>
+      <td>0.976009</td>
+      <td>0.974158</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>2019-08-12</td>
+      <td>-1.0</td>
+      <td>26.131663</td>
+      <td>-5.995505</td>
+      <td>0.990777</td>
+      <td>0.988583</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>2019-08-13</td>
+      <td>-1.0</td>
+      <td>-49.094599</td>
+      <td>-8.938974</td>
+      <td>0.961755</td>
+      <td>0.958470</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>2019-08-13</td>
+      <td>1.0</td>
+      <td>-8.035714</td>
+      <td>-8.220664</td>
+      <td>0.961755</td>
+      <td>0.958470</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>2019-08-14</td>
+      <td>-1.0</td>
+      <td>-55.336940</td>
+      <td>-12.769728</td>
+      <td>0.964125</td>
+      <td>0.962231</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>2019-08-14</td>
+      <td>1.0</td>
+      <td>-8.787879</td>
+      <td>-11.647540</td>
+      <td>0.964125</td>
+      <td>0.962231</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>2019-08-15</td>
+      <td>-1.0</td>
+      <td>-1.656798</td>
+      <td>-11.840516</td>
+      <td>0.978033</td>
+      <td>0.973765</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>2019-08-15</td>
+      <td>1.0</td>
+      <td>-4.895105</td>
+      <td>-11.260910</td>
+      <td>0.978033</td>
+      <td>0.973765</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>2019-08-16</td>
+      <td>-1.0</td>
+      <td>7.662835</td>
+      <td>-10.398005</td>
+      <td>0.989873</td>
+      <td>0.983161</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>2019-08-19</td>
+      <td>-1.0</td>
+      <td>-32.328512</td>
+      <td>-13.759526</td>
+      <td>0.982039</td>
+      <td>0.976640</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>2019-08-19</td>
+      <td>1.0</td>
+      <td>-4.887218</td>
+      <td>-13.087068</td>
+      <td>0.982039</td>
+      <td>0.976640</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>2019-08-21</td>
+      <td>-1.0</td>
+      <td>0.538600</td>
+      <td>-13.016581</td>
+      <td>0.989636</td>
+      <td>0.987542</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>2019-08-22</td>
+      <td>-1.0</td>
+      <td>-12.173359</td>
+      <td>-14.601136</td>
+      <td>0.963959</td>
+      <td>0.964093</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>2019-08-23</td>
+      <td>1.0</td>
+      <td>-1.249637</td>
+      <td>-14.418675</td>
+      <td>0.974546</td>
+      <td>0.974247</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>2019-08-27</td>
+      <td>-1.0</td>
+      <td>30.285374</td>
+      <td>-10.051925</td>
+      <td>0.977783</td>
+      <td>0.979411</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>2019-08-28</td>
+      <td>-1.0</td>
+      <td>-211.173127</td>
+      <td>-31.278890</td>
+      <td>0.990188</td>
+      <td>0.991680</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>2019-08-29</td>
+      <td>-1.0</td>
+      <td>253.631321</td>
+      <td>48.054171</td>
+      <td>0.990825</td>
+      <td>0.993224</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>2019-08-29</td>
+      <td>1.0</td>
+      <td>-3.904970</td>
+      <td>46.177670</td>
+      <td>0.990825</td>
+      <td>0.993224</td>
+    </tr>
+    <tr>
+      <th>31</th>
       <td>2019-08-30</td>
       <td>-1.0</td>
       <td>0.000000</td>
-      <td>0.264655</td>
+      <td>46.177670</td>
       <td>0.990825</td>
       <td>0.993224</td>
-      <td>-0.025494</td>
-      <td>46.177670</td>
     </tr>
     <tr>
-      <th>102</th>
+      <th>32</th>
       <td>2019-08-30</td>
       <td>1.0</td>
       <td>0.000000</td>
-      <td>0.264655</td>
+      <td>46.177670</td>
       <td>0.990825</td>
       <td>0.993224</td>
-      <td>-0.025494</td>
-      <td>46.177670</td>
-    </tr>
-    <tr>
-      <th>103</th>
-      <td>2019-08-30</td>
-      <td>1.0</td>
-      <td>0.000000</td>
-      <td>0.264655</td>
-      <td>0.990825</td>
-      <td>0.993224</td>
-      <td>-0.025494</td>
-      <td>46.177670</td>
-    </tr>
-    <tr>
-      <th>104</th>
-      <td>2019-08-30</td>
-      <td>1.0</td>
-      <td>0.000000</td>
-      <td>0.264655</td>
-      <td>0.990825</td>
-      <td>0.993224</td>
-      <td>-0.025494</td>
-      <td>46.177670</td>
-    </tr>
-    <tr>
-      <th>105</th>
-      <td>2019-08-30</td>
-      <td>1.0</td>
-      <td>0.000000</td>
-      <td>0.264655</td>
-      <td>0.990825</td>
-      <td>0.993224</td>
-      <td>-0.025494</td>
-      <td>46.177670</td>
     </tr>
   </tbody>
 </table>
-<p>106 rows × 8 columns</p>
 </div>
 </div>
 
@@ -367,12 +540,12 @@ window.onload = wrap_img;
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 
-<div id="altair-viz-c5b76117f29d4eb097c7332fcbff844d"></div>
+<div id="altair-viz-1f0f935de0994335a676da81837ee06f"></div>
 <script type="text/javascript">
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-c5b76117f29d4eb097c7332fcbff844d") {
-      outputDiv = document.getElementById("altair-viz-c5b76117f29d4eb097c7332fcbff844d");
+    if (outputDiv.id !== "altair-viz-1f0f935de0994335a676da81837ee06f") {
+      outputDiv = document.getElementById("altair-viz-1f0f935de0994335a676da81837ee06f");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
@@ -414,7 +587,7 @@ window.onload = wrap_img;
         .catch(showError)
         .then(() => displayChart(vegaEmbed));
     }
-  })({"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "layer": [{"mark": {"type": "trail", "color": "steelblue"}, "encoding": {"size": {"type": "quantitative", "field": "cumreturn1"}, "x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturn1"}}, "height": 1000, "title": "10KPortfolio (blue) vs 8KPortfolio (brown) vs 10QPortfolio (yellow) vs  Dow (black) vs SP500 (red)", "width": 1000}, {"mark": {"type": "circle", "color": "black", "size": 40}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturndow"}}, "height": 1000, "width": 1000}, {"mark": {"type": "tick", "color": "red"}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturnsp500"}}, "height": 1000, "width": 1000}, {"mark": {"type": "line", "color": "brown"}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturn1a"}}, "height": 1000, "width": 1000}, {"mark": {"type": "line", "color": "yellow"}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturn1b"}}, "height": 1000, "width": 1000}], "data": {"name": "data-5620377ad1afbd490d420e297f3e1941"}, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-5620377ad1afbd490d420e297f3e1941": [{"Date": "2019-08-01T00:00:00", "pred": -1.0, "labelr1": -3.8461538461538463, "cumreturn1": 1.0384615384615385, "cumreturndow": 0.9927172599946105, "cumreturnsp500": 0.9962980626161437, "cumreturn1a": 1.5008011971705018, "cumreturn1b": 1.909395694791277}, {"Date": "2019-08-01T00:00:00", "pred": -1.0, "labelr1": -3.8461538461538463, "cumreturn1": 1.0384615384615385, "cumreturndow": 0.9927172599946105, "cumreturnsp500": 0.9962980626161437, "cumreturn1a": 1.5008011971705018, "cumreturn1b": 1.7556038414841748}, {"Date": "2019-08-01T00:00:00", "pred": -1.0, "labelr1": -3.8461538461538463, "cumreturn1": 1.0384615384615385, "cumreturndow": 0.9927172599946105, "cumreturnsp500": 0.9962980626161437, "cumreturn1a": -0.9527378065292765, "cumreturn1b": 1.909395694791277}, {"Date": "2019-08-01T00:00:00", "pred": -1.0, "labelr1": -3.8461538461538463, "cumreturn1": 1.0384615384615385, "cumreturndow": 0.9927172599946105, "cumreturnsp500": 0.9962980626161437, "cumreturn1a": -0.9527378065292765, "cumreturn1b": 1.7556038414841748}, {"Date": "2019-08-01T00:00:00", "pred": 1.0, "labelr1": -0.8402143995364308, "cumreturn1": 1.0297362350817372, "cumreturndow": 0.9927172599946105, "cumreturnsp500": 0.9962980626161437, "cumreturn1a": 1.5008011971705018, "cumreturn1b": 1.909395694791277}, {"Date": "2019-08-01T00:00:00", "pred": 1.0, "labelr1": -0.8402143995364308, "cumreturn1": 1.0297362350817372, "cumreturndow": 0.9927172599946105, "cumreturnsp500": 0.9962980626161437, "cumreturn1a": 1.5008011971705018, "cumreturn1b": 1.7556038414841748}, {"Date": "2019-08-01T00:00:00", "pred": 1.0, "labelr1": -0.8402143995364308, "cumreturn1": 1.0297362350817372, "cumreturndow": 0.9927172599946105, "cumreturnsp500": 0.9962980626161437, "cumreturn1a": -0.9527378065292765, "cumreturn1b": 1.909395694791277}, {"Date": "2019-08-01T00:00:00", "pred": 1.0, "labelr1": -0.8402143995364308, "cumreturn1": 1.0297362350817372, "cumreturndow": 0.9927172599946105, "cumreturnsp500": 0.9962980626161437, "cumreturn1a": -0.9527378065292765, "cumreturn1b": 1.7556038414841748}, {"Date": "2019-08-02T00:00:00", "pred": -1.0, "labelr1": -1.0905853549966658, "cumreturn1": 1.0409663876566326, "cumreturndow": 0.9631563039768206, "cumreturnsp500": 0.9674353529177193, "cumreturn1a": -1.9264570116382955, "cumreturn1b": 4.80151502165705}, {"Date": "2019-08-02T00:00:00", "pred": -1.0, "labelr1": -1.0905853549966658, "cumreturn1": 1.0409663876566326, "cumreturndow": 0.9631563039768206, "cumreturnsp500": 0.9674353529177193, "cumreturn1a": -1.9264570116382955, "cumreturn1b": 3.0489922106722163}, {"Date": "2019-08-02T00:00:00", "pred": -1.0, "labelr1": -1.0905853549966658, "cumreturn1": 1.0409663876566326, "cumreturndow": 0.9631563039768206, "cumreturnsp500": 0.9674353529177193, "cumreturn1a": -0.8315828413384184, "cumreturn1b": 4.80151502165705}, {"Date": "2019-08-02T00:00:00", "pred": -1.0, "labelr1": -1.0905853549966658, "cumreturn1": 1.0409663876566326, "cumreturndow": 0.9631563039768206, "cumreturnsp500": 0.9674353529177193, "cumreturn1a": -0.8315828413384184, "cumreturn1b": 3.0489922106722163}, {"Date": "2019-08-02T00:00:00", "pred": 1.0, "labelr1": 4.280510018214926, "cumreturn1": 1.0855250581665248, "cumreturndow": 0.9631563039768206, "cumreturnsp500": 0.9674353529177193, "cumreturn1a": -1.9264570116382955, "cumreturn1b": 4.80151502165705}, {"Date": "2019-08-02T00:00:00", "pred": 1.0, "labelr1": 4.280510018214926, "cumreturn1": 1.0855250581665248, "cumreturndow": 0.9631563039768206, "cumreturnsp500": 0.9674353529177193, "cumreturn1a": -1.9264570116382955, "cumreturn1b": 3.0489922106722163}, {"Date": "2019-08-02T00:00:00", "pred": 1.0, "labelr1": 4.280510018214926, "cumreturn1": 1.0855250581665248, "cumreturndow": 0.9631563039768206, "cumreturnsp500": 0.9674353529177193, "cumreturn1a": -0.8315828413384184, "cumreturn1b": 4.80151502165705}, {"Date": "2019-08-02T00:00:00", "pred": 1.0, "labelr1": 4.280510018214926, "cumreturn1": 1.0855250581665248, "cumreturndow": 0.9631563039768206, "cumreturnsp500": 0.9674353529177193, "cumreturn1a": -0.8315828413384184, "cumreturn1b": 3.0489922106722163}, {"Date": "2019-08-05T00:00:00", "pred": 1.0, "labelr1": 0.0, "cumreturn1": 1.0855250581665248, "cumreturndow": 0.9756937263621089, "cumreturnsp500": 0.9791636895243264, "cumreturn1a": -0.5705033146273369, "cumreturn1b": 2.3562315745734965}, {"Date": "2019-08-05T00:00:00", "pred": 1.0, "labelr1": 0.0, "cumreturn1": 1.0855250581665248, "cumreturndow": 0.9756937263621089, "cumreturnsp500": 0.9791636895243264, "cumreturn1a": -0.5705033146273369, "cumreturn1b": 2.5905778410655036}, {"Date": "2019-08-05T00:00:00", "pred": 1.0, "labelr1": 0.0, "cumreturn1": 1.0855250581665248, "cumreturndow": 0.9756937263621089, "cumreturnsp500": 0.9791636895243264, "cumreturn1a": -0.5780900651264524, "cumreturn1b": 2.3562315745734965}, {"Date": "2019-08-05T00:00:00", "pred": 1.0, "labelr1": 0.0, "cumreturn1": 1.0855250581665248, "cumreturndow": 0.9756937263621089, "cumreturnsp500": 0.9791636895243264, "cumreturn1a": -0.5780900651264524, "cumreturn1b": 2.5905778410655036}, {"Date": "2019-08-06T00:00:00", "pred": -1.0, "labelr1": 0.4633016337478609, "cumreturn1": 1.0804958028372968, "cumreturndow": 0.976441962374194, "cumreturnsp500": 0.9783192075853633, "cumreturn1a": -0.8332596683500965, "cumreturn1b": 3.686165198007468}, {"Date": "2019-08-06T00:00:00", "pred": -1.0, "labelr1": 0.4633016337478609, "cumreturn1": 1.0804958028372968, "cumreturndow": 0.976441962374194, "cumreturnsp500": 0.9783192075853633, "cumreturn1a": -0.8332596683500965, "cumreturn1b": 2.2719029332050797}, {"Date": "2019-08-06T00:00:00", "pred": -1.0, "labelr1": 0.4633016337478609, "cumreturn1": 1.0804958028372968, "cumreturndow": 0.976441962374194, "cumreturnsp500": 0.9783192075853633, "cumreturn1a": -0.5523220271278731, "cumreturn1b": 3.686165198007468}, {"Date": "2019-08-06T00:00:00", "pred": -1.0, "labelr1": 0.4633016337478609, "cumreturn1": 1.0804958028372968, "cumreturndow": 0.976441962374194, "cumreturnsp500": 0.9783192075853633, "cumreturn1a": -0.5523220271278731, "cumreturn1b": 2.2719029332050797}, {"Date": "2019-08-06T00:00:00", "pred": 1.0, "labelr1": 1.085054252712631, "cumreturn1": 1.0922197684963644, "cumreturndow": 0.976441962374194, "cumreturnsp500": 0.9783192075853633, "cumreturn1a": -0.8332596683500965, "cumreturn1b": 3.686165198007468}, {"Date": "2019-08-06T00:00:00", "pred": 1.0, "labelr1": 1.085054252712631, "cumreturn1": 1.0922197684963644, "cumreturndow": 0.976441962374194, "cumreturnsp500": 0.9783192075853633, "cumreturn1a": -0.8332596683500965, "cumreturn1b": 2.2719029332050797}, {"Date": "2019-08-06T00:00:00", "pred": 1.0, "labelr1": 1.085054252712631, "cumreturn1": 1.0922197684963644, "cumreturndow": 0.976441962374194, "cumreturnsp500": 0.9783192075853633, "cumreturn1a": -0.5523220271278731, "cumreturn1b": 3.686165198007468}, {"Date": "2019-08-06T00:00:00", "pred": 1.0, "labelr1": 1.085054252712631, "cumreturn1": 1.0922197684963644, "cumreturndow": 0.976441962374194, "cumreturnsp500": 0.9783192075853633, "cumreturn1a": -0.5523220271278731, "cumreturn1b": 2.2719029332050797}, {"Date": "2019-08-07T00:00:00", "pred": -1.0, "labelr1": 0.0, "cumreturn1": 1.0922197684963644, "cumreturndow": 0.994762262933215, "cumreturnsp500": 0.9922797567204602, "cumreturn1a": -0.15224225664914215, "cumreturn1b": -3.607220393809423}, {"Date": "2019-08-07T00:00:00", "pred": -1.0, "labelr1": 0.0, "cumreturn1": 1.0922197684963644, "cumreturndow": 0.994762262933215, "cumreturnsp500": 0.9922797567204602, "cumreturn1a": -0.15224225664914215, "cumreturn1b": -4.708924819705419}, {"Date": "2019-08-07T00:00:00", "pred": -1.0, "labelr1": 0.0, "cumreturn1": 1.0922197684963644, "cumreturndow": 0.994762262933215, "cumreturnsp500": 0.9922797567204602, "cumreturn1a": -0.27325614214435623, "cumreturn1b": -3.607220393809423}, {"Date": "2019-08-07T00:00:00", "pred": -1.0, "labelr1": 0.0, "cumreturn1": 1.0922197684963644, "cumreturndow": 0.994762262933215, "cumreturnsp500": 0.9922797567204602, "cumreturn1a": -0.27325614214435623, "cumreturn1b": -4.708924819705419}, {"Date": "2019-08-08T00:00:00", "pred": -1.0, "labelr1": 1.9113814074717648, "cumreturn1": 1.0713432829125937, "cumreturndow": 0.9881803124694816, "cumreturnsp500": 0.9888659747365667, "cumreturn1a": -0.4870818647588351, "cumreturn1b": -7.322518604923068}, {"Date": "2019-08-08T00:00:00", "pred": -1.0, "labelr1": 1.9113814074717648, "cumreturn1": 1.0713432829125937, "cumreturndow": 0.9881803124694816, "cumreturnsp500": 0.9888659747365667, "cumreturn1a": -0.4870818647588351, "cumreturn1b": -7.4386520734565025}, {"Date": "2019-08-08T00:00:00", "pred": -1.0, "labelr1": 1.9113814074717648, "cumreturn1": 1.0713432829125937, "cumreturndow": 0.9881803124694816, "cumreturnsp500": 0.9888659747365667, "cumreturn1a": -0.5549251479809667, "cumreturn1b": -7.322518604923068}, {"Date": "2019-08-08T00:00:00", "pred": -1.0, "labelr1": 1.9113814074717648, "cumreturn1": 1.0713432829125937, "cumreturndow": 0.9881803124694816, "cumreturnsp500": 0.9888659747365667, "cumreturn1a": -0.5549251479809667, "cumreturn1b": -7.4386520734565025}, {"Date": "2019-08-08T00:00:00", "pred": 1.0, "labelr1": -0.007609770945887606, "cumreturn1": 1.07126175614272, "cumreturndow": 0.9881803124694816, "cumreturnsp500": 0.9888659747365667, "cumreturn1a": -0.4870818647588351, "cumreturn1b": -7.322518604923068}, {"Date": "2019-08-08T00:00:00", "pred": 1.0, "labelr1": -0.007609770945887606, "cumreturn1": 1.07126175614272, "cumreturndow": 0.9881803124694816, "cumreturnsp500": 0.9888659747365667, "cumreturn1a": -0.4870818647588351, "cumreturn1b": -7.4386520734565025}, {"Date": "2019-08-08T00:00:00", "pred": 1.0, "labelr1": -0.007609770945887606, "cumreturn1": 1.07126175614272, "cumreturndow": 0.9881803124694816, "cumreturnsp500": 0.9888659747365667, "cumreturn1a": -0.5549251479809667, "cumreturn1b": -7.322518604923068}, {"Date": "2019-08-08T00:00:00", "pred": 1.0, "labelr1": -0.007609770945887606, "cumreturn1": 1.07126175614272, "cumreturndow": 0.9881803124694816, "cumreturnsp500": 0.9888659747365667, "cumreturn1a": -0.5549251479809667, "cumreturn1b": -7.4386520734565025}, {"Date": "2019-08-09T00:00:00", "pred": -1.0, "labelr1": -1.1089250581291277, "cumreturn1": 1.0831412461947407, "cumreturndow": 0.9760085772476247, "cumreturnsp500": 0.9741575586957691, "cumreturn1a": -0.8700055143600325, "cumreturn1b": -10.851061608348436}, {"Date": "2019-08-09T00:00:00", "pred": -1.0, "labelr1": -1.1089250581291277, "cumreturn1": 1.0831412461947407, "cumreturndow": 0.9760085772476247, "cumreturnsp500": 0.9741575586957691, "cumreturn1a": -0.8700055143600325, "cumreturn1b": -8.116475154178916}, {"Date": "2019-08-09T00:00:00", "pred": -1.0, "labelr1": -1.1089250581291277, "cumreturn1": 1.0831412461947407, "cumreturndow": 0.9760085772476247, "cumreturnsp500": 0.9741575586957691, "cumreturn1a": -0.6951098547191722, "cumreturn1b": -10.851061608348436}, {"Date": "2019-08-09T00:00:00", "pred": -1.0, "labelr1": -1.1089250581291277, "cumreturn1": 1.0831412461947407, "cumreturndow": 0.9760085772476247, "cumreturnsp500": 0.9741575586957691, "cumreturn1a": -0.6951098547191722, "cumreturn1b": -8.116475154178916}, {"Date": "2019-08-09T00:00:00", "pred": 1.0, "labelr1": 0.0, "cumreturn1": 1.0831412461947407, "cumreturndow": 0.9760085772476247, "cumreturnsp500": 0.9741575586957691, "cumreturn1a": -0.8700055143600325, "cumreturn1b": -10.851061608348436}, {"Date": "2019-08-09T00:00:00", "pred": 1.0, "labelr1": 0.0, "cumreturn1": 1.0831412461947407, "cumreturndow": 0.9760085772476247, "cumreturnsp500": 0.9741575586957691, "cumreturn1a": -0.8700055143600325, "cumreturn1b": -8.116475154178916}, {"Date": "2019-08-09T00:00:00", "pred": 1.0, "labelr1": 0.0, "cumreturn1": 1.0831412461947407, "cumreturndow": 0.9760085772476247, "cumreturnsp500": 0.9741575586957691, "cumreturn1a": -0.6951098547191722, "cumreturn1b": -10.851061608348436}, {"Date": "2019-08-09T00:00:00", "pred": 1.0, "labelr1": 0.0, "cumreturn1": 1.0831412461947407, "cumreturndow": 0.9760085772476247, "cumreturnsp500": 0.9741575586957691, "cumreturn1a": -0.6951098547191722, "cumreturn1b": -8.116475154178916}, {"Date": "2019-08-13T00:00:00", "pred": -1.0, "labelr1": -29.910096818810526, "cumreturn1": 1.4071098416160588, "cumreturndow": 0.9617546422813407, "cumreturnsp500": 0.9584703547083363, "cumreturn1a": -0.22736260312088058, "cumreturn1b": -8.938974481042782}, {"Date": "2019-08-13T00:00:00", "pred": -1.0, "labelr1": -29.910096818810526, "cumreturn1": 1.4071098416160588, "cumreturndow": 0.9617546422813407, "cumreturnsp500": 0.9584703547083363, "cumreturn1a": -0.22736260312088058, "cumreturn1b": -8.220664031673273}, {"Date": "2019-08-13T00:00:00", "pred": -1.0, "labelr1": -29.910096818810526, "cumreturn1": 1.4071098416160588, "cumreturndow": 0.9617546422813407, "cumreturnsp500": 0.9584703547083363, "cumreturn1a": -0.19240427267380988, "cumreturn1b": -8.938974481042782}, {"Date": "2019-08-13T00:00:00", "pred": -1.0, "labelr1": -29.910096818810526, "cumreturn1": 1.4071098416160588, "cumreturndow": 0.9617546422813407, "cumreturnsp500": 0.9584703547083363, "cumreturn1a": -0.19240427267380988, "cumreturn1b": -8.220664031673273}, {"Date": "2019-08-13T00:00:00", "pred": 1.0, "labelr1": -40.40362266168717, "cumreturn1": 0.8385864907740423, "cumreturndow": 0.9617546422813407, "cumreturnsp500": 0.9584703547083363, "cumreturn1a": -0.22736260312088058, "cumreturn1b": -8.938974481042782}, {"Date": "2019-08-13T00:00:00", "pred": 1.0, "labelr1": -40.40362266168717, "cumreturn1": 0.8385864907740423, "cumreturndow": 0.9617546422813407, "cumreturnsp500": 0.9584703547083363, "cumreturn1a": -0.22736260312088058, "cumreturn1b": -8.220664031673273}, {"Date": "2019-08-13T00:00:00", "pred": 1.0, "labelr1": -40.40362266168717, "cumreturn1": 0.8385864907740423, "cumreturndow": 0.9617546422813407, "cumreturnsp500": 0.9584703547083363, "cumreturn1a": -0.19240427267380988, "cumreturn1b": -8.938974481042782}, {"Date": "2019-08-13T00:00:00", "pred": 1.0, "labelr1": -40.40362266168717, "cumreturn1": 0.8385864907740423, "cumreturndow": 0.9617546422813407, "cumreturnsp500": 0.9584703547083363, "cumreturn1a": -0.19240427267380988, "cumreturn1b": -8.220664031673273}, {"Date": "2019-08-14T00:00:00", "pred": -1.0, "labelr1": 7.684761281883592, "cumreturn1": 0.7741431208159324, "cumreturndow": 0.9641246634964737, "cumreturnsp500": 0.9622309958633618, "cumreturn1a": -0.2071454226388046, "cumreturn1b": -12.76972792377945}, {"Date": "2019-08-14T00:00:00", "pred": -1.0, "labelr1": 7.684761281883592, "cumreturn1": 0.7741431208159324, "cumreturndow": 0.9641246634964737, "cumreturnsp500": 0.9622309958633618, "cumreturn1a": -0.2071454226388046, "cumreturn1b": -11.647539712295803}, {"Date": "2019-08-14T00:00:00", "pred": -1.0, "labelr1": 7.684761281883592, "cumreturn1": 0.7741431208159324, "cumreturndow": 0.9641246634964737, "cumreturnsp500": 0.9622309958633618, "cumreturn1a": -0.13596638079688075, "cumreturn1b": -12.76972792377945}, {"Date": "2019-08-14T00:00:00", "pred": -1.0, "labelr1": 7.684761281883592, "cumreturn1": 0.7741431208159324, "cumreturndow": 0.9641246634964737, "cumreturnsp500": 0.9622309958633618, "cumreturn1a": -0.13596638079688075, "cumreturn1b": -11.647539712295803}, {"Date": "2019-08-14T00:00:00", "pred": 1.0, "labelr1": 1.0553754211965138, "cumreturn1": 0.7823132370379073, "cumreturndow": 0.9641246634964737, "cumreturnsp500": 0.9622309958633618, "cumreturn1a": -0.2071454226388046, "cumreturn1b": -12.76972792377945}, {"Date": "2019-08-14T00:00:00", "pred": 1.0, "labelr1": 1.0553754211965138, "cumreturn1": 0.7823132370379073, "cumreturndow": 0.9641246634964737, "cumreturnsp500": 0.9622309958633618, "cumreturn1a": -0.2071454226388046, "cumreturn1b": -11.647539712295803}, {"Date": "2019-08-14T00:00:00", "pred": 1.0, "labelr1": 1.0553754211965138, "cumreturn1": 0.7823132370379073, "cumreturndow": 0.9641246634964737, "cumreturnsp500": 0.9622309958633618, "cumreturn1a": -0.13596638079688075, "cumreturn1b": -12.76972792377945}, {"Date": "2019-08-14T00:00:00", "pred": 1.0, "labelr1": 1.0553754211965138, "cumreturn1": 0.7823132370379073, "cumreturndow": 0.9641246634964737, "cumreturnsp500": 0.9622309958633618, "cumreturn1a": -0.13596638079688075, "cumreturn1b": -11.647539712295803}, {"Date": "2019-08-15T00:00:00", "pred": -1.0, "labelr1": 4.2472024415056, "cumreturn1": 0.7490868101342119, "cumreturndow": 0.9780332460813522, "cumreturnsp500": 0.9737652206508297, "cumreturn1a": -0.056215426295772176, "cumreturn1b": -11.840515937612645}, {"Date": "2019-08-15T00:00:00", "pred": -1.0, "labelr1": 4.2472024415056, "cumreturn1": 0.7490868101342119, "cumreturndow": 0.9780332460813522, "cumreturnsp500": 0.9737652206508297, "cumreturn1a": -0.056215426295772176, "cumreturn1b": -11.260910262344895}, {"Date": "2019-08-15T00:00:00", "pred": -1.0, "labelr1": 4.2472024415056, "cumreturn1": 0.7490868101342119, "cumreturndow": 0.9780332460813522, "cumreturnsp500": 0.9737652206508297, "cumreturn1a": -0.06449277710071478, "cumreturn1b": -11.840515937612645}, {"Date": "2019-08-15T00:00:00", "pred": -1.0, "labelr1": 4.2472024415056, "cumreturn1": 0.7490868101342119, "cumreturndow": 0.9780332460813522, "cumreturnsp500": 0.9737652206508297, "cumreturn1a": -0.06449277710071478, "cumreturn1b": -11.260910262344895}, {"Date": "2019-08-16T00:00:00", "pred": 1.0, "labelr1": 6.916921973121717, "cumreturn1": 0.8009005603021417, "cumreturndow": 0.9898731847660052, "cumreturnsp500": 0.9831612764530135, "cumreturn1a": -0.06637259667735593, "cumreturn1b": -10.398005261398923}, {"Date": "2019-08-16T00:00:00", "pred": 1.0, "labelr1": 6.916921973121717, "cumreturn1": 0.8009005603021417, "cumreturndow": 0.9898731847660052, "cumreturnsp500": 0.9831612764530135, "cumreturn1a": -0.06493091192837701, "cumreturn1b": -10.398005261398923}, {"Date": "2019-08-21T00:00:00", "pred": -1.0, "labelr1": 9.073149520592564, "cumreturn1": 0.6997628364456165, "cumreturndow": 0.9896361992346404, "cumreturnsp500": 0.9875418704977862, "cumreturn1a": -0.05236277970593801, "cumreturn1b": -13.016580744886511}, {"Date": "2019-08-21T00:00:00", "pred": -1.0, "labelr1": 9.073149520592564, "cumreturn1": 0.6997628364456165, "cumreturndow": 0.9896361992346404, "cumreturnsp500": 0.9875418704977862, "cumreturn1a": -0.04055918073590117, "cumreturn1b": -13.016580744886511}, {"Date": "2019-08-21T00:00:00", "pred": 1.0, "labelr1": -4.03797003331692, "cumreturn1": 0.6715066228056541, "cumreturndow": 0.9896361992346404, "cumreturnsp500": 0.9875418704977862, "cumreturn1a": -0.05236277970593801, "cumreturn1b": -13.016580744886511}, {"Date": "2019-08-21T00:00:00", "pred": 1.0, "labelr1": -4.03797003331692, "cumreturn1": 0.6715066228056541, "cumreturndow": 0.9896361992346404, "cumreturnsp500": 0.9875418704977862, "cumreturn1a": -0.04055918073590117, "cumreturn1b": -13.016580744886511}, {"Date": "2019-08-22T00:00:00", "pred": -1.0, "labelr1": 40.91477732276122, "cumreturn1": 0.3967611833771266, "cumreturndow": 0.9639587650585846, "cumreturnsp500": 0.9640934261355115, "cumreturn1a": -0.0731687638936788, "cumreturn1b": -14.60113582600399}, {"Date": "2019-08-22T00:00:00", "pred": -1.0, "labelr1": 40.91477732276122, "cumreturn1": 0.3967611833771266, "cumreturndow": 0.9639587650585846, "cumreturnsp500": 0.9640934261355115, "cumreturn1a": -0.07228120741010192, "cumreturn1b": -14.60113582600399}, {"Date": "2019-08-22T00:00:00", "pred": 1.0, "labelr1": -4.214179474467037, "cumreturn1": 0.38004095502459523, "cumreturndow": 0.9639587650585846, "cumreturnsp500": 0.9640934261355115, "cumreturn1a": -0.0731687638936788, "cumreturn1b": -14.60113582600399}, {"Date": "2019-08-22T00:00:00", "pred": 1.0, "labelr1": -4.214179474467037, "cumreturn1": 0.38004095502459523, "cumreturndow": 0.9639587650585846, "cumreturnsp500": 0.9640934261355115, "cumreturn1a": -0.07228120741010192, "cumreturn1b": -14.60113582600399}, {"Date": "2019-08-23T00:00:00", "pred": -1.0, "labelr1": 5.245888244353018, "cumreturn1": 0.36010443124123304, "cumreturndow": 0.9745459125603648, "cumreturnsp500": 0.9742474878699315, "cumreturn1a": -0.04865073793777829, "cumreturn1b": -14.41867466921289}, {"Date": "2019-08-23T00:00:00", "pred": -1.0, "labelr1": 5.245888244353018, "cumreturn1": 0.36010443124123304, "cumreturndow": 0.9745459125603648, "cumreturnsp500": 0.9742474878699315, "cumreturn1a": -0.051015884240069316, "cumreturn1b": -14.41867466921289}, {"Date": "2019-08-23T00:00:00", "pred": 1.0, "labelr1": -2.3304409865370848, "cumreturn1": 0.3517124099812511, "cumreturndow": 0.9745459125603648, "cumreturnsp500": 0.9742474878699315, "cumreturn1a": -0.04865073793777829, "cumreturn1b": -14.41867466921289}, {"Date": "2019-08-23T00:00:00", "pred": 1.0, "labelr1": -2.3304409865370848, "cumreturn1": 0.3517124099812511, "cumreturndow": 0.9745459125603648, "cumreturnsp500": 0.9742474878699315, "cumreturn1a": -0.051015884240069316, "cumreturn1b": -14.41867466921289}, {"Date": "2019-08-27T00:00:00", "pred": -1.0, "labelr1": 2.859835348645561, "cumreturn1": 0.349503816926758, "cumreturndow": 0.9777827040286369, "cumreturnsp500": 0.9794112151632133, "cumreturn1a": -0.06631110112353286, "cumreturn1b": -10.051925140922393}, {"Date": "2019-08-27T00:00:00", "pred": -1.0, "labelr1": 2.859835348645561, "cumreturn1": 0.349503816926758, "cumreturndow": 0.9777827040286369, "cumreturnsp500": 0.9794112151632133, "cumreturn1a": -0.060162594601718807, "cumreturn1b": -10.051925140922393}, {"Date": "2019-08-27T00:00:00", "pred": 1.0, "labelr1": 10.922281396091343, "cumreturn1": 0.38767760730157846, "cumreturndow": 0.9777827040286369, "cumreturnsp500": 0.9794112151632133, "cumreturn1a": -0.06631110112353286, "cumreturn1b": -10.051925140922393}, {"Date": "2019-08-27T00:00:00", "pred": 1.0, "labelr1": 10.922281396091343, "cumreturn1": 0.38767760730157846, "cumreturndow": 0.9777827040286369, "cumreturnsp500": 0.9794112151632133, "cumreturn1a": -0.060162594601718807, "cumreturn1b": -10.051925140922393}, {"Date": "2019-08-28T00:00:00", "pred": -1.0, "labelr1": -8.29433742780755, "cumreturn1": 0.419832896183222, "cumreturndow": 0.9901881186022633, "cumreturnsp500": 0.9916801554258649, "cumreturn1a": -0.03657559014869717, "cumreturn1b": -31.278889761306562}, {"Date": "2019-08-28T00:00:00", "pred": -1.0, "labelr1": -8.29433742780755, "cumreturn1": 0.419832896183222, "cumreturndow": 0.9901881186022633, "cumreturnsp500": 0.9916801554258649, "cumreturn1a": -0.02672350505200049, "cumreturn1b": -31.278889761306562}, {"Date": "2019-08-28T00:00:00", "pred": 1.0, "labelr1": -42.90844143636023, "cumreturn1": 0.23968914379386913, "cumreturndow": 0.9901881186022633, "cumreturnsp500": 0.9916801554258649, "cumreturn1a": -0.03657559014869717, "cumreturn1b": -31.278889761306562}, {"Date": "2019-08-28T00:00:00", "pred": 1.0, "labelr1": -42.90844143636023, "cumreturn1": 0.23968914379386913, "cumreturndow": 0.9901881186022633, "cumreturnsp500": 0.9916801554258649, "cumreturn1a": -0.02672350505200049, "cumreturn1b": -31.278889761306562}, {"Date": "2019-08-29T00:00:00", "pred": -1.0, "labelr1": 29.195101612155877, "cumreturn1": 0.16971165470994262, "cumreturndow": 0.9908245989725446, "cumreturnsp500": 0.9932235722292855, "cumreturn1a": -0.023611372027678223, "cumreturn1b": 48.05417144653209}, {"Date": "2019-08-29T00:00:00", "pred": -1.0, "labelr1": 29.195101612155877, "cumreturn1": 0.16971165470994262, "cumreturndow": 0.9908245989725446, "cumreturnsp500": 0.9932235722292855, "cumreturn1a": -0.023611372027678223, "cumreturn1b": 46.177670486167784}, {"Date": "2019-08-29T00:00:00", "pred": -1.0, "labelr1": 29.195101612155877, "cumreturn1": 0.16971165470994262, "cumreturndow": 0.9908245989725446, "cumreturnsp500": 0.9932235722292855, "cumreturn1a": -0.025493547910266142, "cumreturn1b": 48.05417144653209}, {"Date": "2019-08-29T00:00:00", "pred": -1.0, "labelr1": 29.195101612155877, "cumreturn1": 0.16971165470994262, "cumreturndow": 0.9908245989725446, "cumreturnsp500": 0.9932235722292855, "cumreturn1a": -0.025493547910266142, "cumreturn1b": 46.177670486167784}, {"Date": "2019-08-29T00:00:00", "pred": 1.0, "labelr1": 55.94390496041236, "cumreturn1": 0.26465498152761613, "cumreturndow": 0.9908245989725446, "cumreturnsp500": 0.9932235722292855, "cumreturn1a": -0.023611372027678223, "cumreturn1b": 48.05417144653209}, {"Date": "2019-08-29T00:00:00", "pred": 1.0, "labelr1": 55.94390496041236, "cumreturn1": 0.26465498152761613, "cumreturndow": 0.9908245989725446, "cumreturnsp500": 0.9932235722292855, "cumreturn1a": -0.023611372027678223, "cumreturn1b": 46.177670486167784}, {"Date": "2019-08-29T00:00:00", "pred": 1.0, "labelr1": 55.94390496041236, "cumreturn1": 0.26465498152761613, "cumreturndow": 0.9908245989725446, "cumreturnsp500": 0.9932235722292855, "cumreturn1a": -0.025493547910266142, "cumreturn1b": 48.05417144653209}, {"Date": "2019-08-29T00:00:00", "pred": 1.0, "labelr1": 55.94390496041236, "cumreturn1": 0.26465498152761613, "cumreturndow": 0.9908245989725446, "cumreturnsp500": 0.9932235722292855, "cumreturn1a": -0.025493547910266142, "cumreturn1b": 46.177670486167784}, {"Date": "2019-08-30T00:00:00", "pred": -1.0, "labelr1": 0.0, "cumreturn1": 0.26465498152761613, "cumreturndow": 0.9908245989725446, "cumreturnsp500": 0.9932235722292855, "cumreturn1a": -0.025493547910266142, "cumreturn1b": 46.177670486167784}, {"Date": "2019-08-30T00:00:00", "pred": -1.0, "labelr1": 0.0, "cumreturn1": 0.26465498152761613, "cumreturndow": 0.9908245989725446, "cumreturnsp500": 0.9932235722292855, "cumreturn1a": -0.025493547910266142, "cumreturn1b": 46.177670486167784}, {"Date": "2019-08-30T00:00:00", "pred": -1.0, "labelr1": 0.0, "cumreturn1": 0.26465498152761613, "cumreturndow": 0.9908245989725446, "cumreturnsp500": 0.9932235722292855, "cumreturn1a": -0.025493547910266142, "cumreturn1b": 46.177670486167784}, {"Date": "2019-08-30T00:00:00", "pred": -1.0, "labelr1": 0.0, "cumreturn1": 0.26465498152761613, "cumreturndow": 0.9908245989725446, "cumreturnsp500": 0.9932235722292855, "cumreturn1a": -0.025493547910266142, "cumreturn1b": 46.177670486167784}, {"Date": "2019-08-30T00:00:00", "pred": 1.0, "labelr1": 0.0, "cumreturn1": 0.26465498152761613, "cumreturndow": 0.9908245989725446, "cumreturnsp500": 0.9932235722292855, "cumreturn1a": -0.025493547910266142, "cumreturn1b": 46.177670486167784}, {"Date": "2019-08-30T00:00:00", "pred": 1.0, "labelr1": 0.0, "cumreturn1": 0.26465498152761613, "cumreturndow": 0.9908245989725446, "cumreturnsp500": 0.9932235722292855, "cumreturn1a": -0.025493547910266142, "cumreturn1b": 46.177670486167784}, {"Date": "2019-08-30T00:00:00", "pred": 1.0, "labelr1": 0.0, "cumreturn1": 0.26465498152761613, "cumreturndow": 0.9908245989725446, "cumreturnsp500": 0.9932235722292855, "cumreturn1a": -0.025493547910266142, "cumreturn1b": 46.177670486167784}, {"Date": "2019-08-30T00:00:00", "pred": 1.0, "labelr1": 0.0, "cumreturn1": 0.26465498152761613, "cumreturndow": 0.9908245989725446, "cumreturnsp500": 0.9932235722292855, "cumreturn1a": -0.025493547910266142, "cumreturn1b": 46.177670486167784}]}}, {"mode": "vega-lite"});
+  })({"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "layer": [{"mark": {"type": "trail", "color": "steelblue"}, "encoding": {"size": {"type": "quantitative", "field": "cumreturn1b"}, "x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturn1b"}}, "height": 1000, "title": "10QPortfolio (blue) vs  Dow (black) vs SP500 (red)", "width": 1000}, {"mark": {"type": "circle", "color": "black", "size": 40}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturndow"}}, "height": 1000, "width": 1000}, {"mark": {"type": "tick", "color": "red"}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturnsp500"}}, "height": 1000, "width": 1000}], "data": {"name": "data-b762e2a944230db1ed6d871a4259a4f3"}, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-b762e2a944230db1ed6d871a4259a4f3": [{"Date": "2019-08-01T00:00:00", "pred": -1.0, "labelr1": -90.93956947912768, "cumreturn1b": 1.909395694791277, "cumreturndow": 0.9927172599946105, "cumreturnsp500": 0.9962980626161437}, {"Date": "2019-08-01T00:00:00", "pred": 1.0, "labelr1": -8.054477850067297, "cumreturn1b": 1.7556038414841748, "cumreturndow": 0.9927172599946105, "cumreturnsp500": 0.9962980626161437}, {"Date": "2019-08-02T00:00:00", "pred": -1.0, "labelr1": -173.49649779746915, "cumreturn1b": 4.80151502165705, "cumreturndow": 0.9631563039768206, "cumreturnsp500": 0.9674353529177193}, {"Date": "2019-08-02T00:00:00", "pred": 1.0, "labelr1": -36.499371616669876, "cumreturn1b": 3.0489922106722163, "cumreturndow": 0.9631563039768206, "cumreturnsp500": 0.9674353529177193}, {"Date": "2019-08-05T00:00:00", "pred": -1.0, "labelr1": 22.72097100392348, "cumreturn1b": 2.3562315745734965, "cumreturndow": 0.9756937263621089, "cumreturnsp500": 0.9791636895243264}, {"Date": "2019-08-05T00:00:00", "pred": 1.0, "labelr1": 9.945807917221646, "cumreturn1b": 2.5905778410655036, "cumreturndow": 0.9756937263621089, "cumreturnsp500": 0.9791636895243264}, {"Date": "2019-08-06T00:00:00", "pred": -1.0, "labelr1": -42.29123478070628, "cumreturn1b": 3.686165198007468, "cumreturndow": 0.976441962374194, "cumreturnsp500": 0.9783192075853633}, {"Date": "2019-08-06T00:00:00", "pred": 1.0, "labelr1": -38.36676298628336, "cumreturn1b": 2.2719029332050797, "cumreturndow": 0.976441962374194, "cumreturnsp500": 0.9783192075853633}, {"Date": "2019-08-07T00:00:00", "pred": -1.0, "labelr1": 258.7752866149325, "cumreturn1b": -3.607220393809423, "cumreturndow": 0.994762262933215, "cumreturnsp500": 0.9922797567204602}, {"Date": "2019-08-07T00:00:00", "pred": 1.0, "labelr1": 30.541644413707022, "cumreturn1b": -4.708924819705419, "cumreturndow": 0.994762262933215, "cumreturnsp500": 0.9922797567204602}, {"Date": "2019-08-08T00:00:00", "pred": -1.0, "labelr1": -55.502983914301495, "cumreturn1b": -7.322518604923068, "cumreturndow": 0.9881803124694816, "cumreturnsp500": 0.9888659747365667}, {"Date": "2019-08-08T00:00:00", "pred": 1.0, "labelr1": 1.5859771043170168, "cumreturn1b": -7.4386520734565025, "cumreturndow": 0.9881803124694816, "cumreturnsp500": 0.9888659747365667}, {"Date": "2019-08-09T00:00:00", "pred": -1.0, "labelr1": -45.87403068720618, "cumreturn1b": -10.851061608348436, "cumreturndow": 0.9760085772476247, "cumreturnsp500": 0.9741575586957691}, {"Date": "2019-08-09T00:00:00", "pred": 1.0, "labelr1": -25.201096011339786, "cumreturn1b": -8.116475154178916, "cumreturndow": 0.9760085772476247, "cumreturnsp500": 0.9741575586957691}, {"Date": "2019-08-12T00:00:00", "pred": -1.0, "labelr1": 26.131662771500995, "cumreturn1b": -5.995505237956216, "cumreturndow": 0.9907772347757092, "cumreturnsp500": 0.9885827419161812}, {"Date": "2019-08-13T00:00:00", "pred": -1.0, "labelr1": -49.094598807988916, "cumreturn1b": -8.938974481042782, "cumreturndow": 0.9617546422813407, "cumreturnsp500": 0.9584703547083363}, {"Date": "2019-08-13T00:00:00", "pred": 1.0, "labelr1": -8.035714285714292, "cumreturn1b": -8.220664031673273, "cumreturndow": 0.9617546422813407, "cumreturnsp500": 0.9584703547083363}, {"Date": "2019-08-14T00:00:00", "pred": -1.0, "labelr1": -55.336939626521136, "cumreturn1b": -12.76972792377945, "cumreturndow": 0.9641246634964737, "cumreturnsp500": 0.9622309958633618}, {"Date": "2019-08-14T00:00:00", "pred": 1.0, "labelr1": -8.787878787878782, "cumreturn1b": -11.647539712295803, "cumreturndow": 0.9641246634964737, "cumreturnsp500": 0.9622309958633618}, {"Date": "2019-08-15T00:00:00", "pred": -1.0, "labelr1": -1.6567981744086777, "cumreturn1b": -11.840515937612645, "cumreturndow": 0.9780332460813522, "cumreturnsp500": 0.9737652206508297}, {"Date": "2019-08-15T00:00:00", "pred": 1.0, "labelr1": -4.895104895104884, "cumreturn1b": -11.260910262344895, "cumreturndow": 0.9780332460813522, "cumreturnsp500": 0.9737652206508297}, {"Date": "2019-08-16T00:00:00", "pred": -1.0, "labelr1": 7.66283524904216, "cumreturn1b": -10.398005261398923, "cumreturndow": 0.9898731847660052, "cumreturnsp500": 0.9831612764530135}, {"Date": "2019-08-19T00:00:00", "pred": -1.0, "labelr1": -32.32851224409502, "cumreturn1b": -13.75952566547192, "cumreturndow": 0.982038608343735, "cumreturnsp500": 0.9766403092295097}, {"Date": "2019-08-19T00:00:00", "pred": 1.0, "labelr1": -4.887218045112794, "cumreturn1b": -13.08706764422705, "cumreturndow": 0.982038608343735, "cumreturnsp500": 0.9766403092295097}, {"Date": "2019-08-21T00:00:00", "pred": -1.0, "labelr1": 0.5385996409335612, "cumreturn1b": -13.016580744886511, "cumreturndow": 0.9896361992346404, "cumreturnsp500": 0.9875418704977862}, {"Date": "2019-08-22T00:00:00", "pred": -1.0, "labelr1": -12.173358827278525, "cumreturn1b": -14.60113582600399, "cumreturndow": 0.9639587650585846, "cumreturnsp500": 0.9640934261355115}, {"Date": "2019-08-23T00:00:00", "pred": 1.0, "labelr1": -1.2496367335077003, "cumreturn1b": -14.41867466921289, "cumreturndow": 0.9745459125603648, "cumreturnsp500": 0.9742474878699315}, {"Date": "2019-08-27T00:00:00", "pred": -1.0, "labelr1": 30.28537385349632, "cumreturn1b": -10.051925140922393, "cumreturndow": 0.9777827040286369, "cumreturnsp500": 0.9794112151632133}, {"Date": "2019-08-28T00:00:00", "pred": -1.0, "labelr1": -211.1731267672008, "cumreturn1b": -31.278889761306562, "cumreturndow": 0.9901881186022633, "cumreturnsp500": 0.9916801554258649}, {"Date": "2019-08-29T00:00:00", "pred": -1.0, "labelr1": 253.6313207189896, "cumreturn1b": 48.05417144653209, "cumreturndow": 0.9908245989725446, "cumreturnsp500": 0.9932235722292855}, {"Date": "2019-08-29T00:00:00", "pred": 1.0, "labelr1": -3.904969961769525, "cumreturn1b": 46.177670486167784, "cumreturndow": 0.9908245989725446, "cumreturnsp500": 0.9932235722292855}, {"Date": "2019-08-30T00:00:00", "pred": -1.0, "labelr1": 0.0, "cumreturn1b": 46.177670486167784, "cumreturndow": 0.9908245989725446, "cumreturnsp500": 0.9932235722292855}, {"Date": "2019-08-30T00:00:00", "pred": 1.0, "labelr1": 0.0, "cumreturn1b": 46.177670486167784, "cumreturndow": 0.9908245989725446, "cumreturnsp500": 0.9932235722292855}]}}, {"mode": "vega-lite"});
 </script>
 </div>
 
@@ -465,11 +638,9 @@ window.onload = wrap_img;
       <th>Date</th>
       <th>pred</th>
       <th>labelr1</th>
-      <th>cumreturn1</th>
+      <th>cumreturn1b</th>
       <th>cumreturndow</th>
       <th>cumreturnsp500</th>
-      <th>cumreturn1a</th>
-      <th>cumreturn1b</th>
     </tr>
   </thead>
   <tbody>
@@ -477,122 +648,127 @@ window.onload = wrap_img;
       <th>0</th>
       <td>2019-08-01</td>
       <td>1.0</td>
-      <td>-0.840214</td>
-      <td>0.991598</td>
+      <td>-8.054478</td>
+      <td>0.919455</td>
       <td>0.992717</td>
       <td>0.996298</td>
-      <td>-0.634819</td>
-      <td>0.919455</td>
     </tr>
     <tr>
       <th>1</th>
       <td>2019-08-02</td>
       <td>1.0</td>
-      <td>4.280510</td>
-      <td>1.034043</td>
+      <td>-36.499372</td>
+      <td>0.583860</td>
       <td>0.963156</td>
       <td>0.967435</td>
-      <td>-0.274029</td>
-      <td>0.583860</td>
     </tr>
     <tr>
       <th>2</th>
       <td>2019-08-05</td>
       <td>1.0</td>
-      <td>0.000000</td>
-      <td>1.034043</td>
+      <td>9.945808</td>
+      <td>0.641929</td>
       <td>0.975694</td>
       <td>0.979164</td>
-      <td>-0.277673</td>
-      <td>0.641929</td>
     </tr>
     <tr>
       <th>3</th>
       <td>2019-08-06</td>
       <td>1.0</td>
-      <td>1.085054</td>
-      <td>1.045263</td>
+      <td>-38.366763</td>
+      <td>0.395642</td>
       <td>0.976442</td>
       <td>0.978319</td>
-      <td>-0.184054</td>
-      <td>0.395642</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>2019-08-08</td>
+      <td>2019-08-07</td>
       <td>1.0</td>
-      <td>-0.007610</td>
-      <td>1.045184</td>
-      <td>0.988180</td>
-      <td>0.988866</td>
-      <td>-0.376368</td>
-      <td>0.524669</td>
+      <td>30.541644</td>
+      <td>0.516477</td>
+      <td>0.994762</td>
+      <td>0.992280</td>
     </tr>
     <tr>
       <th>5</th>
-      <td>2019-08-09</td>
+      <td>2019-08-08</td>
       <td>1.0</td>
-      <td>0.000000</td>
-      <td>1.045184</td>
-      <td>0.976009</td>
-      <td>0.974158</td>
-      <td>-0.300708</td>
-      <td>0.392446</td>
+      <td>1.585977</td>
+      <td>0.524669</td>
+      <td>0.988180</td>
+      <td>0.988866</td>
     </tr>
     <tr>
       <th>6</th>
-      <td>2019-08-13</td>
+      <td>2019-08-09</td>
       <td>1.0</td>
-      <td>-40.403623</td>
-      <td>0.622892</td>
-      <td>0.961755</td>
-      <td>0.958470</td>
-      <td>-0.249195</td>
-      <td>0.360911</td>
+      <td>-25.201096</td>
+      <td>0.392446</td>
+      <td>0.976009</td>
+      <td>0.974158</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>2019-08-14</td>
+      <td>2019-08-13</td>
       <td>1.0</td>
-      <td>1.055375</td>
-      <td>0.629465</td>
-      <td>0.964125</td>
-      <td>0.962231</td>
-      <td>-0.163567</td>
-      <td>0.329194</td>
+      <td>-8.035714</td>
+      <td>0.360911</td>
+      <td>0.961755</td>
+      <td>0.958470</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>2019-08-23</td>
+      <td>2019-08-14</td>
       <td>1.0</td>
-      <td>-2.330441</td>
-      <td>0.604197</td>
-      <td>0.974546</td>
-      <td>0.974247</td>
-      <td>-0.170028</td>
-      <td>0.294058</td>
+      <td>-8.787879</td>
+      <td>0.329194</td>
+      <td>0.964125</td>
+      <td>0.962231</td>
     </tr>
     <tr>
       <th>9</th>
-      <td>2019-08-29</td>
+      <td>2019-08-15</td>
       <td>1.0</td>
-      <td>55.943905</td>
-      <td>0.610383</td>
-      <td>0.990825</td>
-      <td>0.993224</td>
-      <td>-0.102032</td>
-      <td>0.282575</td>
+      <td>-4.895105</td>
+      <td>0.313080</td>
+      <td>0.978033</td>
+      <td>0.973765</td>
     </tr>
     <tr>
       <th>10</th>
+      <td>2019-08-19</td>
+      <td>1.0</td>
+      <td>-4.887218</td>
+      <td>0.297779</td>
+      <td>0.982039</td>
+      <td>0.976640</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>2019-08-23</td>
+      <td>1.0</td>
+      <td>-1.249637</td>
+      <td>0.294058</td>
+      <td>0.974546</td>
+      <td>0.974247</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>2019-08-29</td>
+      <td>1.0</td>
+      <td>-3.904970</td>
+      <td>0.282575</td>
+      <td>0.990825</td>
+      <td>0.993224</td>
+    </tr>
+    <tr>
+      <th>13</th>
       <td>2019-08-30</td>
       <td>1.0</td>
       <td>0.000000</td>
-      <td>0.610383</td>
+      <td>0.282575</td>
       <td>0.990825</td>
       <td>0.993224</td>
-      <td>-0.102032</td>
-      <td>0.282575</td>
     </tr>
   </tbody>
 </table>
@@ -619,12 +795,12 @@ window.onload = wrap_img;
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 
-<div id="altair-viz-8486666522b0494b8e4f45e4a22c4e13"></div>
+<div id="altair-viz-72c7bccd3bad47e090822b5411f70c25"></div>
 <script type="text/javascript">
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-8486666522b0494b8e4f45e4a22c4e13") {
-      outputDiv = document.getElementById("altair-viz-8486666522b0494b8e4f45e4a22c4e13");
+    if (outputDiv.id !== "altair-viz-72c7bccd3bad47e090822b5411f70c25") {
+      outputDiv = document.getElementById("altair-viz-72c7bccd3bad47e090822b5411f70c25");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
@@ -666,7 +842,7 @@ window.onload = wrap_img;
         .catch(showError)
         .then(() => displayChart(vegaEmbed));
     }
-  })({"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "layer": [{"mark": {"type": "trail", "color": "steelblue"}, "encoding": {"size": {"type": "quantitative", "field": "cumreturn1"}, "x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturn1"}}, "height": 1000, "title": "10KPortfolio (blue) vs 8KPortfolio (brown) vs 10QPortfolio (yellow) vs  Dow (black) vs SP500 (red)", "width": 1000}, {"mark": {"type": "circle", "color": "black", "size": 40}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturndow"}}, "height": 1000, "width": 1000}, {"mark": {"type": "tick", "color": "red"}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturnsp500"}}, "height": 1000, "width": 1000}, {"mark": {"type": "line", "color": "brown"}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturn1a"}}, "height": 1000, "width": 1000}, {"mark": {"type": "line", "color": "yellow"}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturn1b"}}, "height": 1000, "width": 1000}], "data": {"name": "data-ecfb6b587965b5d33013257d6c610d86"}, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-ecfb6b587965b5d33013257d6c610d86": [{"Date": "2019-08-01T00:00:00", "pred": 1.0, "labelr1": -0.8402143995364308, "cumreturn1": 0.9915978560046357, "cumreturndow": 0.9927172599946105, "cumreturnsp500": 0.9962980626161437, "cumreturn1a": -0.6348194606490833, "cumreturn1b": 0.919455221499327}, {"Date": "2019-08-02T00:00:00", "pred": 1.0, "labelr1": 4.280510018214926, "cumreturn1": 1.0340433015713184, "cumreturndow": 0.9631563039768206, "cumreturnsp500": 0.9674353529177193, "cumreturn1a": -0.2740289389455655, "cumreturn1b": 0.5838598433554125}, {"Date": "2019-08-05T00:00:00", "pred": 1.0, "labelr1": 0.0, "cumreturn1": 1.0340433015713184, "cumreturndow": 0.9756937263621089, "cumreturnsp500": 0.9791636895243264, "cumreturn1a": -0.2776730706026715, "cumreturn1b": 0.641929421881333}, {"Date": "2019-08-06T00:00:00", "pred": 1.0, "labelr1": 1.085054252712631, "cumreturn1": 1.045263232389908, "cumreturndow": 0.976441962374194, "cumreturnsp500": 0.9783192075853633, "cumreturn1a": -0.18405421390160434, "cumreturn1b": 0.39564188204890294}, {"Date": "2019-08-08T00:00:00", "pred": 1.0, "labelr1": -0.007609770945887606, "cumreturn1": 1.0451836902521416, "cumreturndow": 0.9881803124694816, "cumreturnsp500": 0.9888659747365667, "cumreturn1a": -0.376368208117799, "cumreturn1b": 0.5246686324273659}, {"Date": "2019-08-09T00:00:00", "pred": 1.0, "labelr1": 0.0, "cumreturn1": 1.0451836902521416, "cumreturndow": 0.9760085772476247, "cumreturnsp500": 0.9741575586957691, "cumreturn1a": -0.3007075773055548, "cumreturn1b": 0.39244638662796205}, {"Date": "2019-08-13T00:00:00", "pred": 1.0, "labelr1": -40.40362266168717, "cumreturn1": 0.622891615921169, "cumreturndow": 0.9617546422813407, "cumreturnsp500": 0.9584703547083363, "cumreturn1a": -0.24919503917431507, "cumreturn1b": 0.3609105162739294}, {"Date": "2019-08-14T00:00:00", "pred": 1.0, "labelr1": 1.0553754211965138, "cumreturn1": 0.6294654609362949, "cumreturndow": 0.9641246634964737, "cumreturnsp500": 0.9622309958633618, "cumreturn1a": -0.1635669625591881, "cumreturn1b": 0.32919413757106897}, {"Date": "2019-08-23T00:00:00", "pred": 1.0, "labelr1": -2.3304409865370848, "cumreturn1": 0.604196534065908, "cumreturndow": 0.9745459125603648, "cumreturnsp500": 0.9742474878699315, "cumreturn1a": -0.1700279116360409, "cumreturn1b": 0.29405769582658176}, {"Date": "2019-08-29T00:00:00", "pred": 1.0, "labelr1": 55.94390496041236, "cumreturn1": 0.6103834120178332, "cumreturndow": 0.9908245989725446, "cumreturnsp500": 0.9932235722292855, "cumreturn1a": -0.10203166029054127, "cumreturn1b": 0.28257483113428217}, {"Date": "2019-08-30T00:00:00", "pred": 1.0, "labelr1": 0.0, "cumreturn1": 0.6103834120178332, "cumreturndow": 0.9908245989725446, "cumreturnsp500": 0.9932235722292855, "cumreturn1a": -0.10203166029054127, "cumreturn1b": 0.28257483113428217}]}}, {"mode": "vega-lite"});
+  })({"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "layer": [{"mark": {"type": "trail", "color": "steelblue"}, "encoding": {"size": {"type": "quantitative", "field": "cumreturn1b"}, "x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturn1b"}}, "height": 1000, "title": "10QPortfolio (blue) vs  Dow (black) vs SP500 (red)", "width": 1000}, {"mark": {"type": "circle", "color": "black", "size": 40}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturndow"}}, "height": 1000, "width": 1000}, {"mark": {"type": "tick", "color": "red"}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturnsp500"}}, "height": 1000, "width": 1000}], "data": {"name": "data-0859ee051a649cf9c8fca0754859fa6e"}, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-0859ee051a649cf9c8fca0754859fa6e": [{"Date": "2019-08-01T00:00:00", "pred": 1.0, "labelr1": -8.054477850067297, "cumreturn1b": 0.919455221499327, "cumreturndow": 0.9927172599946105, "cumreturnsp500": 0.9962980626161437}, {"Date": "2019-08-02T00:00:00", "pred": 1.0, "labelr1": -36.499371616669876, "cumreturn1b": 0.5838598433554125, "cumreturndow": 0.9631563039768206, "cumreturnsp500": 0.9674353529177193}, {"Date": "2019-08-05T00:00:00", "pred": 1.0, "labelr1": 9.945807917221646, "cumreturn1b": 0.641929421881333, "cumreturndow": 0.9756937263621089, "cumreturnsp500": 0.9791636895243264}, {"Date": "2019-08-06T00:00:00", "pred": 1.0, "labelr1": -38.36676298628336, "cumreturn1b": 0.39564188204890294, "cumreturndow": 0.976441962374194, "cumreturnsp500": 0.9783192075853633}, {"Date": "2019-08-07T00:00:00", "pred": 1.0, "labelr1": 30.541644413707022, "cumreturn1b": 0.516477418815977, "cumreturndow": 0.994762262933215, "cumreturnsp500": 0.9922797567204602}, {"Date": "2019-08-08T00:00:00", "pred": 1.0, "labelr1": 1.5859771043170168, "cumreturn1b": 0.5246686324273659, "cumreturndow": 0.9881803124694816, "cumreturnsp500": 0.9888659747365667}, {"Date": "2019-08-09T00:00:00", "pred": 1.0, "labelr1": -25.201096011339786, "cumreturn1b": 0.39244638662796205, "cumreturndow": 0.9760085772476247, "cumreturnsp500": 0.9741575586957691}, {"Date": "2019-08-13T00:00:00", "pred": 1.0, "labelr1": -8.035714285714292, "cumreturn1b": 0.3609105162739294, "cumreturndow": 0.9617546422813407, "cumreturnsp500": 0.9584703547083363}, {"Date": "2019-08-14T00:00:00", "pred": 1.0, "labelr1": -8.787878787878782, "cumreturn1b": 0.32919413757106897, "cumreturndow": 0.9641246634964737, "cumreturnsp500": 0.9622309958633618}, {"Date": "2019-08-15T00:00:00", "pred": 1.0, "labelr1": -4.895104895104884, "cumreturn1b": 0.31307973922842924, "cumreturndow": 0.9780332460813522, "cumreturnsp500": 0.9737652206508297}, {"Date": "2019-08-19T00:00:00", "pred": 1.0, "labelr1": -4.887218045112794, "cumreturn1b": 0.29777884971726537, "cumreturndow": 0.982038608343735, "cumreturnsp500": 0.9766403092295097}, {"Date": "2019-08-23T00:00:00", "pred": 1.0, "labelr1": -1.2496367335077003, "cumreturn1b": 0.29405769582658176, "cumreturndow": 0.9745459125603648, "cumreturnsp500": 0.9742474878699315}, {"Date": "2019-08-29T00:00:00", "pred": 1.0, "labelr1": -3.904969961769525, "cumreturn1b": 0.28257483113428217, "cumreturndow": 0.9908245989725446, "cumreturnsp500": 0.9932235722292855}, {"Date": "2019-08-30T00:00:00", "pred": 1.0, "labelr1": 0.0, "cumreturn1b": 0.28257483113428217, "cumreturndow": 0.9908245989725446, "cumreturnsp500": 0.9932235722292855}]}}, {"mode": "vega-lite"});
 </script>
 </div>
 
@@ -717,11 +893,9 @@ window.onload = wrap_img;
       <th>Date</th>
       <th>pred</th>
       <th>labelr1</th>
-      <th>cumreturn1</th>
+      <th>cumreturn1b</th>
       <th>cumreturndow</th>
       <th>cumreturnsp500</th>
-      <th>cumreturn1a</th>
-      <th>cumreturn1b</th>
     </tr>
   </thead>
   <tbody>
@@ -729,166 +903,172 @@ window.onload = wrap_img;
       <th>0</th>
       <td>2019-08-01</td>
       <td>-1.0</td>
-      <td>-3.846154</td>
-      <td>1.038462</td>
+      <td>-90.939569</td>
+      <td>1.909396</td>
       <td>0.992717</td>
       <td>0.996298</td>
-      <td>1.500801</td>
-      <td>1.909396</td>
     </tr>
     <tr>
       <th>1</th>
       <td>2019-08-02</td>
       <td>-1.0</td>
-      <td>-1.090585</td>
-      <td>1.049787</td>
+      <td>-173.496498</td>
+      <td>5.222130</td>
       <td>0.963156</td>
       <td>0.967435</td>
-      <td>3.034653</td>
-      <td>5.222130</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>2019-08-06</td>
+      <td>2019-08-05</td>
       <td>-1.0</td>
-      <td>0.463302</td>
-      <td>1.044923</td>
-      <td>0.976442</td>
-      <td>0.978319</td>
-      <td>3.000866</td>
-      <td>5.742322</td>
+      <td>22.720971</td>
+      <td>4.035612</td>
+      <td>0.975694</td>
+      <td>0.979164</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>2019-08-07</td>
+      <td>2019-08-06</td>
       <td>-1.0</td>
-      <td>0.000000</td>
-      <td>1.044923</td>
-      <td>0.994762</td>
-      <td>0.992280</td>
-      <td>0.827160</td>
-      <td>-9.117388</td>
+      <td>-42.291235</td>
+      <td>5.742322</td>
+      <td>0.976442</td>
+      <td>0.978319</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>2019-08-08</td>
+      <td>2019-08-07</td>
       <td>-1.0</td>
-      <td>1.911381</td>
-      <td>1.024951</td>
-      <td>0.988180</td>
-      <td>0.988866</td>
-      <td>1.474421</td>
-      <td>-14.177810</td>
+      <td>258.775287</td>
+      <td>-9.117388</td>
+      <td>0.994762</td>
+      <td>0.992280</td>
     </tr>
     <tr>
       <th>5</th>
-      <td>2019-08-09</td>
+      <td>2019-08-08</td>
       <td>-1.0</td>
-      <td>-1.108925</td>
-      <td>1.036317</td>
-      <td>0.976009</td>
-      <td>0.974158</td>
-      <td>2.311581</td>
-      <td>-20.681743</td>
+      <td>-55.502984</td>
+      <td>-14.177810</td>
+      <td>0.988180</td>
+      <td>0.988866</td>
     </tr>
     <tr>
       <th>6</th>
-      <td>2019-08-13</td>
+      <td>2019-08-09</td>
       <td>-1.0</td>
-      <td>-29.910097</td>
-      <td>1.346280</td>
-      <td>0.961755</td>
-      <td>0.958470</td>
-      <td>0.772103</td>
-      <td>-22.777569</td>
+      <td>-45.874031</td>
+      <td>-20.681743</td>
+      <td>0.976009</td>
+      <td>0.974158</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>2019-08-14</td>
+      <td>2019-08-12</td>
       <td>-1.0</td>
-      <td>7.684761</td>
-      <td>1.242822</td>
-      <td>0.964125</td>
-      <td>0.962231</td>
-      <td>0.831258</td>
-      <td>-35.381978</td>
+      <td>26.131663</td>
+      <td>-15.277259</td>
+      <td>0.990777</td>
+      <td>0.988583</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>2019-08-15</td>
+      <td>2019-08-13</td>
       <td>-1.0</td>
-      <td>4.247202</td>
-      <td>1.190036</td>
-      <td>0.978033</td>
-      <td>0.973765</td>
-      <td>0.343684</td>
-      <td>-35.968186</td>
+      <td>-49.094599</td>
+      <td>-22.777569</td>
+      <td>0.961755</td>
+      <td>0.958470</td>
     </tr>
     <tr>
       <th>9</th>
-      <td>2019-08-21</td>
+      <td>2019-08-14</td>
       <td>-1.0</td>
-      <td>9.073150</td>
-      <td>1.039759</td>
-      <td>0.989636</td>
-      <td>0.987542</td>
-      <td>0.247107</td>
-      <td>-43.712241</td>
+      <td>-55.336940</td>
+      <td>-35.381978</td>
+      <td>0.964125</td>
+      <td>0.962231</td>
     </tr>
     <tr>
       <th>10</th>
-      <td>2019-08-22</td>
+      <td>2019-08-15</td>
       <td>-1.0</td>
-      <td>40.914777</td>
-      <td>0.614344</td>
-      <td>0.963959</td>
-      <td>0.964093</td>
-      <td>0.445781</td>
-      <td>-49.033489</td>
+      <td>-1.656798</td>
+      <td>-35.968186</td>
+      <td>0.978033</td>
+      <td>0.973765</td>
     </tr>
     <tr>
       <th>11</th>
-      <td>2019-08-27</td>
+      <td>2019-08-16</td>
       <td>-1.0</td>
-      <td>2.859835</td>
-      <td>0.565468</td>
-      <td>0.977783</td>
-      <td>0.979411</td>
-      <td>0.465160</td>
-      <td>-34.183513</td>
+      <td>7.662835</td>
+      <td>-33.212003</td>
+      <td>0.989873</td>
+      <td>0.983161</td>
     </tr>
     <tr>
       <th>12</th>
-      <td>2019-08-28</td>
+      <td>2019-08-19</td>
       <td>-1.0</td>
-      <td>-8.294337</td>
-      <td>0.612370</td>
-      <td>0.990188</td>
-      <td>0.991680</td>
-      <td>0.282792</td>
-      <td>-106.369907</td>
+      <td>-32.328512</td>
+      <td>-43.948950</td>
+      <td>0.982039</td>
+      <td>0.976640</td>
     </tr>
     <tr>
       <th>13</th>
-      <td>2019-08-29</td>
+      <td>2019-08-21</td>
       <td>-1.0</td>
-      <td>29.195102</td>
-      <td>0.433588</td>
-      <td>0.990825</td>
-      <td>0.993224</td>
-      <td>0.249859</td>
-      <td>163.417493</td>
+      <td>0.538600</td>
+      <td>-43.712241</td>
+      <td>0.989636</td>
+      <td>0.987542</td>
     </tr>
     <tr>
       <th>14</th>
+      <td>2019-08-22</td>
+      <td>-1.0</td>
+      <td>-12.173359</td>
+      <td>-49.033489</td>
+      <td>0.963959</td>
+      <td>0.964093</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>2019-08-27</td>
+      <td>-1.0</td>
+      <td>30.285374</td>
+      <td>-34.183513</td>
+      <td>0.977783</td>
+      <td>0.979411</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>2019-08-28</td>
+      <td>-1.0</td>
+      <td>-211.173127</td>
+      <td>-106.369907</td>
+      <td>0.990188</td>
+      <td>0.991680</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>2019-08-29</td>
+      <td>-1.0</td>
+      <td>253.631321</td>
+      <td>163.417493</td>
+      <td>0.990825</td>
+      <td>0.993224</td>
+    </tr>
+    <tr>
+      <th>18</th>
       <td>2019-08-30</td>
       <td>-1.0</td>
       <td>0.000000</td>
-      <td>0.433588</td>
+      <td>163.417493</td>
       <td>0.990825</td>
       <td>0.993224</td>
-      <td>0.249859</td>
-      <td>163.417493</td>
     </tr>
   </tbody>
 </table>
@@ -915,12 +1095,12 @@ window.onload = wrap_img;
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 
-<div id="altair-viz-1f6bfbf8366f482db83ae6c097d4eb7c"></div>
+<div id="altair-viz-d0a88b44c4294bb780f0164fa834fab8"></div>
 <script type="text/javascript">
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-1f6bfbf8366f482db83ae6c097d4eb7c") {
-      outputDiv = document.getElementById("altair-viz-1f6bfbf8366f482db83ae6c097d4eb7c");
+    if (outputDiv.id !== "altair-viz-d0a88b44c4294bb780f0164fa834fab8") {
+      outputDiv = document.getElementById("altair-viz-d0a88b44c4294bb780f0164fa834fab8");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
@@ -962,7 +1142,7 @@ window.onload = wrap_img;
         .catch(showError)
         .then(() => displayChart(vegaEmbed));
     }
-  })({"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "layer": [{"mark": {"type": "trail", "color": "steelblue"}, "encoding": {"size": {"type": "quantitative", "field": "cumreturn1"}, "x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturn1"}}, "height": 1000, "title": "10KPortfolio (blue) vs 8KPortfolio (brown) vs 10QPortfolio (yellow) vs  Dow (black) vs SP500 (red)", "width": 1000}, {"mark": {"type": "circle", "color": "black", "size": 40}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturndow"}}, "height": 1000, "width": 1000}, {"mark": {"type": "tick", "color": "red"}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturnsp500"}}, "height": 1000, "width": 1000}, {"mark": {"type": "line", "color": "brown"}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturn1a"}}, "height": 1000, "width": 1000}, {"mark": {"type": "line", "color": "yellow"}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturn1b"}}, "height": 1000, "width": 1000}], "data": {"name": "data-95e82d1e1b90ab2628c3990c86625d40"}, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-95e82d1e1b90ab2628c3990c86625d40": [{"Date": "2019-08-01T00:00:00", "pred": -1.0, "labelr1": -3.8461538461538463, "cumreturn1": 1.0384615384615385, "cumreturndow": 0.9927172599946105, "cumreturnsp500": 0.9962980626161437, "cumreturn1a": 1.5008011971705018, "cumreturn1b": 1.909395694791277}, {"Date": "2019-08-02T00:00:00", "pred": -1.0, "labelr1": -1.0905853549966658, "cumreturn1": 1.0497868479172732, "cumreturndow": 0.9631563039768206, "cumreturnsp500": 0.9674353529177193, "cumreturn1a": 3.034653363758812, "cumreturn1b": 5.222130354349795}, {"Date": "2019-08-06T00:00:00", "pred": -1.0, "labelr1": 0.4633016337478609, "cumreturn1": 1.0449231683000022, "cumreturndow": 0.976441962374194, "cumreturnsp500": 0.9783192075853633, "cumreturn1a": 3.0008659699752664, "cumreturn1b": 5.74232162034924}, {"Date": "2019-08-07T00:00:00", "pred": -1.0, "labelr1": 0.0, "cumreturn1": 1.0449231683000022, "cumreturndow": 0.994762262933215, "cumreturnsp500": 0.9922797567204602, "cumreturn1a": 0.8271598537294618, "cumreturn1b": -9.11738761106074}, {"Date": "2019-08-08T00:00:00", "pred": -1.0, "labelr1": 1.9113814074717648, "cumreturn1": 1.024950701138751, "cumreturndow": 0.9881803124694816, "cumreturnsp500": 0.9888659747365667, "cumreturn1a": 1.4744208889377852, "cumreturn1b": -14.177809790232299}, {"Date": "2019-08-09T00:00:00", "pred": -1.0, "labelr1": -1.1089250581291277, "cumreturn1": 1.0363166362971488, "cumreturndow": 0.9760085772476247, "cumreturnsp500": 0.9741575586957691, "cumreturn1a": 2.311580775408454, "cumreturn1b": -20.681742604177185}, {"Date": "2019-08-13T00:00:00", "pred": -1.0, "labelr1": -29.910096818810526, "cumreturn1": 1.3462799455630667, "cumreturndow": 0.9617546422813407, "cumreturnsp500": 0.9584703547083363, "cumreturn1a": 0.7721031418254704, "cumreturn1b": -22.77756856891869}, {"Date": "2019-08-14T00:00:00", "pred": -1.0, "labelr1": 7.684761281883592, "cumreturn1": 1.2428215455606728, "cumreturndow": 0.9641246634964737, "cumreturnsp500": 0.9622309958633618, "cumreturn1a": 0.8312582117411402, "cumreturn1b": -35.381977936290674}, {"Date": "2019-08-15T00:00:00", "pred": -1.0, "labelr1": 4.2472024415056, "cumreturn1": 1.1900363985340623, "cumreturndow": 0.9780332460813522, "cumreturnsp500": 0.9737652206508297, "cumreturn1a": 0.34368447892055304, "cumreturn1b": -35.96818590080882}, {"Date": "2019-08-21T00:00:00", "pred": -1.0, "labelr1": 9.073149520592564, "cumreturn1": 1.039758600490387, "cumreturndow": 0.9896361992346404, "cumreturnsp500": 0.9875418704977862, "cumreturn1a": 0.24710675648802005, "cumreturn1b": -43.7122406686891}, {"Date": "2019-08-22T00:00:00", "pred": -1.0, "labelr1": 40.91477732276122, "cumreturn1": 0.6143436844054867, "cumreturndow": 0.9639587650585846, "cumreturnsp500": 0.9640934261355115, "cumreturn1a": 0.44578059995182984, "cumreturn1b": -49.033488576732196}, {"Date": "2019-08-27T00:00:00", "pred": -1.0, "labelr1": 2.859835348645561, "cumreturn1": 0.5654683449702894, "cumreturndow": 0.9777827040286369, "cumreturnsp500": 0.9794112151632133, "cumreturn1a": 0.46516040192077324, "cumreturn1b": -34.18351324785744}, {"Date": "2019-08-28T00:00:00", "pred": -1.0, "labelr1": -8.29433742780755, "cumreturn1": 0.612370197549564, "cumreturndow": 0.9901881186022633, "cumreturnsp500": 0.9916801554258649, "cumreturn1a": 0.28279226198085855, "cumreturn1b": -106.36990701223831}, {"Date": "2019-08-29T00:00:00", "pred": -1.0, "labelr1": 29.195101612155877, "cumreturn1": 0.43358809613240906, "cumreturndow": 0.9908245989725446, "cumreturnsp500": 0.9932235722292855, "cumreturn1a": 0.24985918917394612, "cumreturn1b": 163.41749299046288}, {"Date": "2019-08-30T00:00:00", "pred": -1.0, "labelr1": 0.0, "cumreturn1": 0.43358809613240906, "cumreturndow": 0.9908245989725446, "cumreturnsp500": 0.9932235722292855, "cumreturn1a": 0.24985918917394612, "cumreturn1b": 163.41749299046288}]}}, {"mode": "vega-lite"});
+  })({"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "layer": [{"mark": {"type": "trail", "color": "steelblue"}, "encoding": {"size": {"type": "quantitative", "field": "cumreturn1b"}, "x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturn1b"}}, "height": 1000, "title": "10QPortfolio (blue) vs  Dow (black) vs SP500 (red)", "width": 1000}, {"mark": {"type": "circle", "color": "black", "size": 40}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturndow"}}, "height": 1000, "width": 1000}, {"mark": {"type": "tick", "color": "red"}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturnsp500"}}, "height": 1000, "width": 1000}], "data": {"name": "data-7f6af20a623033cbaad7ae18e2124e7b"}, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-7f6af20a623033cbaad7ae18e2124e7b": [{"Date": "2019-08-01T00:00:00", "pred": -1.0, "labelr1": -90.93956947912768, "cumreturn1b": 1.909395694791277, "cumreturndow": 0.9927172599946105, "cumreturnsp500": 0.9962980626161437}, {"Date": "2019-08-02T00:00:00", "pred": -1.0, "labelr1": -173.49649779746915, "cumreturn1b": 5.222130354349795, "cumreturndow": 0.9631563039768206, "cumreturnsp500": 0.9674353529177193}, {"Date": "2019-08-05T00:00:00", "pred": -1.0, "labelr1": 22.72097100392348, "cumreturn1b": 4.035611630750891, "cumreturndow": 0.9756937263621089, "cumreturnsp500": 0.9791636895243264}, {"Date": "2019-08-06T00:00:00", "pred": -1.0, "labelr1": -42.29123478070628, "cumreturn1b": 5.74232162034924, "cumreturndow": 0.976441962374194, "cumreturnsp500": 0.9783192075853633}, {"Date": "2019-08-07T00:00:00", "pred": -1.0, "labelr1": 258.7752866149325, "cumreturn1b": -9.11738761106074, "cumreturndow": 0.994762262933215, "cumreturnsp500": 0.9922797567204602}, {"Date": "2019-08-08T00:00:00", "pred": -1.0, "labelr1": -55.502983914301495, "cumreturn1b": -14.177809790232299, "cumreturndow": 0.9881803124694816, "cumreturnsp500": 0.9888659747365667}, {"Date": "2019-08-09T00:00:00", "pred": -1.0, "labelr1": -45.87403068720618, "cumreturn1b": -20.681742604177185, "cumreturndow": 0.9760085772476247, "cumreturnsp500": 0.9741575586957691}, {"Date": "2019-08-12T00:00:00", "pred": -1.0, "labelr1": 26.131662771500995, "cumreturn1b": -15.277259371583755, "cumreturndow": 0.9907772347757092, "cumreturnsp500": 0.9885827419161812}, {"Date": "2019-08-13T00:00:00", "pred": -1.0, "labelr1": -49.094598807988916, "cumreturn1b": -22.77756856891869, "cumreturndow": 0.9617546422813407, "cumreturnsp500": 0.9584703547083363}, {"Date": "2019-08-14T00:00:00", "pred": -1.0, "labelr1": -55.336939626521136, "cumreturn1b": -35.381977936290674, "cumreturndow": 0.9641246634964737, "cumreturnsp500": 0.9622309958633618}, {"Date": "2019-08-15T00:00:00", "pred": -1.0, "labelr1": -1.6567981744086777, "cumreturn1b": -35.96818590080882, "cumreturndow": 0.9780332460813522, "cumreturnsp500": 0.9737652206508297}, {"Date": "2019-08-16T00:00:00", "pred": -1.0, "labelr1": 7.66283524904216, "cumreturn1b": -33.21200307316062, "cumreturndow": 0.9898731847660052, "cumreturnsp500": 0.9831612764530135}, {"Date": "2019-08-19T00:00:00", "pred": -1.0, "labelr1": -32.32851224409502, "cumreturn1b": -43.948949553176575, "cumreturndow": 0.982038608343735, "cumreturnsp500": 0.9766403092295097}, {"Date": "2019-08-21T00:00:00", "pred": -1.0, "labelr1": 0.5385996409335612, "cumreturn1b": -43.7122406686891, "cumreturndow": 0.9896361992346404, "cumreturnsp500": 0.9875418704977862}, {"Date": "2019-08-22T00:00:00", "pred": -1.0, "labelr1": -12.173358827278525, "cumreturn1b": -49.033488576732196, "cumreturndow": 0.9639587650585846, "cumreturnsp500": 0.9640934261355115}, {"Date": "2019-08-27T00:00:00", "pred": -1.0, "labelr1": 30.28537385349632, "cumreturn1b": -34.18351324785744, "cumreturndow": 0.9777827040286369, "cumreturnsp500": 0.9794112151632133}, {"Date": "2019-08-28T00:00:00", "pred": -1.0, "labelr1": -211.1731267672008, "cumreturn1b": -106.36990701223831, "cumreturndow": 0.9901881186022633, "cumreturnsp500": 0.9916801554258649}, {"Date": "2019-08-29T00:00:00", "pred": -1.0, "labelr1": 253.6313207189896, "cumreturn1b": 163.41749299046288, "cumreturndow": 0.9908245989725446, "cumreturnsp500": 0.9932235722292855}, {"Date": "2019-08-30T00:00:00", "pred": -1.0, "labelr1": 0.0, "cumreturn1b": 163.41749299046288, "cumreturndow": 0.9908245989725446, "cumreturnsp500": 0.9932235722292855}]}}, {"mode": "vega-lite"});
 </script>
 </div>
 

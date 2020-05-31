@@ -120,7 +120,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      1 min read
+      2 min read
     
 </span></p>
 
@@ -212,138 +212,302 @@ window.onload = wrap_img;
       <th>Date</th>
       <th>pred</th>
       <th>labelr1</th>
-      <th>cumreturn1</th>
+      <th>cumreturn1b</th>
       <th>cumreturndow</th>
       <th>cumreturnsp500</th>
-      <th>cumreturn1a</th>
-      <th>cumreturn1b</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <th>0</th>
       <td>2019-05-01</td>
-      <td>1.0</td>
-      <td>-9.509649</td>
-      <td>0.904904</td>
+      <td>-1.0</td>
+      <td>17.705728</td>
+      <td>0.822943</td>
       <td>0.997876</td>
       <td>0.995371</td>
-      <td>1.647921</td>
-      <td>0.822943</td>
     </tr>
     <tr>
       <th>1</th>
       <td>2019-05-01</td>
       <td>1.0</td>
-      <td>-9.509649</td>
-      <td>0.904904</td>
+      <td>5.227866</td>
+      <td>0.865965</td>
       <td>0.997876</td>
       <td>0.995371</td>
-      <td>1.647921</td>
-      <td>0.865965</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>2019-05-01</td>
-      <td>1.0</td>
-      <td>-9.509649</td>
-      <td>0.904904</td>
-      <td>0.997876</td>
-      <td>0.995371</td>
-      <td>2.182333</td>
-      <td>0.822943</td>
+      <td>2019-05-02</td>
+      <td>-1.0</td>
+      <td>26.363722</td>
+      <td>0.637664</td>
+      <td>1.007494</td>
+      <td>1.002830</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>2019-05-01</td>
+      <td>2019-05-02</td>
       <td>1.0</td>
-      <td>-9.509649</td>
-      <td>0.904904</td>
-      <td>0.997876</td>
-      <td>0.995371</td>
-      <td>2.182333</td>
-      <td>0.865965</td>
+      <td>14.350126</td>
+      <td>0.729170</td>
+      <td>1.007494</td>
+      <td>1.002830</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>2019-05-02</td>
+      <td>2019-05-03</td>
+      <td>-1.0</td>
+      <td>9.512749</td>
+      <td>0.659806</td>
+      <td>1.002989</td>
+      <td>1.000316</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>2019-05-03</td>
       <td>1.0</td>
-      <td>1.012997</td>
-      <td>0.914070</td>
-      <td>1.007494</td>
-      <td>1.002830</td>
-      <td>0.426525</td>
-      <td>0.637664</td>
+      <td>2.996851</td>
+      <td>0.679579</td>
+      <td>1.002989</td>
+      <td>1.000316</td>
     </tr>
     <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
+      <th>6</th>
+      <td>2019-05-06</td>
+      <td>-1.0</td>
+      <td>-4.606640</td>
+      <td>0.710885</td>
+      <td>0.986428</td>
+      <td>0.982405</td>
     </tr>
     <tr>
-      <th>81</th>
+      <th>7</th>
+      <td>2019-05-06</td>
+      <td>1.0</td>
+      <td>-0.083928</td>
+      <td>0.710289</td>
+      <td>0.986428</td>
+      <td>0.982405</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>2019-05-07</td>
+      <td>-1.0</td>
+      <td>-56.258437</td>
+      <td>1.109886</td>
+      <td>0.984845</td>
+      <td>0.982489</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>2019-05-07</td>
+      <td>1.0</td>
+      <td>-13.013819</td>
+      <td>0.965447</td>
+      <td>0.984845</td>
+      <td>0.982489</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>2019-05-08</td>
+      <td>-1.0</td>
+      <td>9.010162</td>
+      <td>0.878459</td>
+      <td>0.981869</td>
+      <td>0.977231</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>2019-05-08</td>
+      <td>1.0</td>
+      <td>-0.331760</td>
+      <td>0.875544</td>
+      <td>0.981869</td>
+      <td>0.977231</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>2019-05-09</td>
+      <td>-1.0</td>
+      <td>0.465867</td>
+      <td>0.871466</td>
+      <td>0.985522</td>
+      <td>0.981545</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>2019-05-09</td>
+      <td>1.0</td>
+      <td>6.315228</td>
+      <td>0.926501</td>
+      <td>0.985522</td>
+      <td>0.981545</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>2019-05-10</td>
+      <td>-1.0</td>
+      <td>-161.321165</td>
+      <td>2.421142</td>
+      <td>0.961741</td>
+      <td>0.958186</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>2019-05-10</td>
+      <td>1.0</td>
+      <td>-12.575301</td>
+      <td>2.116676</td>
+      <td>0.961741</td>
+      <td>0.958186</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>2019-05-13</td>
+      <td>-1.0</td>
+      <td>-49.187008</td>
+      <td>3.157806</td>
+      <td>0.969450</td>
+      <td>0.966020</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>2019-05-14</td>
+      <td>-1.0</td>
+      <td>40.169146</td>
+      <td>1.889342</td>
+      <td>0.975111</td>
+      <td>0.970408</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>2019-05-15</td>
+      <td>-1.0</td>
+      <td>-127.438487</td>
+      <td>4.297092</td>
+      <td>0.983784</td>
+      <td>0.978530</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>2019-05-15</td>
+      <td>1.0</td>
+      <td>-7.406300</td>
+      <td>3.978836</td>
+      <td>0.983784</td>
+      <td>0.978530</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>2019-05-16</td>
+      <td>-1.0</td>
+      <td>-7.308483</td>
+      <td>4.269629</td>
+      <td>0.978042</td>
+      <td>0.974796</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>2019-05-17</td>
+      <td>-1.0</td>
+      <td>-61.210046</td>
+      <td>6.883071</td>
+      <td>0.971441</td>
+      <td>0.971614</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>2019-05-20</td>
+      <td>-1.0</td>
+      <td>-0.756206</td>
+      <td>6.935121</td>
+      <td>0.979694</td>
+      <td>0.979084</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>2019-05-20</td>
+      <td>1.0</td>
+      <td>5.384615</td>
+      <td>7.308550</td>
+      <td>0.979694</td>
+      <td>0.979084</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>2019-05-21</td>
+      <td>-1.0</td>
+      <td>44.000000</td>
+      <td>4.092788</td>
+      <td>0.976927</td>
+      <td>0.975273</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>2019-05-22</td>
+      <td>-1.0</td>
+      <td>-4.751462</td>
+      <td>4.287256</td>
+      <td>0.965287</td>
+      <td>0.964447</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>2019-05-23</td>
+      <td>-1.0</td>
+      <td>-2.426778</td>
+      <td>4.391298</td>
+      <td>0.966594</td>
+      <td>0.968050</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>2019-05-29</td>
+      <td>-1.0</td>
+      <td>7.527856</td>
+      <td>4.060727</td>
+      <td>0.953871</td>
+      <td>0.952317</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>2019-05-30</td>
+      <td>-1.0</td>
+      <td>-17.548457</td>
+      <td>4.773322</td>
+      <td>0.941284</td>
+      <td>0.938892</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>2019-05-30</td>
+      <td>1.0</td>
+      <td>0.239199</td>
+      <td>4.784740</td>
+      <td>0.941284</td>
+      <td>0.938892</td>
+    </tr>
+    <tr>
+      <th>30</th>
       <td>2019-05-31</td>
       <td>-1.0</td>
-      <td>-4.210526</td>
-      <td>0.908242</td>
-      <td>0.941284</td>
-      <td>0.938892</td>
-      <td>0.006304</td>
-      <td>4.884376</td>
-    </tr>
-    <tr>
-      <th>82</th>
-      <td>2019-05-31</td>
-      <td>1.0</td>
-      <td>-7.237509</td>
-      <td>0.842508</td>
-      <td>0.941284</td>
-      <td>0.938892</td>
-      <td>0.005874</td>
+      <td>-0.348146</td>
       <td>4.801398</td>
-    </tr>
-    <tr>
-      <th>83</th>
-      <td>2019-05-31</td>
-      <td>1.0</td>
-      <td>-7.237509</td>
-      <td>0.842508</td>
       <td>0.941284</td>
       <td>0.938892</td>
-      <td>0.005874</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>2019-05-31</td>
+      <td>1.0</td>
+      <td>1.728210</td>
       <td>4.884376</td>
-    </tr>
-    <tr>
-      <th>84</th>
-      <td>2019-05-31</td>
-      <td>1.0</td>
-      <td>-7.237509</td>
-      <td>0.842508</td>
       <td>0.941284</td>
       <td>0.938892</td>
-      <td>0.006304</td>
-      <td>4.801398</td>
-    </tr>
-    <tr>
-      <th>85</th>
-      <td>2019-05-31</td>
-      <td>1.0</td>
-      <td>-7.237509</td>
-      <td>0.842508</td>
-      <td>0.941284</td>
-      <td>0.938892</td>
-      <td>0.006304</td>
-      <td>4.884376</td>
     </tr>
   </tbody>
 </table>
-<p>86 rows × 8 columns</p>
 </div>
 </div>
 
@@ -367,12 +531,12 @@ window.onload = wrap_img;
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 
-<div id="altair-viz-4b81427356c744bf91253b0837b8a022"></div>
+<div id="altair-viz-5064f37ee4474432901a4843740cd81d"></div>
 <script type="text/javascript">
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-4b81427356c744bf91253b0837b8a022") {
-      outputDiv = document.getElementById("altair-viz-4b81427356c744bf91253b0837b8a022");
+    if (outputDiv.id !== "altair-viz-5064f37ee4474432901a4843740cd81d") {
+      outputDiv = document.getElementById("altair-viz-5064f37ee4474432901a4843740cd81d");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
@@ -414,7 +578,7 @@ window.onload = wrap_img;
         .catch(showError)
         .then(() => displayChart(vegaEmbed));
     }
-  })({"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "layer": [{"mark": {"type": "trail", "color": "steelblue"}, "encoding": {"size": {"type": "quantitative", "field": "cumreturn1"}, "x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturn1"}}, "height": 1000, "title": "10KPortfolio (blue) vs 8KPortfolio (brown) vs 10QPortfolio (yellow) vs  Dow (black) vs SP500 (red)", "width": 1000}, {"mark": {"type": "circle", "color": "black", "size": 40}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturndow"}}, "height": 1000, "width": 1000}, {"mark": {"type": "tick", "color": "red"}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturnsp500"}}, "height": 1000, "width": 1000}, {"mark": {"type": "line", "color": "brown"}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturn1a"}}, "height": 1000, "width": 1000}, {"mark": {"type": "line", "color": "yellow"}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturn1b"}}, "height": 1000, "width": 1000}], "data": {"name": "data-5bf631780c2c0ac59200e5afba8f3120"}, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-5bf631780c2c0ac59200e5afba8f3120": [{"Date": "2019-05-01T00:00:00", "pred": 1.0, "labelr1": -9.509649429196447, "cumreturn1": 0.9049035057080356, "cumreturndow": 0.9978760145285372, "cumreturnsp500": 0.9953707562991826, "cumreturn1a": 1.6479214435020588, "cumreturn1b": 0.8229427157159583}, {"Date": "2019-05-01T00:00:00", "pred": 1.0, "labelr1": -9.509649429196447, "cumreturn1": 0.9049035057080356, "cumreturndow": 0.9978760145285372, "cumreturnsp500": 0.9953707562991826, "cumreturn1a": 1.6479214435020588, "cumreturn1b": 0.86596506205306}, {"Date": "2019-05-01T00:00:00", "pred": 1.0, "labelr1": -9.509649429196447, "cumreturn1": 0.9049035057080356, "cumreturndow": 0.9978760145285372, "cumreturnsp500": 0.9953707562991826, "cumreturn1a": 2.1823332952740926, "cumreturn1b": 0.8229427157159583}, {"Date": "2019-05-01T00:00:00", "pred": 1.0, "labelr1": -9.509649429196447, "cumreturn1": 0.9049035057080356, "cumreturndow": 0.9978760145285372, "cumreturnsp500": 0.9953707562991826, "cumreturn1a": 2.1823332952740926, "cumreturn1b": 0.86596506205306}, {"Date": "2019-05-02T00:00:00", "pred": 1.0, "labelr1": 1.0129969418960267, "cumreturn1": 0.9140701505479679, "cumreturndow": 1.0074938223262329, "cumreturnsp500": 1.002830427392022, "cumreturn1a": 0.4265249394247916, "cumreturn1b": 0.6376644369042423}, {"Date": "2019-05-02T00:00:00", "pred": 1.0, "labelr1": 1.0129969418960267, "cumreturn1": 0.9140701505479679, "cumreturndow": 1.0074938223262329, "cumreturnsp500": 1.002830427392022, "cumreturn1a": 0.4265249394247916, "cumreturn1b": 0.7291700892758819}, {"Date": "2019-05-02T00:00:00", "pred": 1.0, "labelr1": 1.0129969418960267, "cumreturn1": 0.9140701505479679, "cumreturndow": 1.0074938223262329, "cumreturnsp500": 1.002830427392022, "cumreturn1a": 0.7304530200154475, "cumreturn1b": 0.6376644369042423}, {"Date": "2019-05-02T00:00:00", "pred": 1.0, "labelr1": 1.0129969418960267, "cumreturn1": 0.9140701505479679, "cumreturndow": 1.0074938223262329, "cumreturnsp500": 1.002830427392022, "cumreturn1a": 0.7304530200154475, "cumreturn1b": 0.7291700892758819}, {"Date": "2019-05-03T00:00:00", "pred": 1.0, "labelr1": -1.53846153846154, "cumreturn1": 0.9000075328472299, "cumreturndow": 1.0029893290624603, "cumreturnsp500": 1.0003155429295034, "cumreturn1a": 0.2644581410503858, "cumreturn1b": 0.6598059669552627}, {"Date": "2019-05-03T00:00:00", "pred": 1.0, "labelr1": -1.53846153846154, "cumreturn1": 0.9000075328472299, "cumreturndow": 1.0029893290624603, "cumreturnsp500": 1.0003155429295034, "cumreturn1a": 0.2644581410503858, "cumreturn1b": 0.6795793704822208}, {"Date": "2019-05-03T00:00:00", "pred": 1.0, "labelr1": -1.53846153846154, "cumreturn1": 0.9000075328472299, "cumreturndow": 1.0029893290624603, "cumreturnsp500": 1.0003155429295034, "cumreturn1a": 0.2483301230610348, "cumreturn1b": 0.6598059669552627}, {"Date": "2019-05-03T00:00:00", "pred": 1.0, "labelr1": -1.53846153846154, "cumreturn1": 0.9000075328472299, "cumreturndow": 1.0029893290624603, "cumreturnsp500": 1.0003155429295034, "cumreturn1a": 0.2483301230610348, "cumreturn1b": 0.6795793704822208}, {"Date": "2019-05-06T00:00:00", "pred": -1.0, "labelr1": -1.2048192771084436, "cumreturn1": 0.9108509970984014, "cumreturndow": 0.9864283188695834, "cumreturnsp500": 0.982404528693271, "cumreturn1a": 0.32760761818630924, "cumreturn1b": 0.7108851451095664}, {"Date": "2019-05-06T00:00:00", "pred": -1.0, "labelr1": -1.2048192771084436, "cumreturn1": 0.9108509970984014, "cumreturndow": 0.9864283188695834, "cumreturnsp500": 0.982404528693271, "cumreturn1a": 0.32760761818630924, "cumreturn1b": 0.7102885146898353}, {"Date": "2019-05-06T00:00:00", "pred": -1.0, "labelr1": -1.2048192771084436, "cumreturn1": 0.9108509970984014, "cumreturndow": 0.9864283188695834, "cumreturnsp500": 0.982404528693271, "cumreturn1a": 0.08340877292100053, "cumreturn1b": 0.7108851451095664}, {"Date": "2019-05-06T00:00:00", "pred": -1.0, "labelr1": -1.2048192771084436, "cumreturn1": 0.9108509970984014, "cumreturndow": 0.9864283188695834, "cumreturnsp500": 0.982404528693271, "cumreturn1a": 0.08340877292100053, "cumreturn1b": 0.7102885146898353}, {"Date": "2019-05-07T00:00:00", "pred": -1.0, "labelr1": -4.385964912280699, "cumreturn1": 0.9508006022342962, "cumreturndow": 0.984844681860806, "cumreturnsp500": 0.9824892892714224, "cumreturn1a": 0.15702786384169629, "cumreturn1b": 1.1098857318190274}, {"Date": "2019-05-07T00:00:00", "pred": -1.0, "labelr1": -4.385964912280699, "cumreturn1": 0.9508006022342962, "cumreturndow": 0.984844681860806, "cumreturnsp500": 0.9824892892714224, "cumreturn1a": 0.15702786384169629, "cumreturn1b": 0.9654472167742136}, {"Date": "2019-05-07T00:00:00", "pred": -1.0, "labelr1": -4.385964912280699, "cumreturn1": 0.9508006022342962, "cumreturndow": 0.984844681860806, "cumreturnsp500": 0.9824892892714224, "cumreturn1a": 0.13170081295209227, "cumreturn1b": 1.1098857318190274}, {"Date": "2019-05-07T00:00:00", "pred": -1.0, "labelr1": -4.385964912280699, "cumreturn1": 0.9508006022342962, "cumreturndow": 0.984844681860806, "cumreturnsp500": 0.9824892892714224, "cumreturn1a": 0.13170081295209227, "cumreturn1b": 0.9654472167742136}, {"Date": "2019-05-08T00:00:00", "pred": -1.0, "labelr1": -18.242583435466475, "cumreturn1": 1.1242511954018053, "cumreturndow": 0.9818690476334619, "cumreturnsp500": 0.9772312505431476, "cumreturn1a": 0.28308621705774284, "cumreturn1b": 0.8784588622457905}, {"Date": "2019-05-08T00:00:00", "pred": -1.0, "labelr1": -18.242583435466475, "cumreturn1": 1.1242511954018053, "cumreturndow": 0.9818690476334619, "cumreturnsp500": 0.9772312505431476, "cumreturn1a": 0.28308621705774284, "cumreturn1b": 0.8755444863246818}, {"Date": "2019-05-08T00:00:00", "pred": -1.0, "labelr1": -18.242583435466475, "cumreturn1": 1.1242511954018053, "cumreturndow": 0.9818690476334619, "cumreturnsp500": 0.9772312505431476, "cumreturn1a": 0.06003895434732249, "cumreturn1b": 0.8784588622457905}, {"Date": "2019-05-08T00:00:00", "pred": -1.0, "labelr1": -18.242583435466475, "cumreturn1": 1.1242511954018053, "cumreturndow": 0.9818690476334619, "cumreturnsp500": 0.9772312505431476, "cumreturn1a": 0.06003895434732249, "cumreturn1b": 0.8755444863246818}, {"Date": "2019-05-09T00:00:00", "pred": -1.0, "labelr1": -0.2762836904446949, "cumreturn1": 1.1273573180943302, "cumreturndow": 0.9855218921413533, "cumreturnsp500": 0.9815448774593873, "cumreturn1a": 0.11243913432136066, "cumreturn1b": 0.8714656135091686}, {"Date": "2019-05-09T00:00:00", "pred": -1.0, "labelr1": -0.2762836904446949, "cumreturn1": 1.1273573180943302, "cumreturndow": 0.9855218921413533, "cumreturnsp500": 0.9815448774593873, "cumreturn1a": 0.11243913432136066, "cumreturn1b": 0.9265006501201953}, {"Date": "2019-05-09T00:00:00", "pred": -1.0, "labelr1": -0.2762836904446949, "cumreturn1": 1.1273573180943302, "cumreturndow": 0.9855218921413533, "cumreturnsp500": 0.9815448774593873, "cumreturn1a": 0.1101899744027361, "cumreturn1b": 0.8714656135091686}, {"Date": "2019-05-09T00:00:00", "pred": -1.0, "labelr1": -0.2762836904446949, "cumreturn1": 1.1273573180943302, "cumreturndow": 0.9855218921413533, "cumreturnsp500": 0.9815448774593873, "cumreturn1a": 0.1101899744027361, "cumreturn1b": 0.9265006501201953}, {"Date": "2019-05-10T00:00:00", "pred": -1.0, "labelr1": 24.48979591836734, "cumreturn1": 0.8512698116222494, "cumreturndow": 0.9617406998029282, "cumreturnsp500": 0.9581859814262719, "cumreturn1a": 0.19107589376814757, "cumreturn1b": 2.4211422960215514}, {"Date": "2019-05-10T00:00:00", "pred": -1.0, "labelr1": 24.48979591836734, "cumreturn1": 0.8512698116222494, "cumreturndow": 0.9617406998029282, "cumreturnsp500": 0.9581859814262719, "cumreturn1a": 0.19107589376814757, "cumreturn1b": 2.1166763751595896}, {"Date": "2019-05-10T00:00:00", "pred": -1.0, "labelr1": 24.48979591836734, "cumreturn1": 0.8512698116222494, "cumreturndow": 0.9617406998029282, "cumreturnsp500": 0.9581859814262719, "cumreturn1a": 0.013134944165761754, "cumreturn1b": 2.4211422960215514}, {"Date": "2019-05-10T00:00:00", "pred": -1.0, "labelr1": 24.48979591836734, "cumreturn1": 0.8512698116222494, "cumreturndow": 0.9617406998029282, "cumreturnsp500": 0.9581859814262719, "cumreturn1a": 0.013134944165761754, "cumreturn1b": 2.1166763751595896}, {"Date": "2019-05-10T00:00:00", "pred": 1.0, "labelr1": -5.3711939787889165, "cumreturn1": 0.8055464587571474, "cumreturndow": 0.9617406998029282, "cumreturnsp500": 0.9581859814262719, "cumreturn1a": 0.19107589376814757, "cumreturn1b": 2.4211422960215514}, {"Date": "2019-05-10T00:00:00", "pred": 1.0, "labelr1": -5.3711939787889165, "cumreturn1": 0.8055464587571474, "cumreturndow": 0.9617406998029282, "cumreturnsp500": 0.9581859814262719, "cumreturn1a": 0.19107589376814757, "cumreturn1b": 2.1166763751595896}, {"Date": "2019-05-10T00:00:00", "pred": 1.0, "labelr1": -5.3711939787889165, "cumreturn1": 0.8055464587571474, "cumreturndow": 0.9617406998029282, "cumreturnsp500": 0.9581859814262719, "cumreturn1a": 0.013134944165761754, "cumreturn1b": 2.4211422960215514}, {"Date": "2019-05-10T00:00:00", "pred": 1.0, "labelr1": -5.3711939787889165, "cumreturn1": 0.8055464587571474, "cumreturndow": 0.9617406998029282, "cumreturnsp500": 0.9581859814262719, "cumreturn1a": 0.013134944165761754, "cumreturn1b": 2.1166763751595896}, {"Date": "2019-05-13T00:00:00", "pred": -1.0, "labelr1": -5.432742389984213, "cumreturn1": 0.8493097226930636, "cumreturndow": 0.9694499599446597, "cumreturnsp500": 0.9660202396671888, "cumreturn1a": 0.006846945047492997, "cumreturn1b": 3.157806161839035}, {"Date": "2019-05-13T00:00:00", "pred": -1.0, "labelr1": -5.432742389984213, "cumreturn1": 0.8493097226930636, "cumreturndow": 0.9694499599446597, "cumreturnsp500": 0.9660202396671888, "cumreturn1a": 0.008577581607214483, "cumreturn1b": 3.157806161839035}, {"Date": "2019-05-13T00:00:00", "pred": 1.0, "labelr1": -0.6644518272425108, "cumreturn1": 0.8436664687216813, "cumreturndow": 0.9694499599446597, "cumreturnsp500": 0.9660202396671888, "cumreturn1a": 0.006846945047492997, "cumreturn1b": 3.157806161839035}, {"Date": "2019-05-13T00:00:00", "pred": 1.0, "labelr1": -0.6644518272425108, "cumreturn1": 0.8436664687216813, "cumreturndow": 0.9694499599446597, "cumreturnsp500": 0.9660202396671888, "cumreturn1a": 0.008577581607214483, "cumreturn1b": 3.157806161839035}, {"Date": "2019-05-14T00:00:00", "pred": 1.0, "labelr1": -6.334936891938618, "cumreturn1": 0.7902207303497157, "cumreturndow": 0.975110554155894, "cumreturnsp500": 0.9704079859015129, "cumreturn1a": 0.008865172069491735, "cumreturn1b": 1.8893424084492716}, {"Date": "2019-05-14T00:00:00", "pred": 1.0, "labelr1": -6.334936891938618, "cumreturn1": 0.7902207303497157, "cumreturndow": 0.975110554155894, "cumreturnsp500": 0.9704079859015129, "cumreturn1a": 0.008081442653958274, "cumreturn1b": 1.8893424084492716}, {"Date": "2019-05-15T00:00:00", "pred": -1.0, "labelr1": -0.5779431557279741, "cumreturn1": 0.7947877569759155, "cumreturndow": 0.983784442364955, "cumreturnsp500": 0.978529779880806, "cumreturn1a": 0.007238866014473918, "cumreturn1b": 4.297091783078981}, {"Date": "2019-05-15T00:00:00", "pred": -1.0, "labelr1": -0.5779431557279741, "cumreturn1": 0.7947877569759155, "cumreturndow": 0.983784442364955, "cumreturnsp500": 0.978529779880806, "cumreturn1a": 0.007238866014473918, "cumreturn1b": 3.9788362812022187}, {"Date": "2019-05-15T00:00:00", "pred": -1.0, "labelr1": -0.5779431557279741, "cumreturn1": 0.7947877569759155, "cumreturndow": 0.983784442364955, "cumreturnsp500": 0.978529779880806, "cumreturn1a": 0.008329016638725654, "cumreturn1b": 4.297091783078981}, {"Date": "2019-05-15T00:00:00", "pred": -1.0, "labelr1": -0.5779431557279741, "cumreturn1": 0.7947877569759155, "cumreturndow": 0.983784442364955, "cumreturnsp500": 0.978529779880806, "cumreturn1a": 0.008329016638725654, "cumreturn1b": 3.9788362812022187}, {"Date": "2019-05-16T00:00:00", "pred": -1.0, "labelr1": 0.0, "cumreturn1": 0.7947877569759155, "cumreturndow": 0.9780417646502366, "cumreturnsp500": 0.9747961755311318, "cumreturn1a": 0.009390407176793507, "cumreturn1b": 4.269628874231129}, {"Date": "2019-05-16T00:00:00", "pred": -1.0, "labelr1": 0.0, "cumreturn1": 0.7947877569759155, "cumreturndow": 0.9780417646502366, "cumreturnsp500": 0.9747961755311318, "cumreturn1a": 0.007755903704554255, "cumreturn1b": 4.269628874231129}, {"Date": "2019-05-16T00:00:00", "pred": 1.0, "labelr1": -1.0620506449383487, "cumreturn1": 0.7863467084770618, "cumreturndow": 0.9780417646502366, "cumreturnsp500": 0.9747961755311318, "cumreturn1a": 0.009390407176793507, "cumreturn1b": 4.269628874231129}, {"Date": "2019-05-16T00:00:00", "pred": 1.0, "labelr1": -1.0620506449383487, "cumreturn1": 0.7863467084770618, "cumreturndow": 0.9780417646502366, "cumreturnsp500": 0.9747961755311318, "cumreturn1a": 0.007755903704554255, "cumreturn1b": 4.269628874231129}, {"Date": "2019-05-17T00:00:00", "pred": -1.0, "labelr1": -3.5714695862433623, "cumreturn1": 0.8144308420127458, "cumreturndow": 0.9714405911041077, "cumreturnsp500": 0.9716142170923465, "cumreturn1a": 0.008296733844532741, "cumreturn1b": 6.8830706577502285}, {"Date": "2019-05-17T00:00:00", "pred": -1.0, "labelr1": -3.5714695862433623, "cumreturn1": 0.8144308420127458, "cumreturndow": 0.9714405911041077, "cumreturnsp500": 0.9716142170923465, "cumreturn1a": 0.007380234552287086, "cumreturn1b": 6.8830706577502285}, {"Date": "2019-05-17T00:00:00", "pred": 1.0, "labelr1": -2.407570231631035, "cumreturn1": 0.794822847503225, "cumreturndow": 0.9714405911041077, "cumreturnsp500": 0.9716142170923465, "cumreturn1a": 0.008296733844532741, "cumreturn1b": 6.8830706577502285}, {"Date": "2019-05-17T00:00:00", "pred": 1.0, "labelr1": -2.407570231631035, "cumreturn1": 0.794822847503225, "cumreturndow": 0.9714405911041077, "cumreturnsp500": 0.9716142170923465, "cumreturn1a": 0.007380234552287086, "cumreturn1b": 6.8830706577502285}, {"Date": "2019-05-20T00:00:00", "pred": -1.0, "labelr1": -3.1464530892448552, "cumreturn1": 0.8198315755425142, "cumreturndow": 0.9796937906694109, "cumreturnsp500": 0.9790840860499582, "cumreturn1a": 0.0027406865232103223, "cumreturn1b": 6.935120871335955}, {"Date": "2019-05-20T00:00:00", "pred": -1.0, "labelr1": -3.1464530892448552, "cumreturn1": 0.8198315755425142, "cumreturndow": 0.9796937906694109, "cumreturnsp500": 0.9790840860499582, "cumreturn1a": 0.0027406865232103223, "cumreturn1b": 7.308550456715583}, {"Date": "2019-05-20T00:00:00", "pred": -1.0, "labelr1": -3.1464530892448552, "cumreturn1": 0.8198315755425142, "cumreturndow": 0.9796937906694109, "cumreturnsp500": 0.9790840860499582, "cumreturn1a": 0.0032203345737553514, "cumreturn1b": 6.935120871335955}, {"Date": "2019-05-20T00:00:00", "pred": -1.0, "labelr1": -3.1464530892448552, "cumreturn1": 0.8198315755425142, "cumreturndow": 0.9796937906694109, "cumreturnsp500": 0.9790840860499582, "cumreturn1a": 0.0032203345737553514, "cumreturn1b": 7.308550456715583}, {"Date": "2019-05-21T00:00:00", "pred": 1.0, "labelr1": -1.5201849328699786, "cumreturn1": 0.8073686194562063, "cumreturndow": 0.9769267475240654, "cumreturnsp500": 0.9752732586908057, "cumreturn1a": 0.004658056188748581, "cumreturn1b": 4.092788255760727}, {"Date": "2019-05-21T00:00:00", "pred": 1.0, "labelr1": -1.5201849328699786, "cumreturn1": 0.8073686194562063, "cumreturndow": 0.9769267475240654, "cumreturnsp500": 0.9752732586908057, "cumreturn1a": 0.0027563119137422737, "cumreturn1b": 4.092788255760727}, {"Date": "2019-05-22T00:00:00", "pred": 1.0, "labelr1": -3.3375622133307323, "cumreturn1": 0.780422189490946, "cumreturndow": 0.9652874955299398, "cumreturnsp500": 0.9644470328276961, "cumreturn1a": 0.005330276766583711, "cumreturn1b": 4.287255533994972}, {"Date": "2019-05-22T00:00:00", "pred": 1.0, "labelr1": -3.3375622133307323, "cumreturn1": 0.780422189490946, "cumreturndow": 0.9652874955299398, "cumreturnsp500": 0.9644470328276961, "cumreturn1a": 0.004588653730294005, "cumreturn1b": 4.287255533994972}, {"Date": "2019-05-23T00:00:00", "pred": -1.0, "labelr1": 3.7109796516109252, "cumreturn1": 0.7514608808422806, "cumreturndow": 0.9665940693333112, "cumreturnsp500": 0.968049690541516, "cumreturn1a": 0.0033467488996022153, "cumreturn1b": 4.391297718501962}, {"Date": "2019-05-23T00:00:00", "pred": -1.0, "labelr1": 3.7109796516109252, "cumreturn1": 0.7514608808422806, "cumreturndow": 0.9665940693333112, "cumreturnsp500": 0.968049690541516, "cumreturn1a": 0.0035550404240720737, "cumreturn1b": 4.391297718501962}, {"Date": "2019-05-23T00:00:00", "pred": 1.0, "labelr1": 20.62132021794627, "cumreturn1": 0.906422035393367, "cumreturndow": 0.9665940693333112, "cumreturnsp500": 0.968049690541516, "cumreturn1a": 0.0033467488996022153, "cumreturn1b": 4.391297718501962}, {"Date": "2019-05-23T00:00:00", "pred": 1.0, "labelr1": 20.62132021794627, "cumreturn1": 0.906422035393367, "cumreturndow": 0.9665940693333112, "cumreturnsp500": 0.968049690541516, "cumreturn1a": 0.0035550404240720737, "cumreturn1b": 4.391297718501962}, {"Date": "2019-05-29T00:00:00", "pred": -1.0, "labelr1": 4.517266169974403, "cumreturn1": 0.8605376114123656, "cumreturndow": 0.9538706125659389, "cumreturnsp500": 0.9523173264992799, "cumreturn1a": 0.0030931654336535854, "cumreturn1b": 4.060727159205364}, {"Date": "2019-05-29T00:00:00", "pred": -1.0, "labelr1": 4.517266169974403, "cumreturn1": 0.8605376114123656, "cumreturndow": 0.9538706125659389, "cumreturnsp500": 0.9523173264992799, "cumreturn1a": 0.002429361646155298, "cumreturn1b": 4.060727159205364}, {"Date": "2019-05-29T00:00:00", "pred": 1.0, "labelr1": 3.3126072864412817, "cumreturn1": 0.8890438430305794, "cumreturndow": 0.9538706125659389, "cumreturnsp500": 0.9523173264992799, "cumreturn1a": 0.0030931654336535854, "cumreturn1b": 4.060727159205364}, {"Date": "2019-05-29T00:00:00", "pred": 1.0, "labelr1": 3.3126072864412817, "cumreturn1": 0.8890438430305794, "cumreturndow": 0.9538706125659389, "cumreturnsp500": 0.9523173264992799, "cumreturn1a": 0.002429361646155298, "cumreturn1b": 4.060727159205364}, {"Date": "2019-05-30T00:00:00", "pred": -1.0, "labelr1": -5.081418908043808, "cumreturn1": 0.9342198849711346, "cumreturndow": 0.9412839345034182, "cumreturnsp500": 0.9388916773120652, "cumreturn1a": 0.004783695779134123, "cumreturn1b": 4.773322112515657}, {"Date": "2019-05-30T00:00:00", "pred": -1.0, "labelr1": -5.081418908043808, "cumreturn1": 0.9342198849711346, "cumreturndow": 0.9412839345034182, "cumreturnsp500": 0.9388916773120652, "cumreturn1a": 0.004783695779134123, "cumreturn1b": 4.784739836211314}, {"Date": "2019-05-30T00:00:00", "pred": -1.0, "labelr1": -5.081418908043808, "cumreturn1": 0.9342198849711346, "cumreturndow": 0.9412839345034182, "cumreturnsp500": 0.9388916773120652, "cumreturn1a": 0.0037948431229025957, "cumreturn1b": 4.773322112515657}, {"Date": "2019-05-30T00:00:00", "pred": -1.0, "labelr1": -5.081418908043808, "cumreturn1": 0.9342198849711346, "cumreturndow": 0.9412839345034182, "cumreturnsp500": 0.9388916773120652, "cumreturn1a": 0.0037948431229025957, "cumreturn1b": 4.784739836211314}, {"Date": "2019-05-30T00:00:00", "pred": 1.0, "labelr1": -6.70871279143943, "cumreturn1": 0.8715457560479054, "cumreturndow": 0.9412839345034182, "cumreturnsp500": 0.9388916773120652, "cumreturn1a": 0.004783695779134123, "cumreturn1b": 4.773322112515657}, {"Date": "2019-05-30T00:00:00", "pred": 1.0, "labelr1": -6.70871279143943, "cumreturn1": 0.8715457560479054, "cumreturndow": 0.9412839345034182, "cumreturnsp500": 0.9388916773120652, "cumreturn1a": 0.004783695779134123, "cumreturn1b": 4.784739836211314}, {"Date": "2019-05-30T00:00:00", "pred": 1.0, "labelr1": -6.70871279143943, "cumreturn1": 0.8715457560479054, "cumreturndow": 0.9412839345034182, "cumreturnsp500": 0.9388916773120652, "cumreturn1a": 0.0037948431229025957, "cumreturn1b": 4.773322112515657}, {"Date": "2019-05-30T00:00:00", "pred": 1.0, "labelr1": -6.70871279143943, "cumreturn1": 0.8715457560479054, "cumreturndow": 0.9412839345034182, "cumreturnsp500": 0.9388916773120652, "cumreturn1a": 0.0037948431229025957, "cumreturn1b": 4.784739836211314}, {"Date": "2019-05-31T00:00:00", "pred": -1.0, "labelr1": -4.210526315789478, "cumreturn1": 0.9082424194604489, "cumreturndow": 0.9412839345034182, "cumreturnsp500": 0.9388916773120652, "cumreturn1a": 0.005874013259670369, "cumreturn1b": 4.801397739935615}, {"Date": "2019-05-31T00:00:00", "pred": -1.0, "labelr1": -4.210526315789478, "cumreturn1": 0.9082424194604489, "cumreturndow": 0.9412839345034182, "cumreturnsp500": 0.9388916773120652, "cumreturn1a": 0.005874013259670369, "cumreturn1b": 4.884375968809494}, {"Date": "2019-05-31T00:00:00", "pred": -1.0, "labelr1": -4.210526315789478, "cumreturn1": 0.9082424194604489, "cumreturndow": 0.9412839345034182, "cumreturnsp500": 0.9388916773120652, "cumreturn1a": 0.006304147271524457, "cumreturn1b": 4.801397739935615}, {"Date": "2019-05-31T00:00:00", "pred": -1.0, "labelr1": -4.210526315789478, "cumreturn1": 0.9082424194604489, "cumreturndow": 0.9412839345034182, "cumreturnsp500": 0.9388916773120652, "cumreturn1a": 0.006304147271524457, "cumreturn1b": 4.884375968809494}, {"Date": "2019-05-31T00:00:00", "pred": 1.0, "labelr1": -7.2375085637074905, "cumreturn1": 0.8425082965727749, "cumreturndow": 0.9412839345034182, "cumreturnsp500": 0.9388916773120652, "cumreturn1a": 0.005874013259670369, "cumreturn1b": 4.801397739935615}, {"Date": "2019-05-31T00:00:00", "pred": 1.0, "labelr1": -7.2375085637074905, "cumreturn1": 0.8425082965727749, "cumreturndow": 0.9412839345034182, "cumreturnsp500": 0.9388916773120652, "cumreturn1a": 0.005874013259670369, "cumreturn1b": 4.884375968809494}, {"Date": "2019-05-31T00:00:00", "pred": 1.0, "labelr1": -7.2375085637074905, "cumreturn1": 0.8425082965727749, "cumreturndow": 0.9412839345034182, "cumreturnsp500": 0.9388916773120652, "cumreturn1a": 0.006304147271524457, "cumreturn1b": 4.801397739935615}, {"Date": "2019-05-31T00:00:00", "pred": 1.0, "labelr1": -7.2375085637074905, "cumreturn1": 0.8425082965727749, "cumreturndow": 0.9412839345034182, "cumreturnsp500": 0.9388916773120652, "cumreturn1a": 0.006304147271524457, "cumreturn1b": 4.884375968809494}]}}, {"mode": "vega-lite"});
+  })({"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "layer": [{"mark": {"type": "trail", "color": "steelblue"}, "encoding": {"size": {"type": "quantitative", "field": "cumreturn1b"}, "x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturn1b"}}, "height": 1000, "title": "10QPortfolio (blue) vs  Dow (black) vs SP500 (red)", "width": 1000}, {"mark": {"type": "circle", "color": "black", "size": 40}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturndow"}}, "height": 1000, "width": 1000}, {"mark": {"type": "tick", "color": "red"}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturnsp500"}}, "height": 1000, "width": 1000}], "data": {"name": "data-26190b8c8f32ad375027f690e9c15b4f"}, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-26190b8c8f32ad375027f690e9c15b4f": [{"Date": "2019-05-01T00:00:00", "pred": -1.0, "labelr1": 17.705728428404168, "cumreturn1b": 0.8229427157159583, "cumreturndow": 0.9978760145285372, "cumreturnsp500": 0.9953707562991826}, {"Date": "2019-05-01T00:00:00", "pred": 1.0, "labelr1": 5.227866474238409, "cumreturn1b": 0.86596506205306, "cumreturndow": 0.9978760145285372, "cumreturnsp500": 0.9953707562991826}, {"Date": "2019-05-02T00:00:00", "pred": -1.0, "labelr1": 26.363722412490244, "cumreturn1b": 0.6376644369042423, "cumreturndow": 1.0074938223262329, "cumreturnsp500": 1.002830427392022}, {"Date": "2019-05-02T00:00:00", "pred": 1.0, "labelr1": 14.350126347940115, "cumreturn1b": 0.7291700892758819, "cumreturndow": 1.0074938223262329, "cumreturnsp500": 1.002830427392022}, {"Date": "2019-05-03T00:00:00", "pred": -1.0, "labelr1": 9.51274926670439, "cumreturn1b": 0.6598059669552627, "cumreturndow": 1.0029893290624603, "cumreturnsp500": 1.0003155429295034}, {"Date": "2019-05-03T00:00:00", "pred": 1.0, "labelr1": 2.996851274050207, "cumreturn1b": 0.6795793704822208, "cumreturndow": 1.0029893290624603, "cumreturnsp500": 1.0003155429295034}, {"Date": "2019-05-06T00:00:00", "pred": -1.0, "labelr1": -4.606639928626922, "cumreturn1b": 0.7108851451095664, "cumreturndow": 0.9864283188695834, "cumreturnsp500": 0.982404528693271}, {"Date": "2019-05-06T00:00:00", "pred": 1.0, "labelr1": -0.0839278220730204, "cumreturn1b": 0.7102885146898353, "cumreturndow": 0.9864283188695834, "cumreturnsp500": 0.982404528693271}, {"Date": "2019-05-07T00:00:00", "pred": -1.0, "labelr1": -56.25843708083691, "cumreturn1b": 1.1098857318190274, "cumreturndow": 0.984844681860806, "cumreturnsp500": 0.9824892892714224}, {"Date": "2019-05-07T00:00:00", "pred": 1.0, "labelr1": -13.013818531398613, "cumreturn1b": 0.9654472167742136, "cumreturndow": 0.984844681860806, "cumreturnsp500": 0.9824892892714224}, {"Date": "2019-05-08T00:00:00", "pred": -1.0, "labelr1": 9.0101616139173, "cumreturn1b": 0.8784588622457905, "cumreturndow": 0.9818690476334619, "cumreturnsp500": 0.9772312505431476}, {"Date": "2019-05-08T00:00:00", "pred": 1.0, "labelr1": -0.3317600910369334, "cumreturn1b": 0.8755444863246818, "cumreturndow": 0.9818690476334619, "cumreturnsp500": 0.9772312505431476}, {"Date": "2019-05-09T00:00:00", "pred": -1.0, "labelr1": 0.46586699810483956, "cumreturn1b": 0.8714656135091686, "cumreturndow": 0.9855218921413533, "cumreturnsp500": 0.9815448774593873}, {"Date": "2019-05-09T00:00:00", "pred": 1.0, "labelr1": 6.315227561236138, "cumreturn1b": 0.9265006501201953, "cumreturndow": 0.9855218921413533, "cumreturnsp500": 0.9815448774593873}, {"Date": "2019-05-10T00:00:00", "pred": -1.0, "labelr1": -161.32116536641993, "cumreturn1b": 2.4211422960215514, "cumreturndow": 0.9617406998029282, "cumreturnsp500": 0.9581859814262719}, {"Date": "2019-05-10T00:00:00", "pred": 1.0, "labelr1": -12.575300566276642, "cumreturn1b": 2.1166763751595896, "cumreturndow": 0.9617406998029282, "cumreturnsp500": 0.9581859814262719}, {"Date": "2019-05-13T00:00:00", "pred": -1.0, "labelr1": -49.18700841081329, "cumreturn1b": 3.157806161839035, "cumreturndow": 0.9694499599446597, "cumreturnsp500": 0.9660202396671888}, {"Date": "2019-05-14T00:00:00", "pred": -1.0, "labelr1": 40.169145551702854, "cumreturn1b": 1.8893424084492716, "cumreturndow": 0.975110554155894, "cumreturnsp500": 0.9704079859015129}, {"Date": "2019-05-15T00:00:00", "pred": -1.0, "labelr1": -127.4384867381416, "cumreturn1b": 4.297091783078981, "cumreturndow": 0.983784442364955, "cumreturnsp500": 0.978529779880806}, {"Date": "2019-05-15T00:00:00", "pred": 1.0, "labelr1": -7.406299840510365, "cumreturn1b": 3.9788362812022187, "cumreturndow": 0.983784442364955, "cumreturnsp500": 0.978529779880806}, {"Date": "2019-05-16T00:00:00", "pred": -1.0, "labelr1": -7.3084834981208715, "cumreturn1b": 4.269628874231129, "cumreturndow": 0.9780417646502366, "cumreturnsp500": 0.9747961755311318}, {"Date": "2019-05-17T00:00:00", "pred": -1.0, "labelr1": -61.21004566210044, "cumreturn1b": 6.8830706577502285, "cumreturndow": 0.9714405911041077, "cumreturnsp500": 0.9716142170923465}, {"Date": "2019-05-20T00:00:00", "pred": -1.0, "labelr1": -0.7562062947460736, "cumreturn1b": 6.935120871335955, "cumreturndow": 0.9796937906694109, "cumreturnsp500": 0.9790840860499582}, {"Date": "2019-05-20T00:00:00", "pred": 1.0, "labelr1": 5.3846153846153895, "cumreturn1b": 7.308550456715583, "cumreturndow": 0.9796937906694109, "cumreturnsp500": 0.9790840860499582}, {"Date": "2019-05-21T00:00:00", "pred": -1.0, "labelr1": 43.99999999999999, "cumreturn1b": 4.092788255760727, "cumreturndow": 0.9769267475240654, "cumreturnsp500": 0.9752732586908057}, {"Date": "2019-05-22T00:00:00", "pred": -1.0, "labelr1": -4.751461988304096, "cumreturn1b": 4.287255533994972, "cumreturndow": 0.9652874955299398, "cumreturnsp500": 0.9644470328276961}, {"Date": "2019-05-23T00:00:00", "pred": -1.0, "labelr1": -2.426778242677817, "cumreturn1b": 4.391297718501962, "cumreturndow": 0.9665940693333112, "cumreturnsp500": 0.968049690541516}, {"Date": "2019-05-29T00:00:00", "pred": -1.0, "labelr1": 7.527855784038418, "cumreturn1b": 4.060727159205364, "cumreturndow": 0.9538706125659389, "cumreturnsp500": 0.9523173264992799}, {"Date": "2019-05-30T00:00:00", "pred": -1.0, "labelr1": -17.548456849529835, "cumreturn1b": 4.773322112515657, "cumreturndow": 0.9412839345034182, "cumreturnsp500": 0.9388916773120652}, {"Date": "2019-05-30T00:00:00", "pred": 1.0, "labelr1": 0.23919868440723066, "cumreturn1b": 4.784739836211314, "cumreturndow": 0.9412839345034182, "cumreturnsp500": 0.9388916773120652}, {"Date": "2019-05-31T00:00:00", "pred": -1.0, "labelr1": -0.3481464885140162, "cumreturn1b": 4.801397739935615, "cumreturndow": 0.9412839345034182, "cumreturnsp500": 0.9388916773120652}, {"Date": "2019-05-31T00:00:00", "pred": 1.0, "labelr1": 1.7282098540537114, "cumreturn1b": 4.884375968809494, "cumreturndow": 0.9412839345034182, "cumreturnsp500": 0.9388916773120652}]}}, {"mode": "vega-lite"});
 </script>
 </div>
 
@@ -465,11 +629,9 @@ window.onload = wrap_img;
       <th>Date</th>
       <th>pred</th>
       <th>labelr1</th>
-      <th>cumreturn1</th>
+      <th>cumreturn1b</th>
       <th>cumreturndow</th>
       <th>cumreturnsp500</th>
-      <th>cumreturn1a</th>
-      <th>cumreturn1b</th>
     </tr>
   </thead>
   <tbody>
@@ -477,67 +639,109 @@ window.onload = wrap_img;
       <th>0</th>
       <td>2019-05-01</td>
       <td>1.0</td>
-      <td>-9.509649</td>
-      <td>0.904904</td>
+      <td>5.227866</td>
+      <td>1.052279</td>
       <td>0.997876</td>
       <td>0.995371</td>
-      <td>1.324294</td>
-      <td>1.052279</td>
     </tr>
     <tr>
       <th>1</th>
       <td>2019-05-02</td>
       <td>1.0</td>
-      <td>1.012997</td>
-      <td>0.914070</td>
+      <td>14.350126</td>
+      <td>1.203282</td>
       <td>1.007494</td>
       <td>1.002830</td>
-      <td>2.267945</td>
-      <td>1.203282</td>
     </tr>
     <tr>
       <th>2</th>
       <td>2019-05-03</td>
       <td>1.0</td>
-      <td>-1.538462</td>
-      <td>0.900008</td>
+      <td>2.996851</td>
+      <td>1.239343</td>
       <td>1.002989</td>
       <td>1.000316</td>
-      <td>2.129634</td>
-      <td>1.239343</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>2019-05-10</td>
+      <td>2019-05-06</td>
       <td>1.0</td>
-      <td>-5.371194</td>
-      <td>0.851666</td>
-      <td>0.961741</td>
-      <td>0.958186</td>
-      <td>0.006497</td>
-      <td>0.997846</td>
+      <td>-0.083928</td>
+      <td>1.238302</td>
+      <td>0.986428</td>
+      <td>0.982405</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>2019-05-30</td>
+      <td>2019-05-07</td>
       <td>1.0</td>
-      <td>-6.708713</td>
-      <td>0.845439</td>
-      <td>0.941284</td>
-      <td>0.938892</td>
-      <td>0.002393</td>
-      <td>0.976022</td>
+      <td>-13.013819</td>
+      <td>1.077152</td>
+      <td>0.984845</td>
+      <td>0.982489</td>
     </tr>
     <tr>
       <th>5</th>
-      <td>2019-05-31</td>
+      <td>2019-05-08</td>
       <td>1.0</td>
-      <td>-7.237509</td>
-      <td>0.784250</td>
+      <td>-0.331760</td>
+      <td>1.073578</td>
+      <td>0.981869</td>
+      <td>0.977231</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>2019-05-09</td>
+      <td>1.0</td>
+      <td>6.315228</td>
+      <td>1.141377</td>
+      <td>0.985522</td>
+      <td>0.981545</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>2019-05-10</td>
+      <td>1.0</td>
+      <td>-12.575301</td>
+      <td>0.997846</td>
+      <td>0.961741</td>
+      <td>0.958186</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>2019-05-15</td>
+      <td>1.0</td>
+      <td>-7.406300</td>
+      <td>0.923942</td>
+      <td>0.983784</td>
+      <td>0.978530</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>2019-05-20</td>
+      <td>1.0</td>
+      <td>5.384615</td>
+      <td>0.973693</td>
+      <td>0.979694</td>
+      <td>0.979084</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>2019-05-30</td>
+      <td>1.0</td>
+      <td>0.239199</td>
+      <td>0.976022</td>
       <td>0.941284</td>
       <td>0.938892</td>
-      <td>0.002568</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>2019-05-31</td>
+      <td>1.0</td>
+      <td>1.728210</td>
       <td>0.992890</td>
+      <td>0.941284</td>
+      <td>0.938892</td>
     </tr>
   </tbody>
 </table>
@@ -564,12 +768,12 @@ window.onload = wrap_img;
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 
-<div id="altair-viz-673e9e700b7f44e0a53f504a6e88a916"></div>
+<div id="altair-viz-424a38afcba3492bbaa11607435c1e67"></div>
 <script type="text/javascript">
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-673e9e700b7f44e0a53f504a6e88a916") {
-      outputDiv = document.getElementById("altair-viz-673e9e700b7f44e0a53f504a6e88a916");
+    if (outputDiv.id !== "altair-viz-424a38afcba3492bbaa11607435c1e67") {
+      outputDiv = document.getElementById("altair-viz-424a38afcba3492bbaa11607435c1e67");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
@@ -611,7 +815,7 @@ window.onload = wrap_img;
         .catch(showError)
         .then(() => displayChart(vegaEmbed));
     }
-  })({"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "layer": [{"mark": {"type": "trail", "color": "steelblue"}, "encoding": {"size": {"type": "quantitative", "field": "cumreturn1"}, "x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturn1"}}, "height": 1000, "title": "10KPortfolio (blue) vs 8KPortfolio (brown) vs 10QPortfolio (yellow) vs  Dow (black) vs SP500 (red)", "width": 1000}, {"mark": {"type": "circle", "color": "black", "size": 40}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturndow"}}, "height": 1000, "width": 1000}, {"mark": {"type": "tick", "color": "red"}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturnsp500"}}, "height": 1000, "width": 1000}, {"mark": {"type": "line", "color": "brown"}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturn1a"}}, "height": 1000, "width": 1000}, {"mark": {"type": "line", "color": "yellow"}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturn1b"}}, "height": 1000, "width": 1000}], "data": {"name": "data-7ea8700985b21f5bcbaa6adbe11e3c2e"}, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-7ea8700985b21f5bcbaa6adbe11e3c2e": [{"Date": "2019-05-01T00:00:00", "pred": 1.0, "labelr1": -9.509649429196447, "cumreturn1": 0.9049035057080356, "cumreturndow": 0.9978760145285372, "cumreturnsp500": 0.9953707562991826, "cumreturn1a": 1.3242944946673765, "cumreturn1b": 1.052278664742384}, {"Date": "2019-05-02T00:00:00", "pred": 1.0, "labelr1": 1.0129969418960267, "cumreturn1": 0.9140701505479679, "cumreturndow": 1.0074938223262329, "cumreturnsp500": 1.002830427392022, "cumreturn1a": 2.2679445528417563, "cumreturn1b": 1.2032819826653334}, {"Date": "2019-05-03T00:00:00", "pred": 1.0, "labelr1": -1.53846153846154, "cumreturn1": 0.9000075328472299, "cumreturndow": 1.0029893290624603, "cumreturnsp500": 1.0003155429295034, "cumreturn1a": 2.129633626198309, "cumreturn1b": 1.2393425540932559}, {"Date": "2019-05-10T00:00:00", "pred": 1.0, "labelr1": -5.3711939787889165, "cumreturn1": 0.8516663824342928, "cumreturndow": 0.9617406998029282, "cumreturnsp500": 0.9581859814262719, "cumreturn1a": 0.0064973413455937865, "cumreturn1b": 0.9978457028082223}, {"Date": "2019-05-30T00:00:00", "pred": 1.0, "labelr1": -6.70871279143943, "cumreturn1": 0.8454388748699981, "cumreturndow": 0.9412839345034182, "cumreturnsp500": 0.9388916773120652, "cumreturn1a": 0.0023930915915058495, "cumreturn1b": 0.9760220559223066}, {"Date": "2019-05-31T00:00:00", "pred": 1.0, "labelr1": -7.2375085637074905, "cumreturn1": 0.7842501639003698, "cumreturndow": 0.9412839345034182, "cumreturnsp500": 0.9388916773120652, "cumreturn1a": 0.002568329549182244, "cumreturn1b": 0.9928897652704936}]}}, {"mode": "vega-lite"});
+  })({"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "layer": [{"mark": {"type": "trail", "color": "steelblue"}, "encoding": {"size": {"type": "quantitative", "field": "cumreturn1b"}, "x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturn1b"}}, "height": 1000, "title": "10QPortfolio (blue) vs  Dow (black) vs SP500 (red)", "width": 1000}, {"mark": {"type": "circle", "color": "black", "size": 40}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturndow"}}, "height": 1000, "width": 1000}, {"mark": {"type": "tick", "color": "red"}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturnsp500"}}, "height": 1000, "width": 1000}], "data": {"name": "data-91a7a81e6fc8744084ddd57461284149"}, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-91a7a81e6fc8744084ddd57461284149": [{"Date": "2019-05-01T00:00:00", "pred": 1.0, "labelr1": 5.227866474238409, "cumreturn1b": 1.052278664742384, "cumreturndow": 0.9978760145285372, "cumreturnsp500": 0.9953707562991826}, {"Date": "2019-05-02T00:00:00", "pred": 1.0, "labelr1": 14.350126347940115, "cumreturn1b": 1.2032819826653334, "cumreturndow": 1.0074938223262329, "cumreturnsp500": 1.002830427392022}, {"Date": "2019-05-03T00:00:00", "pred": 1.0, "labelr1": 2.996851274050207, "cumreturn1b": 1.2393425540932559, "cumreturndow": 1.0029893290624603, "cumreturnsp500": 1.0003155429295034}, {"Date": "2019-05-06T00:00:00", "pred": 1.0, "labelr1": -0.0839278220730204, "cumreturn1b": 1.2383024008795813, "cumreturndow": 0.9864283188695834, "cumreturnsp500": 0.982404528693271}, {"Date": "2019-05-07T00:00:00", "pred": 1.0, "labelr1": -13.013818531398613, "cumreturn1b": 1.0771519735591604, "cumreturndow": 0.984844681860806, "cumreturnsp500": 0.9824892892714224}, {"Date": "2019-05-08T00:00:00", "pred": 1.0, "labelr1": -0.3317600910369334, "cumreturn1b": 1.0735784131910744, "cumreturndow": 0.9818690476334619, "cumreturnsp500": 0.9772312505431476}, {"Date": "2019-05-09T00:00:00", "pred": 1.0, "labelr1": 6.315227561236138, "cumreturn1b": 1.1413773330323989, "cumreturndow": 0.9855218921413533, "cumreturnsp500": 0.9815448774593873}, {"Date": "2019-05-10T00:00:00", "pred": 1.0, "labelr1": -12.575300566276642, "cumreturn1b": 0.9978457028082223, "cumreturndow": 0.9617406998029282, "cumreturnsp500": 0.9581859814262719}, {"Date": "2019-05-15T00:00:00", "pred": 1.0, "labelr1": -7.406299840510365, "cumreturn1b": 0.9239422581125973, "cumreturndow": 0.983784442364955, "cumreturnsp500": 0.978529779880806}, {"Date": "2019-05-20T00:00:00", "pred": 1.0, "labelr1": 5.3846153846153895, "cumreturn1b": 0.9736929950878911, "cumreturndow": 0.9796937906694109, "cumreturnsp500": 0.9790840860499582}, {"Date": "2019-05-30T00:00:00", "pred": 1.0, "labelr1": 0.23919868440723066, "cumreturn1b": 0.9760220559223066, "cumreturndow": 0.9412839345034182, "cumreturnsp500": 0.9388916773120652}, {"Date": "2019-05-31T00:00:00", "pred": 1.0, "labelr1": 1.7282098540537114, "cumreturn1b": 0.9928897652704936, "cumreturndow": 0.9412839345034182, "cumreturnsp500": 0.9388916773120652}]}}, {"mode": "vega-lite"});
 </script>
 </div>
 
@@ -662,167 +866,191 @@ window.onload = wrap_img;
       <th>Date</th>
       <th>pred</th>
       <th>labelr1</th>
-      <th>cumreturn1</th>
+      <th>cumreturn1b</th>
       <th>cumreturndow</th>
       <th>cumreturnsp500</th>
-      <th>cumreturn1a</th>
-      <th>cumreturn1b</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <th>0</th>
-      <td>2019-05-06</td>
+      <td>2019-05-01</td>
       <td>-1.0</td>
-      <td>-1.204819</td>
-      <td>1.012048</td>
-      <td>0.983488</td>
-      <td>0.982095</td>
-      <td>0.153833</td>
-      <td>0.573599</td>
+      <td>17.705728</td>
+      <td>0.822943</td>
+      <td>0.997876</td>
+      <td>0.995371</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>2019-05-07</td>
+      <td>2019-05-02</td>
       <td>-1.0</td>
-      <td>-4.385965</td>
-      <td>1.056436</td>
-      <td>0.981909</td>
-      <td>0.982179</td>
-      <td>0.289610</td>
-      <td>0.896296</td>
+      <td>26.363722</td>
+      <td>0.605984</td>
+      <td>1.007494</td>
+      <td>1.002830</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>2019-05-08</td>
+      <td>2019-05-03</td>
       <td>-1.0</td>
-      <td>-18.242583</td>
-      <td>1.249158</td>
-      <td>0.978943</td>
-      <td>0.976923</td>
-      <td>0.622507</td>
-      <td>0.815538</td>
+      <td>9.512749</td>
+      <td>0.548339</td>
+      <td>1.002989</td>
+      <td>1.000316</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>2019-05-09</td>
+      <td>2019-05-06</td>
       <td>-1.0</td>
-      <td>-0.276284</td>
-      <td>1.252609</td>
-      <td>0.982585</td>
-      <td>0.981235</td>
-      <td>1.165813</td>
-      <td>0.811739</td>
+      <td>-4.606640</td>
+      <td>0.573599</td>
+      <td>0.986428</td>
+      <td>0.982405</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>2019-05-10</td>
+      <td>2019-05-07</td>
       <td>-1.0</td>
-      <td>24.489796</td>
-      <td>0.945847</td>
-      <td>0.958874</td>
-      <td>0.957884</td>
-      <td>2.021588</td>
-      <td>2.121246</td>
+      <td>-56.258437</td>
+      <td>0.896296</td>
+      <td>0.984845</td>
+      <td>0.982489</td>
     </tr>
     <tr>
       <th>5</th>
-      <td>2019-05-13</td>
+      <td>2019-05-08</td>
       <td>-1.0</td>
-      <td>-5.432742</td>
-      <td>0.997233</td>
-      <td>0.966561</td>
-      <td>0.965716</td>
-      <td>1.053807</td>
-      <td>3.164624</td>
+      <td>9.010162</td>
+      <td>0.815538</td>
+      <td>0.981869</td>
+      <td>0.977231</td>
     </tr>
     <tr>
       <th>6</th>
-      <td>2019-05-15</td>
+      <td>2019-05-09</td>
       <td>-1.0</td>
-      <td>-0.577943</td>
-      <td>1.002996</td>
-      <td>0.980852</td>
-      <td>0.978221</td>
-      <td>0.975585</td>
-      <td>4.306369</td>
+      <td>0.465867</td>
+      <td>0.811739</td>
+      <td>0.985522</td>
+      <td>0.981545</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>2019-05-16</td>
+      <td>2019-05-10</td>
       <td>-1.0</td>
-      <td>0.000000</td>
-      <td>1.002996</td>
-      <td>0.975127</td>
-      <td>0.974489</td>
-      <td>1.099907</td>
-      <td>4.621099</td>
+      <td>-161.321165</td>
+      <td>2.121246</td>
+      <td>0.961741</td>
+      <td>0.958186</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>2019-05-17</td>
+      <td>2019-05-13</td>
       <td>-1.0</td>
-      <td>-3.571470</td>
-      <td>1.038818</td>
-      <td>0.968545</td>
-      <td>0.971308</td>
-      <td>1.176605</td>
-      <td>7.449676</td>
+      <td>-49.187008</td>
+      <td>3.164624</td>
+      <td>0.969450</td>
+      <td>0.966020</td>
     </tr>
     <tr>
       <th>9</th>
-      <td>2019-05-20</td>
+      <td>2019-05-14</td>
       <td>-1.0</td>
-      <td>-3.146453</td>
-      <td>1.071504</td>
-      <td>0.976774</td>
-      <td>0.978775</td>
-      <td>0.436938</td>
-      <td>7.506011</td>
+      <td>40.169146</td>
+      <td>1.893421</td>
+      <td>0.975111</td>
+      <td>0.970408</td>
     </tr>
     <tr>
       <th>10</th>
-      <td>2019-05-23</td>
+      <td>2019-05-15</td>
       <td>-1.0</td>
-      <td>3.710980</td>
-      <td>1.031741</td>
-      <td>0.963713</td>
-      <td>0.967744</td>
-      <td>0.891421</td>
-      <td>4.509941</td>
+      <td>-127.438487</td>
+      <td>4.306369</td>
+      <td>0.983784</td>
+      <td>0.978530</td>
     </tr>
     <tr>
       <th>11</th>
-      <td>2019-05-29</td>
+      <td>2019-05-16</td>
       <td>-1.0</td>
-      <td>4.517266</td>
-      <td>0.981029</td>
-      <td>0.951028</td>
-      <td>0.952017</td>
-      <td>0.805310</td>
-      <td>4.170439</td>
+      <td>-7.308483</td>
+      <td>4.621099</td>
+      <td>0.978042</td>
+      <td>0.974796</td>
     </tr>
     <tr>
       <th>12</th>
-      <td>2019-05-30</td>
+      <td>2019-05-17</td>
       <td>-1.0</td>
-      <td>-5.081419</td>
-      <td>1.030880</td>
-      <td>0.938479</td>
-      <td>0.938596</td>
-      <td>1.585749</td>
-      <td>4.902287</td>
+      <td>-61.210046</td>
+      <td>7.449676</td>
+      <td>0.971441</td>
+      <td>0.971614</td>
     </tr>
     <tr>
       <th>13</th>
+      <td>2019-05-20</td>
+      <td>-1.0</td>
+      <td>-0.756206</td>
+      <td>7.506011</td>
+      <td>0.979694</td>
+      <td>0.979084</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>2019-05-21</td>
+      <td>-1.0</td>
+      <td>44.000000</td>
+      <td>4.203366</td>
+      <td>0.976927</td>
+      <td>0.975273</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>2019-05-22</td>
+      <td>-1.0</td>
+      <td>-4.751462</td>
+      <td>4.403088</td>
+      <td>0.965287</td>
+      <td>0.964447</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>2019-05-23</td>
+      <td>-1.0</td>
+      <td>-2.426778</td>
+      <td>4.509941</td>
+      <td>0.966594</td>
+      <td>0.968050</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>2019-05-29</td>
+      <td>-1.0</td>
+      <td>7.527856</td>
+      <td>4.170439</td>
+      <td>0.953871</td>
+      <td>0.952317</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>2019-05-30</td>
+      <td>-1.0</td>
+      <td>-17.548457</td>
+      <td>4.902287</td>
+      <td>0.941284</td>
+      <td>0.938892</td>
+    </tr>
+    <tr>
+      <th>19</th>
       <td>2019-05-31</td>
       <td>-1.0</td>
-      <td>-4.210526</td>
-      <td>1.074285</td>
-      <td>0.938479</td>
-      <td>0.938596</td>
-      <td>2.454571</td>
+      <td>-0.348146</td>
       <td>4.919354</td>
+      <td>0.941284</td>
+      <td>0.938892</td>
     </tr>
   </tbody>
 </table>
@@ -849,12 +1077,12 @@ window.onload = wrap_img;
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 
-<div id="altair-viz-e8128280ee5b466ea52fdc62f2da8206"></div>
+<div id="altair-viz-317f1437d29040e7ae92758c5631d459"></div>
 <script type="text/javascript">
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-e8128280ee5b466ea52fdc62f2da8206") {
-      outputDiv = document.getElementById("altair-viz-e8128280ee5b466ea52fdc62f2da8206");
+    if (outputDiv.id !== "altair-viz-317f1437d29040e7ae92758c5631d459") {
+      outputDiv = document.getElementById("altair-viz-317f1437d29040e7ae92758c5631d459");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
@@ -896,7 +1124,7 @@ window.onload = wrap_img;
         .catch(showError)
         .then(() => displayChart(vegaEmbed));
     }
-  })({"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "layer": [{"mark": {"type": "trail", "color": "steelblue"}, "encoding": {"size": {"type": "quantitative", "field": "cumreturn1"}, "x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturn1"}}, "height": 1000, "title": "10KPortfolio (blue) vs 8KPortfolio (brown) vs 10QPortfolio (yellow) vs  Dow (black) vs SP500 (red)", "width": 1000}, {"mark": {"type": "circle", "color": "black", "size": 40}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturndow"}}, "height": 1000, "width": 1000}, {"mark": {"type": "tick", "color": "red"}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturnsp500"}}, "height": 1000, "width": 1000}, {"mark": {"type": "line", "color": "brown"}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturn1a"}}, "height": 1000, "width": 1000}, {"mark": {"type": "line", "color": "yellow"}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturn1b"}}, "height": 1000, "width": 1000}], "data": {"name": "data-1e08062f101b8429b0086f736534f8b5"}, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-1e08062f101b8429b0086f736534f8b5": [{"Date": "2019-05-06T00:00:00", "pred": -1.0, "labelr1": -1.2048192771084436, "cumreturn1": 1.0120481927710845, "cumreturndow": 0.983488348566622, "cumreturnsp500": 0.9820946356748805, "cumreturn1a": 0.15383285376233202, "cumreturn1b": 0.5735985928681949}, {"Date": "2019-05-07T00:00:00", "pred": -1.0, "labelr1": -4.385964912280699, "cumreturn1": 1.056436271401395, "cumreturndow": 0.9819094314606368, "cumreturnsp500": 0.9821793695158676, "cumreturn1a": 0.2896103559496087, "cumreturn1b": 0.8962961963335142}, {"Date": "2019-05-08T00:00:00", "pred": -1.0, "labelr1": -18.242583435466475, "cumreturn1": 1.2491575396543255, "cumreturndow": 0.9789426658718887, "cumreturnsp500": 0.9769229894011727, "cumreturn1a": 0.6225071679424181, "cumreturn1b": 0.8155384605044711}, {"Date": "2019-05-09T00:00:00", "pred": -1.0, "labelr1": -0.2762836904446949, "cumreturn1": 1.2526087582043508, "cumreturndow": 0.9825846233703855, "cumreturnsp500": 0.9812352556122994, "cumreturn1a": 1.165812560081817, "cumreturn1b": 0.8117391359601285}, {"Date": "2019-05-10T00:00:00", "pred": -1.0, "labelr1": 24.48979591836734, "cumreturn1": 0.9458474296645099, "cumreturndow": 0.9588743089638958, "cumreturnsp500": 0.9578837279886186, "cumreturn1a": 2.021587518203781, "cumreturn1b": 2.121246169826316}, {"Date": "2019-05-13T00:00:00", "pred": -1.0, "labelr1": -5.432742389984213, "cumreturn1": 0.9972328839204698, "cumreturndow": 0.9665605922755415, "cumreturnsp500": 0.9657155149645299, "cumreturn1a": 1.0538071933278215, "cumreturn1b": 3.1646237017928405}, {"Date": "2019-05-15T00:00:00", "pred": -1.0, "labelr1": -0.5779431557279741, "cumreturn1": 1.0029963231197567, "cumreturndow": 0.9808523519233678, "cumreturnsp500": 0.9782211091263302, "cumreturn1a": 0.9755849958014591, "cumreturn1b": 4.30636898168298}, {"Date": "2019-05-16T00:00:00", "pred": -1.0, "labelr1": 0.0, "cumreturn1": 1.0029963231197567, "cumreturndow": 0.97512678979791, "cumreturnsp500": 0.9744886825174823, "cumreturn1a": 1.0999065968425952, "cumreturn1b": 4.621099248077477}, {"Date": "2019-05-17T00:00:00", "pred": -1.0, "labelr1": -3.5714695862433623, "cumreturn1": 1.0388180317511182, "cumreturndow": 0.9685452905188505, "cumreturnsp500": 0.9713077278064651, "cumreturn1a": 1.1766046402162305, "cumreturn1b": 7.4496762079166805}, {"Date": "2019-05-20T00:00:00", "pred": -1.0, "labelr1": -3.1464530892448552, "cumreturn1": 1.071503953802784, "cumreturndow": 0.9767738920863446, "cumreturnsp500": 0.9787752404432634, "cumreturn1a": 0.4369379398095198, "cumreturn1b": 7.506011128339146}, {"Date": "2019-05-23T00:00:00", "pred": -1.0, "labelr1": 3.7109796516109252, "cumreturn1": 1.0317406601109562, "cumreturndow": 0.9637132134165679, "cumreturnsp500": 0.9677443256619862, "cumreturn1a": 0.8914207220147546, "cumreturn1b": 4.509940752018637}, {"Date": "2019-05-29T00:00:00", "pred": -1.0, "labelr1": 4.517266169974403, "cumreturn1": 0.9810294625252689, "cumreturndow": 0.9510276778892204, "cumreturnsp500": 0.9520169242900525, "cumreturn1a": 0.8053100597554315, "cumreturn1b": 4.170438916261096}, {"Date": "2019-05-30T00:00:00", "pred": -1.0, "labelr1": -5.081418908043808, "cumreturn1": 1.0308796791275086, "cumreturndow": 0.9384785134087906, "cumreturnsp500": 0.9385955101351783, "cumreturn1a": 1.5857492192827851, "cumreturn1b": 4.902286589917175}, {"Date": "2019-05-31T00:00:00", "pred": -1.0, "labelr1": -4.210526315789478, "cumreturn1": 1.0742851393012984, "cumreturndow": 0.9384785134087906, "cumreturnsp500": 0.9385955101351783, "cumreturn1a": 2.454571016220135, "cumreturn1b": 4.919353728536866}]}}, {"mode": "vega-lite"});
+  })({"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "layer": [{"mark": {"type": "trail", "color": "steelblue"}, "encoding": {"size": {"type": "quantitative", "field": "cumreturn1b"}, "x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturn1b"}}, "height": 1000, "title": "10QPortfolio (blue) vs  Dow (black) vs SP500 (red)", "width": 1000}, {"mark": {"type": "circle", "color": "black", "size": 40}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturndow"}}, "height": 1000, "width": 1000}, {"mark": {"type": "tick", "color": "red"}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturnsp500"}}, "height": 1000, "width": 1000}], "data": {"name": "data-39e41925a30dc6b7070ef777f4d4d5be"}, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-39e41925a30dc6b7070ef777f4d4d5be": [{"Date": "2019-05-01T00:00:00", "pred": -1.0, "labelr1": 17.705728428404168, "cumreturn1b": 0.8229427157159583, "cumreturndow": 0.9978760145285372, "cumreturnsp500": 0.9953707562991826}, {"Date": "2019-05-02T00:00:00", "pred": -1.0, "labelr1": 26.363722412490244, "cumreturn1b": 0.6059843825307943, "cumreturndow": 1.0074938223262329, "cumreturnsp500": 1.002830427392022}, {"Date": "2019-05-03T00:00:00", "pred": -1.0, "labelr1": 9.51274926670439, "cumreturn1b": 0.5483386076252531, "cumreturndow": 1.0029893290624603, "cumreturnsp500": 1.0003155429295034}, {"Date": "2019-05-06T00:00:00", "pred": -1.0, "labelr1": -4.606639928626922, "cumreturn1b": 0.5735985928681949, "cumreturndow": 0.9864283188695834, "cumreturnsp500": 0.982404528693271}, {"Date": "2019-05-07T00:00:00", "pred": -1.0, "labelr1": -56.25843708083691, "cumreturn1b": 0.8962961963335142, "cumreturndow": 0.984844681860806, "cumreturnsp500": 0.9824892892714224}, {"Date": "2019-05-08T00:00:00", "pred": -1.0, "labelr1": 9.0101616139173, "cumreturn1b": 0.8155384605044711, "cumreturndow": 0.9818690476334619, "cumreturnsp500": 0.9772312505431476}, {"Date": "2019-05-09T00:00:00", "pred": -1.0, "labelr1": 0.46586699810483956, "cumreturn1b": 0.8117391359601285, "cumreturndow": 0.9855218921413533, "cumreturnsp500": 0.9815448774593873}, {"Date": "2019-05-10T00:00:00", "pred": -1.0, "labelr1": -161.32116536641993, "cumreturn1b": 2.121246169826316, "cumreturndow": 0.9617406998029282, "cumreturnsp500": 0.9581859814262719}, {"Date": "2019-05-13T00:00:00", "pred": -1.0, "labelr1": -49.18700841081329, "cumreturn1b": 3.1646237017928405, "cumreturndow": 0.9694499599446597, "cumreturnsp500": 0.9660202396671888}, {"Date": "2019-05-14T00:00:00", "pred": -1.0, "labelr1": 40.169145551702854, "cumreturn1b": 1.8934214008559875, "cumreturndow": 0.975110554155894, "cumreturnsp500": 0.9704079859015129}, {"Date": "2019-05-15T00:00:00", "pred": -1.0, "labelr1": -127.4384867381416, "cumreturn1b": 4.30636898168298, "cumreturndow": 0.983784442364955, "cumreturnsp500": 0.978529779880806}, {"Date": "2019-05-16T00:00:00", "pred": -1.0, "labelr1": -7.3084834981208715, "cumreturn1b": 4.621099248077477, "cumreturndow": 0.9780417646502366, "cumreturnsp500": 0.9747961755311318}, {"Date": "2019-05-17T00:00:00", "pred": -1.0, "labelr1": -61.21004566210044, "cumreturn1b": 7.4496762079166805, "cumreturndow": 0.9714405911041077, "cumreturnsp500": 0.9716142170923465}, {"Date": "2019-05-20T00:00:00", "pred": -1.0, "labelr1": -0.7562062947460736, "cumreturn1b": 7.506011128339146, "cumreturndow": 0.9796937906694109, "cumreturnsp500": 0.9790840860499582}, {"Date": "2019-05-21T00:00:00", "pred": -1.0, "labelr1": 43.99999999999999, "cumreturn1b": 4.203366231869922, "cumreturndow": 0.9769267475240654, "cumreturnsp500": 0.9752732586908057}, {"Date": "2019-05-22T00:00:00", "pred": -1.0, "labelr1": -4.751461988304096, "cumreturn1b": 4.403087580606432, "cumreturndow": 0.9652874955299398, "cumreturnsp500": 0.9644470328276961}, {"Date": "2019-05-23T00:00:00", "pred": -1.0, "labelr1": -2.426778242677817, "cumreturn1b": 4.509940752018637, "cumreturndow": 0.9665940693333112, "cumreturnsp500": 0.968049690541516}, {"Date": "2019-05-29T00:00:00", "pred": -1.0, "labelr1": 7.527855784038418, "cumreturn1b": 4.170438916261096, "cumreturndow": 0.9538706125659389, "cumreturnsp500": 0.9523173264992799}, {"Date": "2019-05-30T00:00:00", "pred": -1.0, "labelr1": -17.548456849529835, "cumreturn1b": 4.902286589917175, "cumreturndow": 0.9412839345034182, "cumreturnsp500": 0.9388916773120652}, {"Date": "2019-05-31T00:00:00", "pred": -1.0, "labelr1": -0.3481464885140162, "cumreturn1b": 4.919353728536866, "cumreturndow": 0.9412839345034182, "cumreturnsp500": 0.9388916773120652}]}}, {"mode": "vega-lite"});
 </script>
 </div>
 

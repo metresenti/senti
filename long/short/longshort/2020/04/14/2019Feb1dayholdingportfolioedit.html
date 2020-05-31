@@ -212,11 +212,9 @@ window.onload = wrap_img;
       <th>Date</th>
       <th>pred</th>
       <th>labelr1</th>
-      <th>cumreturn1</th>
+      <th>cumreturn1b</th>
       <th>cumreturndow</th>
       <th>cumreturnsp500</th>
-      <th>cumreturn1a</th>
-      <th>cumreturn1b</th>
     </tr>
   </thead>
   <tbody>
@@ -224,126 +222,175 @@ window.onload = wrap_img;
       <th>0</th>
       <td>2019-02-01</td>
       <td>-1.0</td>
-      <td>0.435363</td>
-      <td>0.995646</td>
+      <td>5.594292</td>
+      <td>0.944057</td>
       <td>1.006776</td>
       <td>1.007001</td>
-      <td>0.372624</td>
-      <td>0.944057</td>
     </tr>
     <tr>
       <th>1</th>
       <td>2019-02-01</td>
-      <td>-1.0</td>
-      <td>0.435363</td>
-      <td>0.995646</td>
+      <td>1.0</td>
+      <td>6.560065</td>
+      <td>1.005988</td>
       <td>1.006776</td>
       <td>1.007001</td>
-      <td>0.372624</td>
-      <td>1.005988</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>2019-02-01</td>
+      <td>2019-02-04</td>
       <td>-1.0</td>
-      <td>0.435363</td>
-      <td>0.995646</td>
-      <td>1.006776</td>
-      <td>1.007001</td>
-      <td>0.513909</td>
-      <td>0.944057</td>
+      <td>-7.927528</td>
+      <td>1.085738</td>
+      <td>1.011517</td>
+      <td>1.013870</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>2019-02-01</td>
+      <td>2019-02-05</td>
       <td>-1.0</td>
-      <td>0.435363</td>
-      <td>0.995646</td>
-      <td>1.006776</td>
-      <td>1.007001</td>
-      <td>0.513909</td>
-      <td>1.005988</td>
+      <td>8.623440</td>
+      <td>0.992110</td>
+      <td>1.009267</td>
+      <td>1.013023</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>2019-02-01</td>
+      <td>2019-02-05</td>
       <td>1.0</td>
-      <td>-0.321543</td>
-      <td>0.992445</td>
-      <td>1.006776</td>
-      <td>1.007001</td>
-      <td>0.372624</td>
-      <td>0.944057</td>
+      <td>0.000000</td>
+      <td>0.992110</td>
+      <td>1.009267</td>
+      <td>1.013023</td>
     </tr>
     <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
+      <th>5</th>
+      <td>2019-02-06</td>
+      <td>-1.0</td>
+      <td>-7.280614</td>
+      <td>1.064342</td>
+      <td>0.999823</td>
+      <td>1.004215</td>
     </tr>
     <tr>
-      <th>69</th>
+      <th>6</th>
+      <td>2019-02-06</td>
+      <td>1.0</td>
+      <td>-1.705834</td>
+      <td>1.046186</td>
+      <td>0.999823</td>
+      <td>1.004215</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>2019-02-07</td>
+      <td>-1.0</td>
+      <td>-2.970006</td>
+      <td>1.077257</td>
+      <td>1.000499</td>
+      <td>1.001693</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>2019-02-08</td>
+      <td>-1.0</td>
+      <td>2.859751</td>
+      <td>1.046451</td>
+      <td>1.001208</td>
+      <td>0.999570</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>2019-02-08</td>
+      <td>1.0</td>
+      <td>0.686813</td>
+      <td>1.053638</td>
+      <td>1.001208</td>
+      <td>0.999570</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>2019-02-11</td>
+      <td>-1.0</td>
+      <td>-19.300043</td>
+      <td>1.256990</td>
+      <td>1.014114</td>
+      <td>1.014438</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>2019-02-11</td>
+      <td>1.0</td>
+      <td>-1.810104</td>
+      <td>1.234237</td>
+      <td>1.014114</td>
+      <td>1.014438</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>2019-02-12</td>
+      <td>-1.0</td>
+      <td>13.695996</td>
+      <td>1.065196</td>
+      <td>1.017181</td>
+      <td>1.019126</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>2019-02-13</td>
+      <td>-1.0</td>
+      <td>-9.334262</td>
+      <td>1.164625</td>
+      <td>1.014483</td>
+      <td>1.014982</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>2019-02-14</td>
+      <td>-1.0</td>
+      <td>53.538349</td>
+      <td>0.541104</td>
+      <td>1.025520</td>
+      <td>1.032691</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>2019-02-19</td>
+      <td>-1.0</td>
+      <td>23.628207</td>
+      <td>0.413251</td>
+      <td>1.028882</td>
+      <td>1.035531</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>2019-02-21</td>
+      <td>-1.0</td>
+      <td>1.833007</td>
+      <td>0.405676</td>
+      <td>1.031827</td>
+      <td>1.038618</td>
+    </tr>
+    <tr>
+      <th>17</th>
       <td>2019-02-22</td>
-      <td>1.0</td>
-      <td>-19.266759</td>
-      <td>0.216518</td>
+      <td>-1.0</td>
+      <td>-1.084337</td>
+      <td>0.410075</td>
       <td>1.033098</td>
       <td>1.041018</td>
-      <td>-0.012415</td>
-      <td>0.410075</td>
     </tr>
     <tr>
-      <th>70</th>
+      <th>18</th>
       <td>2019-02-28</td>
       <td>-1.0</td>
-      <td>134.857021</td>
-      <td>-0.062540</td>
+      <td>-0.460201</td>
+      <td>0.411962</td>
       <td>1.028804</td>
       <td>1.033997</td>
-      <td>-0.003119</td>
-      <td>0.411962</td>
-    </tr>
-    <tr>
-      <th>71</th>
-      <td>2019-02-28</td>
-      <td>-1.0</td>
-      <td>134.857021</td>
-      <td>-0.062540</td>
-      <td>1.028804</td>
-      <td>1.033997</td>
-      <td>-0.003787</td>
-      <td>0.411962</td>
-    </tr>
-    <tr>
-      <th>72</th>
-      <td>2019-02-28</td>
-      <td>1.0</td>
-      <td>147.216914</td>
-      <td>-0.154610</td>
-      <td>1.028804</td>
-      <td>1.033997</td>
-      <td>-0.003119</td>
-      <td>0.411962</td>
-    </tr>
-    <tr>
-      <th>73</th>
-      <td>2019-02-28</td>
-      <td>1.0</td>
-      <td>147.216914</td>
-      <td>-0.154610</td>
-      <td>1.028804</td>
-      <td>1.033997</td>
-      <td>-0.003787</td>
-      <td>0.411962</td>
     </tr>
   </tbody>
 </table>
-<p>74 rows × 8 columns</p>
 </div>
 </div>
 
@@ -367,12 +414,12 @@ window.onload = wrap_img;
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 
-<div id="altair-viz-4e900f614f194dd687275c07c0830a35"></div>
+<div id="altair-viz-2a72012569f842e69d7b57368a463cd8"></div>
 <script type="text/javascript">
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-4e900f614f194dd687275c07c0830a35") {
-      outputDiv = document.getElementById("altair-viz-4e900f614f194dd687275c07c0830a35");
+    if (outputDiv.id !== "altair-viz-2a72012569f842e69d7b57368a463cd8") {
+      outputDiv = document.getElementById("altair-viz-2a72012569f842e69d7b57368a463cd8");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
@@ -414,7 +461,7 @@ window.onload = wrap_img;
         .catch(showError)
         .then(() => displayChart(vegaEmbed));
     }
-  })({"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "layer": [{"mark": {"type": "trail", "color": "steelblue"}, "encoding": {"size": {"type": "quantitative", "field": "cumreturn1"}, "x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturn1"}}, "height": 1000, "title": "10KPortfolio (blue) vs 8KPortfolio (brown) vs 10QPortfolio (yellow) vs  Dow (black) vs SP500 (red)", "width": 1000}, {"mark": {"type": "circle", "color": "black", "size": 40}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturndow"}}, "height": 1000, "width": 1000}, {"mark": {"type": "tick", "color": "red"}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturnsp500"}}, "height": 1000, "width": 1000}, {"mark": {"type": "line", "color": "brown"}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturn1a"}}, "height": 1000, "width": 1000}, {"mark": {"type": "line", "color": "yellow"}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturn1b"}}, "height": 1000, "width": 1000}], "data": {"name": "data-68c8e2f40696473646bd8a20d420f404"}, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-68c8e2f40696473646bd8a20d420f404": [{"Date": "2019-02-01T00:00:00", "pred": -1.0, "labelr1": 0.4353627715636734, "cumreturn1": 0.9956463722843633, "cumreturndow": 1.0067762366585589, "cumreturnsp500": 1.0070012480753874, "cumreturn1a": 0.3726236518375675, "cumreturn1b": 0.9440570821491728}, {"Date": "2019-02-01T00:00:00", "pred": -1.0, "labelr1": 0.4353627715636734, "cumreturn1": 0.9956463722843633, "cumreturndow": 1.0067762366585589, "cumreturnsp500": 1.0070012480753874, "cumreturn1a": 0.3726236518375675, "cumreturn1b": 1.0059878429268712}, {"Date": "2019-02-01T00:00:00", "pred": -1.0, "labelr1": 0.4353627715636734, "cumreturn1": 0.9956463722843633, "cumreturndow": 1.0067762366585589, "cumreturnsp500": 1.0070012480753874, "cumreturn1a": 0.5139091682069856, "cumreturn1b": 0.9440570821491728}, {"Date": "2019-02-01T00:00:00", "pred": -1.0, "labelr1": 0.4353627715636734, "cumreturn1": 0.9956463722843633, "cumreturndow": 1.0067762366585589, "cumreturnsp500": 1.0070012480753874, "cumreturn1a": 0.5139091682069856, "cumreturn1b": 1.0059878429268712}, {"Date": "2019-02-01T00:00:00", "pred": 1.0, "labelr1": -0.3215434083601217, "cumreturn1": 0.9924449370037062, "cumreturndow": 1.0067762366585589, "cumreturnsp500": 1.0070012480753874, "cumreturn1a": 0.3726236518375675, "cumreturn1b": 0.9440570821491728}, {"Date": "2019-02-01T00:00:00", "pred": 1.0, "labelr1": -0.3215434083601217, "cumreturn1": 0.9924449370037062, "cumreturndow": 1.0067762366585589, "cumreturnsp500": 1.0070012480753874, "cumreturn1a": 0.3726236518375675, "cumreturn1b": 1.0059878429268712}, {"Date": "2019-02-01T00:00:00", "pred": 1.0, "labelr1": -0.3215434083601217, "cumreturn1": 0.9924449370037062, "cumreturndow": 1.0067762366585589, "cumreturnsp500": 1.0070012480753874, "cumreturn1a": 0.5139091682069856, "cumreturn1b": 0.9440570821491728}, {"Date": "2019-02-01T00:00:00", "pred": 1.0, "labelr1": -0.3215434083601217, "cumreturn1": 0.9924449370037062, "cumreturndow": 1.0067762366585589, "cumreturnsp500": 1.0070012480753874, "cumreturn1a": 0.5139091682069856, "cumreturn1b": 1.0059878429268712}, {"Date": "2019-02-04T00:00:00", "pred": 1.0, "labelr1": 1.6530797552914955, "cumreturn1": 1.0088508433397299, "cumreturndow": 1.011516562412395, "cumreturnsp500": 1.0138697104612029, "cumreturn1a": 0.28530344005707553, "cumreturn1b": 1.0857378133849906}, {"Date": "2019-02-04T00:00:00", "pred": 1.0, "labelr1": 1.6530797552914955, "cumreturn1": 1.0088508433397299, "cumreturndow": 1.011516562412395, "cumreturnsp500": 1.0138697104612029, "cumreturn1a": 0.2515530068382254, "cumreturn1b": 1.0857378133849906}, {"Date": "2019-02-05T00:00:00", "pred": -1.0, "labelr1": 0.3075743824020305, "cumreturn1": 1.00574787658897, "cumreturndow": 1.009266506460771, "cumreturnsp500": 1.0130231240186802, "cumreturn1a": 0.19526271196994743, "cumreturn1b": 0.9921098626581308}, {"Date": "2019-02-05T00:00:00", "pred": -1.0, "labelr1": 0.3075743824020305, "cumreturn1": 1.00574787658897, "cumreturndow": 1.009266506460771, "cumreturnsp500": 1.0130231240186802, "cumreturn1a": 0.19526271196994743, "cumreturn1b": 0.9921098626581308}, {"Date": "2019-02-05T00:00:00", "pred": -1.0, "labelr1": 0.3075743824020305, "cumreturn1": 1.00574787658897, "cumreturndow": 1.009266506460771, "cumreturnsp500": 1.0130231240186802, "cumreturn1a": 0.23670677979068414, "cumreturn1b": 0.9921098626581308}, {"Date": "2019-02-05T00:00:00", "pred": -1.0, "labelr1": 0.3075743824020305, "cumreturn1": 1.00574787658897, "cumreturndow": 1.009266506460771, "cumreturnsp500": 1.0130231240186802, "cumreturn1a": 0.23670677979068414, "cumreturn1b": 0.9921098626581308}, {"Date": "2019-02-05T00:00:00", "pred": 1.0, "labelr1": 11.362642814697677, "cumreturn1": 1.120027415422181, "cumreturndow": 1.009266506460771, "cumreturnsp500": 1.0130231240186802, "cumreturn1a": 0.19526271196994743, "cumreturn1b": 0.9921098626581308}, {"Date": "2019-02-05T00:00:00", "pred": 1.0, "labelr1": 11.362642814697677, "cumreturn1": 1.120027415422181, "cumreturndow": 1.009266506460771, "cumreturnsp500": 1.0130231240186802, "cumreturn1a": 0.19526271196994743, "cumreturn1b": 0.9921098626581308}, {"Date": "2019-02-05T00:00:00", "pred": 1.0, "labelr1": 11.362642814697677, "cumreturn1": 1.120027415422181, "cumreturndow": 1.009266506460771, "cumreturnsp500": 1.0130231240186802, "cumreturn1a": 0.23670677979068414, "cumreturn1b": 0.9921098626581308}, {"Date": "2019-02-05T00:00:00", "pred": 1.0, "labelr1": 11.362642814697677, "cumreturn1": 1.120027415422181, "cumreturndow": 1.009266506460771, "cumreturnsp500": 1.0130231240186802, "cumreturn1a": 0.23670677979068414, "cumreturn1b": 0.9921098626581308}, {"Date": "2019-02-06T00:00:00", "pred": -1.0, "labelr1": -10.212824336058468, "cumreturn1": 1.234413847874944, "cumreturndow": 0.9998226585351511, "cumreturnsp500": 1.0042147754943775, "cumreturn1a": 0.35043151649873094, "cumreturn1b": 1.064341553786017}, {"Date": "2019-02-06T00:00:00", "pred": -1.0, "labelr1": -10.212824336058468, "cumreturn1": 1.234413847874944, "cumreturndow": 0.9998226585351511, "cumreturnsp500": 1.0042147754943775, "cumreturn1a": 0.35043151649873094, "cumreturn1b": 1.0461856576100772}, {"Date": "2019-02-06T00:00:00", "pred": -1.0, "labelr1": -10.212824336058468, "cumreturn1": 1.234413847874944, "cumreturndow": 0.9998226585351511, "cumreturnsp500": 1.0042147754943775, "cumreturn1a": 0.06890471093885114, "cumreturn1b": 1.064341553786017}, {"Date": "2019-02-06T00:00:00", "pred": -1.0, "labelr1": -10.212824336058468, "cumreturn1": 1.234413847874944, "cumreturndow": 0.9998226585351511, "cumreturnsp500": 1.0042147754943775, "cumreturn1a": 0.06890471093885114, "cumreturn1b": 1.0461856576100772}, {"Date": "2019-02-06T00:00:00", "pred": 1.0, "labelr1": 11.95799229184086, "cumreturn1": 1.382024960653246, "cumreturndow": 0.9998226585351511, "cumreturnsp500": 1.0042147754943775, "cumreturn1a": 0.35043151649873094, "cumreturn1b": 1.064341553786017}, {"Date": "2019-02-06T00:00:00", "pred": 1.0, "labelr1": 11.95799229184086, "cumreturn1": 1.382024960653246, "cumreturndow": 0.9998226585351511, "cumreturnsp500": 1.0042147754943775, "cumreturn1a": 0.35043151649873094, "cumreturn1b": 1.0461856576100772}, {"Date": "2019-02-06T00:00:00", "pred": 1.0, "labelr1": 11.95799229184086, "cumreturn1": 1.382024960653246, "cumreturndow": 0.9998226585351511, "cumreturnsp500": 1.0042147754943775, "cumreturn1a": 0.06890471093885114, "cumreturn1b": 1.064341553786017}, {"Date": "2019-02-06T00:00:00", "pred": 1.0, "labelr1": 11.95799229184086, "cumreturn1": 1.382024960653246, "cumreturndow": 0.9998226585351511, "cumreturnsp500": 1.0042147754943775, "cumreturn1a": 0.06890471093885114, "cumreturn1b": 1.0461856576100772}, {"Date": "2019-02-07T00:00:00", "pred": -1.0, "labelr1": -15.168619515855887, "cumreturn1": 1.5916590685488938, "cumreturndow": 1.0004987397093459, "cumreturnsp500": 1.0016932508059095, "cumreturn1a": 0.029716892928400296, "cumreturn1b": 1.077257430149155}, {"Date": "2019-02-07T00:00:00", "pred": -1.0, "labelr1": -15.168619515855887, "cumreturn1": 1.5916590685488938, "cumreturndow": 1.0004987397093459, "cumreturnsp500": 1.0016932508059095, "cumreturn1a": 0.03563820647344193, "cumreturn1b": 1.077257430149155}, {"Date": "2019-02-07T00:00:00", "pred": 1.0, "labelr1": 6.7269723019102825, "cumreturn1": 1.698729533231021, "cumreturndow": 1.0004987397093459, "cumreturnsp500": 1.0016932508059095, "cumreturn1a": 0.029716892928400296, "cumreturn1b": 1.077257430149155}, {"Date": "2019-02-07T00:00:00", "pred": 1.0, "labelr1": 6.7269723019102825, "cumreturn1": 1.698729533231021, "cumreturndow": 1.0004987397093459, "cumreturnsp500": 1.0016932508059095, "cumreturn1a": 0.03563820647344193, "cumreturn1b": 1.077257430149155}, {"Date": "2019-02-08T00:00:00", "pred": -1.0, "labelr1": 2.769814916037787, "cumreturn1": 1.6516778692364493, "cumreturndow": 1.0012081964600288, "cumreturnsp500": 0.9995698493038732, "cumreturn1a": -0.012174293053992107, "cumreturn1b": 1.0464505509998425}, {"Date": "2019-02-08T00:00:00", "pred": -1.0, "labelr1": 2.769814916037787, "cumreturn1": 1.6516778692364493, "cumreturndow": 1.0012081964600288, "cumreturnsp500": 0.9995698493038732, "cumreturn1a": -0.012174293053992107, "cumreturn1b": 1.0536377113775888}, {"Date": "2019-02-08T00:00:00", "pred": -1.0, "labelr1": 2.769814916037787, "cumreturn1": 1.6516778692364493, "cumreturndow": 1.0012081964600288, "cumreturnsp500": 0.9995698493038732, "cumreturn1a": -0.0230435706708305, "cumreturn1b": 1.0464505509998425}, {"Date": "2019-02-08T00:00:00", "pred": -1.0, "labelr1": 2.769814916037787, "cumreturn1": 1.6516778692364493, "cumreturndow": 1.0012081964600288, "cumreturnsp500": 0.9995698493038732, "cumreturn1a": -0.0230435706708305, "cumreturn1b": 1.0536377113775888}, {"Date": "2019-02-08T00:00:00", "pred": 1.0, "labelr1": 100.78489315734255, "cumreturn1": 3.316319645049877, "cumreturndow": 1.0012081964600288, "cumreturnsp500": 0.9995698493038732, "cumreturn1a": -0.012174293053992107, "cumreturn1b": 1.0464505509998425}, {"Date": "2019-02-08T00:00:00", "pred": 1.0, "labelr1": 100.78489315734255, "cumreturn1": 3.316319645049877, "cumreturndow": 1.0012081964600288, "cumreturnsp500": 0.9995698493038732, "cumreturn1a": -0.012174293053992107, "cumreturn1b": 1.0536377113775888}, {"Date": "2019-02-08T00:00:00", "pred": 1.0, "labelr1": 100.78489315734255, "cumreturn1": 3.316319645049877, "cumreturndow": 1.0012081964600288, "cumreturnsp500": 0.9995698493038732, "cumreturn1a": -0.0230435706708305, "cumreturn1b": 1.0464505509998425}, {"Date": "2019-02-08T00:00:00", "pred": 1.0, "labelr1": 100.78489315734255, "cumreturn1": 3.316319645049877, "cumreturndow": 1.0012081964600288, "cumreturnsp500": 0.9995698493038732, "cumreturn1a": -0.0230435706708305, "cumreturn1b": 1.0536377113775888}, {"Date": "2019-02-11T00:00:00", "pred": -1.0, "labelr1": 2.508658735787349, "cumreturn1": 3.2331245025677013, "cumreturndow": 1.0141139948903923, "cumreturnsp500": 1.0144378678639405, "cumreturn1a": -0.024989936384987217, "cumreturn1b": 1.256990238405651}, {"Date": "2019-02-11T00:00:00", "pred": -1.0, "labelr1": 2.508658735787349, "cumreturn1": 3.2331245025677013, "cumreturndow": 1.0141139948903923, "cumreturnsp500": 1.0144378678639405, "cumreturn1a": -0.024989936384987217, "cumreturn1b": 1.234237408581164}, {"Date": "2019-02-11T00:00:00", "pred": -1.0, "labelr1": 2.508658735787349, "cumreturn1": 3.2331245025677013, "cumreturndow": 1.0141139948903923, "cumreturnsp500": 1.0144378678639405, "cumreturn1a": -0.02639078851024909, "cumreturn1b": 1.256990238405651}, {"Date": "2019-02-11T00:00:00", "pred": -1.0, "labelr1": 2.508658735787349, "cumreturn1": 3.2331245025677013, "cumreturndow": 1.0141139948903923, "cumreturnsp500": 1.0144378678639405, "cumreturn1a": -0.02639078851024909, "cumreturn1b": 1.234237408581164}, {"Date": "2019-02-11T00:00:00", "pred": 1.0, "labelr1": -6.513685991123452, "cumreturn1": 3.0225289247683693, "cumreturndow": 1.0141139948903923, "cumreturnsp500": 1.0144378678639405, "cumreturn1a": -0.024989936384987217, "cumreturn1b": 1.256990238405651}, {"Date": "2019-02-11T00:00:00", "pred": 1.0, "labelr1": -6.513685991123452, "cumreturn1": 3.0225289247683693, "cumreturndow": 1.0141139948903923, "cumreturnsp500": 1.0144378678639405, "cumreturn1a": -0.024989936384987217, "cumreturn1b": 1.234237408581164}, {"Date": "2019-02-11T00:00:00", "pred": 1.0, "labelr1": -6.513685991123452, "cumreturn1": 3.0225289247683693, "cumreturndow": 1.0141139948903923, "cumreturnsp500": 1.0144378678639405, "cumreturn1a": -0.02639078851024909, "cumreturn1b": 1.256990238405651}, {"Date": "2019-02-11T00:00:00", "pred": 1.0, "labelr1": -6.513685991123452, "cumreturn1": 3.0225289247683693, "cumreturndow": 1.0141139948903923, "cumreturnsp500": 1.0144378678639405, "cumreturn1a": -0.02639078851024909, "cumreturn1b": 1.234237408581164}, {"Date": "2019-02-12T00:00:00", "pred": -1.0, "labelr1": -14.056180384468052, "cumreturn1": 3.447381042606534, "cumreturndow": 1.017180670268484, "cumreturnsp500": 1.0191262766492386, "cumreturn1a": -0.035884552285668864, "cumreturn1b": 1.0651962976618896}, {"Date": "2019-02-12T00:00:00", "pred": -1.0, "labelr1": -14.056180384468052, "cumreturn1": 3.447381042606534, "cumreturndow": 1.017180670268484, "cumreturnsp500": 1.0191262766492386, "cumreturn1a": -0.03013119471280517, "cumreturn1b": 1.0651962976618896}, {"Date": "2019-02-12T00:00:00", "pred": 1.0, "labelr1": -7.546388437043772, "cumreturn1": 3.1872282782264354, "cumreturndow": 1.017180670268484, "cumreturnsp500": 1.0191262766492386, "cumreturn1a": -0.035884552285668864, "cumreturn1b": 1.0651962976618896}, {"Date": "2019-02-12T00:00:00", "pred": 1.0, "labelr1": -7.546388437043772, "cumreturn1": 3.1872282782264354, "cumreturndow": 1.017180670268484, "cumreturnsp500": 1.0191262766492386, "cumreturn1a": -0.03013119471280517, "cumreturn1b": 1.0651962976618896}, {"Date": "2019-02-13T00:00:00", "pred": -1.0, "labelr1": -1.6194030627562528, "cumreturn1": 3.2388423505810677, "cumreturndow": 1.01448347167036, "cumreturnsp500": 1.0149817123613467, "cumreturn1a": -0.05034897803792444, "cumreturn1b": 1.164624506254236}, {"Date": "2019-02-13T00:00:00", "pred": -1.0, "labelr1": -1.6194030627562528, "cumreturn1": 3.2388423505810677, "cumreturndow": 1.01448347167036, "cumreturnsp500": 1.0149817123613467, "cumreturn1a": -0.05413845269101953, "cumreturn1b": 1.164624506254236}, {"Date": "2019-02-13T00:00:00", "pred": 1.0, "labelr1": -5.258206795825799, "cumreturn1": 3.06853732199673, "cumreturndow": 1.01448347167036, "cumreturnsp500": 1.0149817123613467, "cumreturn1a": -0.05034897803792444, "cumreturn1b": 1.164624506254236}, {"Date": "2019-02-13T00:00:00", "pred": 1.0, "labelr1": -5.258206795825799, "cumreturn1": 3.06853732199673, "cumreturndow": 1.01448347167036, "cumreturnsp500": 1.0149817123613467, "cumreturn1a": -0.05413845269101953, "cumreturn1b": 1.164624506254236}, {"Date": "2019-02-14T00:00:00", "pred": -1.0, "labelr1": 32.26013403529837, "cumreturn1": 2.0786230689974294, "cumreturndow": 1.025519786686246, "cumreturnsp500": 1.0326908294988622, "cumreturn1a": -0.03673512816302579, "cumreturn1b": 0.5411037777308726}, {"Date": "2019-02-14T00:00:00", "pred": -1.0, "labelr1": 32.26013403529837, "cumreturn1": 2.0786230689974294, "cumreturndow": 1.025519786686246, "cumreturnsp500": 1.0326908294988622, "cumreturn1a": -0.0504244053726956, "cumreturn1b": 0.5411037777308726}, {"Date": "2019-02-14T00:00:00", "pred": 1.0, "labelr1": 5.340988752967506, "cumreturn1": 2.1896420933291703, "cumreturndow": 1.025519786686246, "cumreturnsp500": 1.0326908294988622, "cumreturn1a": -0.03673512816302579, "cumreturn1b": 0.5411037777308726}, {"Date": "2019-02-14T00:00:00", "pred": 1.0, "labelr1": 5.340988752967506, "cumreturn1": 2.1896420933291703, "cumreturndow": 1.025519786686246, "cumreturnsp500": 1.0326908294988622, "cumreturn1a": -0.0504244053726956, "cumreturn1b": 0.5411037777308726}, {"Date": "2019-02-19T00:00:00", "pred": -1.0, "labelr1": -5.8898260893862115, "cumreturn1": 2.3186082046062544, "cumreturndow": 1.0288819710708628, "cumreturnsp500": 1.0355311488277772, "cumreturn1a": -0.03550074192472428, "cumreturn1b": 0.41325065912951664}, {"Date": "2019-02-19T00:00:00", "pred": -1.0, "labelr1": -5.8898260893862115, "cumreturn1": 2.3186082046062544, "cumreturndow": 1.0288819710708628, "cumreturnsp500": 1.0355311488277772, "cumreturn1a": -0.030502377829800077, "cumreturn1b": 0.41325065912951664}, {"Date": "2019-02-19T00:00:00", "pred": 1.0, "labelr1": -16.797505300801223, "cumreturn1": 1.9291398685327068, "cumreturndow": 1.0288819710708628, "cumreturnsp500": 1.0355311488277772, "cumreturn1a": -0.03550074192472428, "cumreturn1b": 0.41325065912951664}, {"Date": "2019-02-19T00:00:00", "pred": 1.0, "labelr1": -16.797505300801223, "cumreturn1": 1.9291398685327068, "cumreturndow": 1.0288819710708628, "cumreturnsp500": 1.0355311488277772, "cumreturn1a": -0.030502377829800077, "cumreturn1b": 0.41325065912951664}, {"Date": "2019-02-21T00:00:00", "pred": -1.0, "labelr1": 94.99936713394598, "cumreturn1": 0.16946897744016245, "cumreturndow": 1.0318266902923765, "cumreturnsp500": 1.0386181034892703, "cumreturn1a": -0.00855111285585761, "cumreturn1b": 0.40567574652850935}, {"Date": "2019-02-21T00:00:00", "pred": -1.0, "labelr1": 94.99936713394598, "cumreturn1": 0.16946897744016245, "cumreturndow": 1.0318266902923765, "cumreturnsp500": 1.0386181034892703, "cumreturn1a": -0.013137925851445765, "cumreturn1b": 0.40567574652850935}, {"Date": "2019-02-21T00:00:00", "pred": 1.0, "labelr1": 39.60238420746176, "cumreturn1": 0.2365827329984723, "cumreturndow": 1.0318266902923765, "cumreturnsp500": 1.0386181034892703, "cumreturn1a": -0.00855111285585761, "cumreturn1b": 0.40567574652850935}, {"Date": "2019-02-21T00:00:00", "pred": 1.0, "labelr1": 39.60238420746176, "cumreturn1": 0.2365827329984723, "cumreturndow": 1.0318266902923765, "cumreturnsp500": 1.0386181034892703, "cumreturn1a": -0.013137925851445765, "cumreturn1b": 0.40567574652850935}, {"Date": "2019-02-22T00:00:00", "pred": -1.0, "labelr1": -13.359483724387195, "cumreturn1": 0.26818896470811365, "cumreturndow": 1.0330977587686687, "cumreturnsp500": 1.0410175183646293, "cumreturn1a": -0.01380996096238175, "cumreturn1b": 0.4100746401655655}, {"Date": "2019-02-22T00:00:00", "pred": -1.0, "labelr1": -13.359483724387195, "cumreturn1": 0.26818896470811365, "cumreturndow": 1.0330977587686687, "cumreturnsp500": 1.0410175183646293, "cumreturn1a": -0.012415161732124412, "cumreturn1b": 0.4100746401655655}, {"Date": "2019-02-22T00:00:00", "pred": 1.0, "labelr1": -19.26675866702502, "cumreturn1": 0.2165176441062085, "cumreturndow": 1.0330977587686687, "cumreturnsp500": 1.0410175183646293, "cumreturn1a": -0.01380996096238175, "cumreturn1b": 0.4100746401655655}, {"Date": "2019-02-22T00:00:00", "pred": 1.0, "labelr1": -19.26675866702502, "cumreturn1": 0.2165176441062085, "cumreturndow": 1.0330977587686687, "cumreturnsp500": 1.0410175183646293, "cumreturn1a": -0.012415161732124412, "cumreturn1b": 0.4100746401655655}, {"Date": "2019-02-28T00:00:00", "pred": -1.0, "labelr1": 134.85702121437689, "cumreturn1": -0.06254007270234181, "cumreturndow": 1.0288043953566641, "cumreturnsp500": 1.033997490164199, "cumreturn1a": -0.003118537844543478, "cumreturn1b": 0.4119618082726851}, {"Date": "2019-02-28T00:00:00", "pred": -1.0, "labelr1": 134.85702121437689, "cumreturn1": -0.06254007270234181, "cumreturndow": 1.0288043953566641, "cumreturnsp500": 1.033997490164199, "cumreturn1a": -0.003787471786893393, "cumreturn1b": 0.4119618082726851}, {"Date": "2019-02-28T00:00:00", "pred": 1.0, "labelr1": 147.21691432508226, "cumreturn1": -0.15460963795139254, "cumreturndow": 1.0288043953566641, "cumreturnsp500": 1.033997490164199, "cumreturn1a": -0.003118537844543478, "cumreturn1b": 0.4119618082726851}, {"Date": "2019-02-28T00:00:00", "pred": 1.0, "labelr1": 147.21691432508226, "cumreturn1": -0.15460963795139254, "cumreturndow": 1.0288043953566641, "cumreturnsp500": 1.033997490164199, "cumreturn1a": -0.003787471786893393, "cumreturn1b": 0.4119618082726851}]}}, {"mode": "vega-lite"});
+  })({"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "layer": [{"mark": {"type": "trail", "color": "steelblue"}, "encoding": {"size": {"type": "quantitative", "field": "cumreturn1b"}, "x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturn1b"}}, "height": 1000, "title": "10QPortfolio (blue) vs  Dow (black) vs SP500 (red)", "width": 1000}, {"mark": {"type": "circle", "color": "black", "size": 40}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturndow"}}, "height": 1000, "width": 1000}, {"mark": {"type": "tick", "color": "red"}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturnsp500"}}, "height": 1000, "width": 1000}], "data": {"name": "data-723b59be9f2e62a55ee269558586bba2"}, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-723b59be9f2e62a55ee269558586bba2": [{"Date": "2019-02-01T00:00:00", "pred": -1.0, "labelr1": 5.59429178508272, "cumreturn1b": 0.9440570821491728, "cumreturndow": 1.0067762366585589, "cumreturnsp500": 1.0070012480753874}, {"Date": "2019-02-01T00:00:00", "pred": 1.0, "labelr1": 6.560065270281234, "cumreturn1b": 1.0059878429268712, "cumreturndow": 1.0067762366585589, "cumreturnsp500": 1.0070012480753874}, {"Date": "2019-02-04T00:00:00", "pred": -1.0, "labelr1": -7.927528251841602, "cumreturn1b": 1.0857378133849906, "cumreturndow": 1.011516562412395, "cumreturnsp500": 1.0138697104612029}, {"Date": "2019-02-05T00:00:00", "pred": -1.0, "labelr1": 8.623440168760188, "cumreturn1b": 0.9921098626581308, "cumreturndow": 1.009266506460771, "cumreturnsp500": 1.0130231240186802}, {"Date": "2019-02-05T00:00:00", "pred": 1.0, "labelr1": 0.0, "cumreturn1b": 0.9921098626581308, "cumreturndow": 1.009266506460771, "cumreturnsp500": 1.0130231240186802}, {"Date": "2019-02-06T00:00:00", "pred": -1.0, "labelr1": -7.280614158431808, "cumreturn1b": 1.064341553786017, "cumreturndow": 0.9998226585351511, "cumreturnsp500": 1.0042147754943775}, {"Date": "2019-02-06T00:00:00", "pred": 1.0, "labelr1": -1.7058336312583682, "cumreturn1b": 1.0461856576100772, "cumreturndow": 0.9998226585351511, "cumreturnsp500": 1.0042147754943775}, {"Date": "2019-02-07T00:00:00", "pred": -1.0, "labelr1": -2.9700055925120252, "cumreturn1b": 1.077257430149155, "cumreturndow": 1.0004987397093459, "cumreturnsp500": 1.0016932508059095}, {"Date": "2019-02-08T00:00:00", "pred": -1.0, "labelr1": 2.859750908847022, "cumreturn1b": 1.0464505509998425, "cumreturndow": 1.0012081964600288, "cumreturnsp500": 0.9995698493038732}, {"Date": "2019-02-08T00:00:00", "pred": 1.0, "labelr1": 0.6868131868131844, "cumreturn1b": 1.0536377113775888, "cumreturndow": 1.0012081964600288, "cumreturnsp500": 0.9995698493038732}, {"Date": "2019-02-11T00:00:00", "pred": -1.0, "labelr1": -19.300042588850303, "cumreturn1b": 1.256990238405651, "cumreturndow": 1.0141139948903923, "cumreturnsp500": 1.0144378678639405}, {"Date": "2019-02-11T00:00:00", "pred": 1.0, "labelr1": -1.8101039394980751, "cumreturn1b": 1.234237408581164, "cumreturndow": 1.0141139948903923, "cumreturnsp500": 1.0144378678639405}, {"Date": "2019-02-12T00:00:00", "pred": -1.0, "labelr1": 13.695996389673386, "cumreturn1b": 1.0651962976618896, "cumreturndow": 1.017180670268484, "cumreturnsp500": 1.0191262766492386}, {"Date": "2019-02-13T00:00:00", "pred": -1.0, "labelr1": -9.334261563863086, "cumreturn1b": 1.164624506254236, "cumreturndow": 1.01448347167036, "cumreturnsp500": 1.0149817123613467}, {"Date": "2019-02-14T00:00:00", "pred": -1.0, "labelr1": 53.53834864155346, "cumreturn1b": 0.5411037777308726, "cumreturndow": 1.025519786686246, "cumreturnsp500": 1.0326908294988622}, {"Date": "2019-02-19T00:00:00", "pred": -1.0, "labelr1": 23.628206614544453, "cumreturn1b": 0.41325065912951664, "cumreturndow": 1.0288819710708628, "cumreturnsp500": 1.0355311488277772}, {"Date": "2019-02-21T00:00:00", "pred": -1.0, "labelr1": 1.8330067801859702, "cumreturn1b": 0.40567574652850935, "cumreturndow": 1.0318266902923765, "cumreturnsp500": 1.0386181034892703}, {"Date": "2019-02-22T00:00:00", "pred": -1.0, "labelr1": -1.0843373493975883, "cumreturn1b": 0.4100746401655655, "cumreturndow": 1.0330977587686687, "cumreturnsp500": 1.0410175183646293}, {"Date": "2019-02-28T00:00:00", "pred": -1.0, "labelr1": -0.4602011249360885, "cumreturn1b": 0.4119618082726851, "cumreturndow": 1.0288043953566641, "cumreturnsp500": 1.033997490164199}]}}, {"mode": "vega-lite"});
 </script>
 </div>
 
@@ -465,11 +512,9 @@ window.onload = wrap_img;
       <th>Date</th>
       <th>pred</th>
       <th>labelr1</th>
-      <th>cumreturn1</th>
+      <th>cumreturn1b</th>
       <th>cumreturndow</th>
       <th>cumreturnsp500</th>
-      <th>cumreturn1a</th>
-      <th>cumreturn1b</th>
     </tr>
   </thead>
   <tbody>
@@ -477,56 +522,46 @@ window.onload = wrap_img;
       <th>0</th>
       <td>2019-02-01</td>
       <td>1.0</td>
-      <td>-0.321543</td>
-      <td>0.996785</td>
+      <td>6.560065</td>
+      <td>1.065601</td>
       <td>1.006776</td>
       <td>1.007001</td>
-      <td>1.379164</td>
-      <td>1.065601</td>
     </tr>
     <tr>
       <th>1</th>
       <td>2019-02-05</td>
       <td>1.0</td>
-      <td>11.362643</td>
-      <td>1.128396</td>
+      <td>0.000000</td>
+      <td>1.065601</td>
       <td>1.009267</td>
       <td>1.013023</td>
-      <td>1.474110</td>
-      <td>1.065601</td>
     </tr>
     <tr>
       <th>2</th>
       <td>2019-02-06</td>
       <td>1.0</td>
-      <td>11.957992</td>
-      <td>1.263329</td>
+      <td>-1.705834</td>
+      <td>1.047423</td>
       <td>0.999823</td>
       <td>1.004215</td>
-      <td>0.289852</td>
-      <td>1.047423</td>
     </tr>
     <tr>
       <th>3</th>
       <td>2019-02-08</td>
       <td>1.0</td>
-      <td>100.784893</td>
-      <td>2.707208</td>
+      <td>0.686813</td>
+      <td>1.054617</td>
       <td>1.001208</td>
       <td>0.999570</td>
-      <td>0.657952</td>
-      <td>1.054617</td>
     </tr>
     <tr>
       <th>4</th>
       <td>2019-02-11</td>
       <td>1.0</td>
-      <td>-6.513686</td>
-      <td>2.530869</td>
-      <td>1.014114</td>
-      <td>1.014438</td>
-      <td>0.694834</td>
+      <td>-1.810104</td>
       <td>1.035527</td>
+      <td>1.001208</td>
+      <td>0.999570</td>
     </tr>
   </tbody>
 </table>
@@ -553,12 +588,12 @@ window.onload = wrap_img;
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 
-<div id="altair-viz-f23b202106cc45a6898d5ed413ff14de"></div>
+<div id="altair-viz-56149dd0581f4552b2d66b88e09265d8"></div>
 <script type="text/javascript">
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-f23b202106cc45a6898d5ed413ff14de") {
-      outputDiv = document.getElementById("altair-viz-f23b202106cc45a6898d5ed413ff14de");
+    if (outputDiv.id !== "altair-viz-56149dd0581f4552b2d66b88e09265d8") {
+      outputDiv = document.getElementById("altair-viz-56149dd0581f4552b2d66b88e09265d8");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
@@ -600,7 +635,7 @@ window.onload = wrap_img;
         .catch(showError)
         .then(() => displayChart(vegaEmbed));
     }
-  })({"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "layer": [{"mark": {"type": "trail", "color": "steelblue"}, "encoding": {"size": {"type": "quantitative", "field": "cumreturn1"}, "x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturn1"}}, "height": 1000, "title": "10KPortfolio (blue) vs 8KPortfolio (brown) vs 10QPortfolio (yellow) vs  Dow (black) vs SP500 (red)", "width": 1000}, {"mark": {"type": "circle", "color": "black", "size": 40}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturndow"}}, "height": 1000, "width": 1000}, {"mark": {"type": "tick", "color": "red"}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturnsp500"}}, "height": 1000, "width": 1000}, {"mark": {"type": "line", "color": "brown"}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturn1a"}}, "height": 1000, "width": 1000}, {"mark": {"type": "line", "color": "yellow"}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturn1b"}}, "height": 1000, "width": 1000}], "data": {"name": "data-1a3b1de76886837142547cdc767bcc01"}, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-1a3b1de76886837142547cdc767bcc01": [{"Date": "2019-02-01T00:00:00", "pred": 1.0, "labelr1": -0.3215434083601217, "cumreturn1": 0.9967845659163987, "cumreturndow": 1.0067762366585589, "cumreturnsp500": 1.0070012480753874, "cumreturn1a": 1.379164112832555, "cumreturn1b": 1.0656006527028123}, {"Date": "2019-02-05T00:00:00", "pred": 1.0, "labelr1": 11.362642814697677, "cumreturn1": 1.1283955754529826, "cumreturndow": 1.009266506460771, "cumreturnsp500": 1.0130231240186802, "cumreturn1a": 1.4741097981924662, "cumreturn1b": 1.0656006527028123}, {"Date": "2019-02-06T00:00:00", "pred": 1.0, "labelr1": 11.95799229184086, "cumreturn1": 1.2633290313871237, "cumreturndow": 0.9998226585351511, "cumreturnsp500": 1.0042147754943775, "cumreturn1a": 0.2898515252036354, "cumreturn1b": 1.047423278394099}, {"Date": "2019-02-08T00:00:00", "pred": 1.0, "labelr1": 100.78489315734255, "cumreturn1": 2.7072084659272733, "cumreturndow": 1.0012081964600288, "cumreturnsp500": 0.9995698493038732, "cumreturn1a": 0.6579517610128667, "cumreturn1b": 1.0546171195918608}, {"Date": "2019-02-11T00:00:00", "pred": 1.0, "labelr1": -6.513685991123452, "cumreturn1": 2.5308694073316604, "cumreturndow": 1.0141139948903923, "cumreturnsp500": 1.0144378678639405, "cumreturn1a": 0.6948343328023802, "cumreturn1b": 1.0355274535635073}]}}, {"mode": "vega-lite"});
+  })({"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "layer": [{"mark": {"type": "trail", "color": "steelblue"}, "encoding": {"size": {"type": "quantitative", "field": "cumreturn1b"}, "x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturn1b"}}, "height": 1000, "title": "10QPortfolio (blue) vs  Dow (black) vs SP500 (red)", "width": 1000}, {"mark": {"type": "circle", "color": "black", "size": 40}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturndow"}}, "height": 1000, "width": 1000}, {"mark": {"type": "tick", "color": "red"}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturnsp500"}}, "height": 1000, "width": 1000}], "data": {"name": "data-1bfde85b46b8eb16eab129a0075ffdcb"}, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-1bfde85b46b8eb16eab129a0075ffdcb": [{"Date": "2019-02-01T00:00:00", "pred": 1.0, "labelr1": 6.560065270281234, "cumreturn1b": 1.0656006527028123, "cumreturndow": 1.0067762366585589, "cumreturnsp500": 1.0070012480753874}, {"Date": "2019-02-05T00:00:00", "pred": 1.0, "labelr1": 0.0, "cumreturn1b": 1.0656006527028123, "cumreturndow": 1.009266506460771, "cumreturnsp500": 1.0130231240186802}, {"Date": "2019-02-06T00:00:00", "pred": 1.0, "labelr1": -1.7058336312583682, "cumreturn1b": 1.047423278394099, "cumreturndow": 0.9998226585351511, "cumreturnsp500": 1.0042147754943775}, {"Date": "2019-02-08T00:00:00", "pred": 1.0, "labelr1": 0.6868131868131844, "cumreturn1b": 1.0546171195918608, "cumreturndow": 1.0012081964600288, "cumreturnsp500": 0.9995698493038732}, {"Date": "2019-02-11T00:00:00", "pred": 1.0, "labelr1": -1.8101039394980751, "cumreturn1b": 1.0355274535635073, "cumreturndow": 1.0012081964600288, "cumreturnsp500": 0.9995698493038732}]}}, {"mode": "vega-lite"});
 </script>
 </div>
 
@@ -651,11 +686,9 @@ window.onload = wrap_img;
       <th>Date</th>
       <th>pred</th>
       <th>labelr1</th>
-      <th>cumreturn1</th>
+      <th>cumreturn1b</th>
       <th>cumreturndow</th>
       <th>cumreturnsp500</th>
-      <th>cumreturn1a</th>
-      <th>cumreturn1b</th>
     </tr>
   </thead>
   <tbody>
@@ -663,144 +696,127 @@ window.onload = wrap_img;
       <th>0</th>
       <td>2019-02-01</td>
       <td>-1.0</td>
-      <td>0.435363</td>
-      <td>0.995646</td>
+      <td>5.594292</td>
+      <td>0.944057</td>
       <td>1.006776</td>
       <td>1.007001</td>
-      <td>0.372624</td>
-      <td>0.944057</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>2019-02-05</td>
+      <td>2019-02-04</td>
       <td>-1.0</td>
-      <td>0.307574</td>
-      <td>0.992584</td>
-      <td>1.009267</td>
-      <td>1.013023</td>
-      <td>0.160576</td>
-      <td>0.931033</td>
+      <td>-7.927528</td>
+      <td>1.018897</td>
+      <td>1.011517</td>
+      <td>1.013870</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>2019-02-06</td>
+      <td>2019-02-05</td>
       <td>-1.0</td>
-      <td>-10.212824</td>
-      <td>1.093955</td>
-      <td>0.999823</td>
-      <td>1.004215</td>
-      <td>0.237724</td>
-      <td>0.998818</td>
+      <td>8.623440</td>
+      <td>0.931033</td>
+      <td>1.009267</td>
+      <td>1.013023</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>2019-02-07</td>
+      <td>2019-02-06</td>
       <td>-1.0</td>
-      <td>-15.168620</td>
-      <td>1.259893</td>
-      <td>1.000499</td>
-      <td>1.001693</td>
-      <td>0.102525</td>
-      <td>1.028483</td>
+      <td>-7.280614</td>
+      <td>0.998818</td>
+      <td>0.999823</td>
+      <td>1.004215</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>2019-02-08</td>
+      <td>2019-02-07</td>
       <td>-1.0</td>
-      <td>2.769815</td>
-      <td>1.224996</td>
-      <td>1.001208</td>
-      <td>0.999570</td>
-      <td>-0.035023</td>
-      <td>0.999071</td>
+      <td>-2.970006</td>
+      <td>1.028483</td>
+      <td>1.000499</td>
+      <td>1.001693</td>
     </tr>
     <tr>
       <th>5</th>
-      <td>2019-02-11</td>
+      <td>2019-02-08</td>
       <td>-1.0</td>
-      <td>2.508659</td>
-      <td>1.194265</td>
-      <td>1.014114</td>
-      <td>1.014438</td>
-      <td>-0.037981</td>
-      <td>1.191893</td>
+      <td>2.859751</td>
+      <td>0.999071</td>
+      <td>1.001208</td>
+      <td>0.999570</td>
     </tr>
     <tr>
       <th>6</th>
-      <td>2019-02-12</td>
+      <td>2019-02-11</td>
       <td>-1.0</td>
-      <td>-14.056180</td>
-      <td>1.362133</td>
-      <td>1.017181</td>
-      <td>1.019126</td>
-      <td>-0.051645</td>
-      <td>1.028651</td>
+      <td>-19.300043</td>
+      <td>1.191893</td>
+      <td>1.014114</td>
+      <td>1.014438</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>2019-02-13</td>
+      <td>2019-02-12</td>
       <td>-1.0</td>
-      <td>-1.619403</td>
-      <td>1.384192</td>
-      <td>1.014483</td>
-      <td>1.014982</td>
-      <td>-0.086298</td>
-      <td>1.124668</td>
+      <td>13.695996</td>
+      <td>1.028651</td>
+      <td>1.017181</td>
+      <td>1.019126</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>2019-02-14</td>
+      <td>2019-02-13</td>
       <td>-1.0</td>
-      <td>32.260134</td>
-      <td>0.937649</td>
-      <td>1.025520</td>
-      <td>1.032691</td>
-      <td>-0.058557</td>
-      <td>0.522539</td>
+      <td>-9.334262</td>
+      <td>1.124668</td>
+      <td>1.014483</td>
+      <td>1.014982</td>
     </tr>
     <tr>
       <th>9</th>
-      <td>2019-02-19</td>
+      <td>2019-02-14</td>
       <td>-1.0</td>
-      <td>-5.889826</td>
-      <td>0.992875</td>
-      <td>1.028882</td>
-      <td>1.035531</td>
-      <td>-0.041226</td>
-      <td>0.399073</td>
+      <td>53.538349</td>
+      <td>0.522539</td>
+      <td>1.025520</td>
+      <td>1.032691</td>
     </tr>
     <tr>
       <th>10</th>
-      <td>2019-02-21</td>
+      <td>2019-02-19</td>
       <td>-1.0</td>
-      <td>94.999367</td>
-      <td>0.066964</td>
-      <td>1.031827</td>
-      <td>1.038618</td>
-      <td>-0.012432</td>
-      <td>0.391758</td>
+      <td>23.628207</td>
+      <td>0.399073</td>
+      <td>1.028882</td>
+      <td>1.035531</td>
     </tr>
     <tr>
       <th>11</th>
-      <td>2019-02-22</td>
+      <td>2019-02-21</td>
       <td>-1.0</td>
-      <td>-13.359484</td>
-      <td>0.075910</td>
-      <td>1.033098</td>
-      <td>1.041018</td>
-      <td>-0.013068</td>
-      <td>0.396006</td>
+      <td>1.833007</td>
+      <td>0.391758</td>
+      <td>1.031827</td>
+      <td>1.038618</td>
     </tr>
     <tr>
       <th>12</th>
+      <td>2019-02-22</td>
+      <td>-1.0</td>
+      <td>-1.084337</td>
+      <td>0.396006</td>
+      <td>1.033098</td>
+      <td>1.041018</td>
+    </tr>
+    <tr>
+      <th>13</th>
       <td>2019-02-28</td>
       <td>-1.0</td>
-      <td>134.857021</td>
-      <td>-0.020247</td>
+      <td>-0.460201</td>
+      <td>0.397828</td>
       <td>1.028804</td>
       <td>1.033997</td>
-      <td>-0.004855</td>
-      <td>0.397828</td>
     </tr>
   </tbody>
 </table>
@@ -827,12 +843,12 @@ window.onload = wrap_img;
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 
-<div id="altair-viz-0e92dca776614b71b1704bda6ad172bc"></div>
+<div id="altair-viz-f95f6112667a47a29648ebe8fae9ac38"></div>
 <script type="text/javascript">
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-0e92dca776614b71b1704bda6ad172bc") {
-      outputDiv = document.getElementById("altair-viz-0e92dca776614b71b1704bda6ad172bc");
+    if (outputDiv.id !== "altair-viz-f95f6112667a47a29648ebe8fae9ac38") {
+      outputDiv = document.getElementById("altair-viz-f95f6112667a47a29648ebe8fae9ac38");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
@@ -874,7 +890,7 @@ window.onload = wrap_img;
         .catch(showError)
         .then(() => displayChart(vegaEmbed));
     }
-  })({"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "layer": [{"mark": {"type": "trail", "color": "steelblue"}, "encoding": {"size": {"type": "quantitative", "field": "cumreturn1"}, "x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturn1"}}, "height": 1000, "title": "10KPortfolio (blue) vs 8KPortfolio (brown) vs 10QPortfolio (yellow) vs  Dow (black) vs SP500 (red)", "width": 1000}, {"mark": {"type": "circle", "color": "black", "size": 40}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturndow"}}, "height": 1000, "width": 1000}, {"mark": {"type": "tick", "color": "red"}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturnsp500"}}, "height": 1000, "width": 1000}, {"mark": {"type": "line", "color": "brown"}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturn1a"}}, "height": 1000, "width": 1000}, {"mark": {"type": "line", "color": "yellow"}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturn1b"}}, "height": 1000, "width": 1000}], "data": {"name": "data-ce123c2d572125eacb0761267e2f646e"}, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-ce123c2d572125eacb0761267e2f646e": [{"Date": "2019-02-01T00:00:00", "pred": -1.0, "labelr1": 0.4353627715636734, "cumreturn1": 0.9956463722843633, "cumreturndow": 1.0067762366585589, "cumreturnsp500": 1.0070012480753874, "cumreturn1a": 0.3726236518375675, "cumreturn1b": 0.9440570821491728}, {"Date": "2019-02-05T00:00:00", "pred": -1.0, "labelr1": 0.3075743824020305, "cumreturn1": 0.9925840191039014, "cumreturndow": 1.009266506460771, "cumreturnsp500": 1.0130231240186802, "cumreturn1a": 0.160576084685775, "cumreturn1b": 0.9310334599943443}, {"Date": "2019-02-06T00:00:00", "pred": -1.0, "labelr1": -10.212824336058468, "cumreturn1": 1.0939548813627717, "cumreturndow": 0.9998226585351511, "cumreturnsp500": 1.0042147754943775, "cumreturn1a": 0.23772416201861316, "cumreturn1b": 0.99881841390243}, {"Date": "2019-02-07T00:00:00", "pred": -1.0, "labelr1": -15.168619515855887, "cumreturn1": 1.2598927349918232, "cumreturndow": 1.0004987397093459, "cumreturnsp500": 1.0016932508059095, "cumreturn1a": 0.10252453530310968, "cumreturn1b": 1.028483376654372}, {"Date": "2019-02-08T00:00:00", "pred": -1.0, "labelr1": 2.769814916037787, "cumreturn1": 1.2249960380919434, "cumreturndow": 1.0012081964600288, "cumreturnsp500": 0.9995698493038732, "cumreturn1a": -0.035023191723594874, "cumreturn1b": 0.999071313943158}, {"Date": "2019-02-11T00:00:00", "pred": -1.0, "labelr1": 2.508658735787349, "cumreturn1": 1.194265067969301, "cumreturndow": 1.0141139948903923, "cumreturnsp500": 1.0144378678639405, "cumreturn1a": -0.03798141120029395, "cumreturn1b": 1.1918925030271736}, {"Date": "2019-02-12T00:00:00", "pred": -1.0, "labelr1": -14.056180384468052, "cumreturn1": 1.362133120191756, "cumreturndow": 1.017180670268484, "cumreturnsp500": 1.0191262766492386, "cumreturn1a": -0.051644759896852854, "cumreturn1b": 1.0286509488437843}, {"Date": "2019-02-13T00:00:00", "pred": -1.0, "labelr1": -1.6194030627562528, "cumreturn1": 1.3841915456589586, "cumreturndow": 1.01448347167036, "cumreturnsp500": 1.0149817123613467, "cumreturn1a": -0.08629796815575537, "cumreturn1b": 1.1246679189880224}, {"Date": "2019-02-14T00:00:00", "pred": -1.0, "labelr1": 32.26013403529837, "cumreturn1": 0.9376494977241103, "cumreturndow": 1.025519786686246, "cumreturnsp500": 1.0326908294988622, "cumreturn1a": -0.05855665913658922, "cumreturn1b": 0.522539287460511}, {"Date": "2019-02-19T00:00:00", "pred": -1.0, "labelr1": -5.8898260893862115, "cumreturn1": 0.9928754224680638, "cumreturndow": 1.0288819710708628, "cumreturnsp500": 1.0355311488277772, "cumreturn1a": -0.04122616476321916, "cumreturn1b": 0.3990726249771731}, {"Date": "2019-02-21T00:00:00", "pred": -1.0, "labelr1": 94.99936713394598, "cumreturn1": 0.06696408295624222, "cumreturndow": 1.0318266902923765, "cumreturnsp500": 1.0386181034892703, "cumreturn1a": -0.012431755030684976, "cumreturn1b": 0.3917575967034754}, {"Date": "2019-02-22T00:00:00", "pred": -1.0, "labelr1": -13.359483724387195, "cumreturn1": 0.07591013871996655, "cumreturndow": 1.0330977587686687, "cumreturnsp500": 1.0410175183646293, "cumreturn1a": -0.013067667880676894, "cumreturn1b": 0.39600557064363356}, {"Date": "2019-02-28T00:00:00", "pred": -1.0, "labelr1": 134.85702121437689, "cumreturn1": -0.020247241511801108, "cumreturndow": 1.0288043953566641, "cumreturnsp500": 1.033997490164199, "cumreturn1a": -0.004855266464965519, "cumreturn1b": 0.39782799273454517}]}}, {"mode": "vega-lite"});
+  })({"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "layer": [{"mark": {"type": "trail", "color": "steelblue"}, "encoding": {"size": {"type": "quantitative", "field": "cumreturn1b"}, "x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturn1b"}}, "height": 1000, "title": "10QPortfolio (blue) vs  Dow (black) vs SP500 (red)", "width": 1000}, {"mark": {"type": "circle", "color": "black", "size": 40}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturndow"}}, "height": 1000, "width": 1000}, {"mark": {"type": "tick", "color": "red"}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturnsp500"}}, "height": 1000, "width": 1000}], "data": {"name": "data-86c037ae0ea5005dae88198162c47635"}, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-86c037ae0ea5005dae88198162c47635": [{"Date": "2019-02-01T00:00:00", "pred": -1.0, "labelr1": 5.59429178508272, "cumreturn1b": 0.9440570821491728, "cumreturndow": 1.0067762366585589, "cumreturnsp500": 1.0070012480753874}, {"Date": "2019-02-04T00:00:00", "pred": -1.0, "labelr1": -7.927528251841602, "cumreturn1b": 1.01889747405006, "cumreturndow": 1.011516562412395, "cumreturnsp500": 1.0138697104612029}, {"Date": "2019-02-05T00:00:00", "pred": -1.0, "labelr1": 8.623440168760188, "cumreturn1b": 0.9310334599943443, "cumreturndow": 1.009266506460771, "cumreturnsp500": 1.0130231240186802}, {"Date": "2019-02-06T00:00:00", "pred": -1.0, "labelr1": -7.280614158431808, "cumreturn1b": 0.99881841390243, "cumreturndow": 0.9998226585351511, "cumreturnsp500": 1.0042147754943775}, {"Date": "2019-02-07T00:00:00", "pred": -1.0, "labelr1": -2.9700055925120252, "cumreturn1b": 1.028483376654372, "cumreturndow": 1.0004987397093459, "cumreturnsp500": 1.0016932508059095}, {"Date": "2019-02-08T00:00:00", "pred": -1.0, "labelr1": 2.859750908847022, "cumreturn1b": 0.999071313943158, "cumreturndow": 1.0012081964600288, "cumreturnsp500": 0.9995698493038732}, {"Date": "2019-02-11T00:00:00", "pred": -1.0, "labelr1": -19.300042588850303, "cumreturn1b": 1.1918925030271736, "cumreturndow": 1.0141139948903923, "cumreturnsp500": 1.0144378678639405}, {"Date": "2019-02-12T00:00:00", "pred": -1.0, "labelr1": 13.695996389673386, "cumreturn1b": 1.0286509488437843, "cumreturndow": 1.017180670268484, "cumreturnsp500": 1.0191262766492386}, {"Date": "2019-02-13T00:00:00", "pred": -1.0, "labelr1": -9.334261563863086, "cumreturn1b": 1.1246679189880224, "cumreturndow": 1.01448347167036, "cumreturnsp500": 1.0149817123613467}, {"Date": "2019-02-14T00:00:00", "pred": -1.0, "labelr1": 53.53834864155346, "cumreturn1b": 0.522539287460511, "cumreturndow": 1.025519786686246, "cumreturnsp500": 1.0326908294988622}, {"Date": "2019-02-19T00:00:00", "pred": -1.0, "labelr1": 23.628206614544453, "cumreturn1b": 0.3990726249771731, "cumreturndow": 1.0288819710708628, "cumreturnsp500": 1.0355311488277772}, {"Date": "2019-02-21T00:00:00", "pred": -1.0, "labelr1": 1.8330067801859702, "cumreturn1b": 0.3917575967034754, "cumreturndow": 1.0318266902923765, "cumreturnsp500": 1.0386181034892703}, {"Date": "2019-02-22T00:00:00", "pred": -1.0, "labelr1": -1.0843373493975883, "cumreturn1b": 0.39600557064363356, "cumreturndow": 1.0330977587686687, "cumreturnsp500": 1.0410175183646293}, {"Date": "2019-02-28T00:00:00", "pred": -1.0, "labelr1": -0.4602011249360885, "cumreturn1b": 0.39782799273454517, "cumreturndow": 1.0288043953566641, "cumreturnsp500": 1.033997490164199}]}}, {"mode": "vega-lite"});
 </script>
 </div>
 

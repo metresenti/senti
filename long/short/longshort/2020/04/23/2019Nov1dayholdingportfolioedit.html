@@ -120,7 +120,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      1 min read
+      2 min read
     
 </span></p>
 
@@ -212,138 +212,257 @@ window.onload = wrap_img;
       <th>Date</th>
       <th>pred</th>
       <th>labelr1</th>
-      <th>cumreturn1</th>
+      <th>cumreturn1b</th>
       <th>cumreturndow</th>
       <th>cumreturnsp500</th>
-      <th>cumreturn1a</th>
-      <th>cumreturn1b</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <th>0</th>
-      <td>2019-11-05</td>
+      <td>2019-11-01</td>
       <td>-1.0</td>
-      <td>-34.545455</td>
-      <td>1.345455</td>
-      <td>1.000702</td>
-      <td>0.999997</td>
-      <td>6.144593</td>
-      <td>0.620445</td>
+      <td>37.837155</td>
+      <td>0.621628</td>
+      <td>1.003704</td>
+      <td>1.004196</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>2019-11-05</td>
-      <td>-1.0</td>
-      <td>-34.545455</td>
-      <td>1.345455</td>
-      <td>1.000702</td>
-      <td>0.999997</td>
-      <td>6.144593</td>
-      <td>0.617658</td>
+      <td>2019-11-01</td>
+      <td>1.0</td>
+      <td>-3.290762</td>
+      <td>0.601172</td>
+      <td>1.003704</td>
+      <td>1.004196</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>2019-11-05</td>
+      <td>2019-11-04</td>
       <td>-1.0</td>
-      <td>-34.545455</td>
-      <td>1.345455</td>
-      <td>1.000702</td>
-      <td>0.999997</td>
-      <td>6.549318</td>
-      <td>0.620445</td>
+      <td>18.301200</td>
+      <td>0.491150</td>
+      <td>1.002514</td>
+      <td>1.005312</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>2019-11-05</td>
-      <td>-1.0</td>
-      <td>-34.545455</td>
-      <td>1.345455</td>
-      <td>1.000702</td>
-      <td>0.999997</td>
-      <td>6.549318</td>
-      <td>0.617658</td>
+      <td>2019-11-04</td>
+      <td>1.0</td>
+      <td>-16.023537</td>
+      <td>0.412451</td>
+      <td>1.002514</td>
+      <td>1.005312</td>
     </tr>
     <tr>
       <th>4</th>
+      <td>2019-11-05</td>
+      <td>-1.0</td>
+      <td>-50.428778</td>
+      <td>0.620445</td>
+      <td>1.003218</td>
+      <td>1.005310</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>2019-11-05</td>
+      <td>1.0</td>
+      <td>-0.449190</td>
+      <td>0.617658</td>
+      <td>1.003218</td>
+      <td>1.005310</td>
+    </tr>
+    <tr>
+      <th>6</th>
       <td>2019-11-06</td>
       <td>-1.0</td>
-      <td>0.214362</td>
-      <td>1.342570</td>
-      <td>1.003435</td>
-      <td>1.006626</td>
-      <td>5.405839</td>
+      <td>-66.912639</td>
       <td>1.030949</td>
+      <td>1.005957</td>
+      <td>1.011973</td>
     </tr>
     <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
+      <th>7</th>
+      <td>2019-11-06</td>
+      <td>1.0</td>
+      <td>8.812001</td>
+      <td>1.121796</td>
+      <td>1.005957</td>
+      <td>1.011973</td>
     </tr>
     <tr>
-      <th>71</th>
+      <th>8</th>
+      <td>2019-11-07</td>
+      <td>-1.0</td>
+      <td>-25.053303</td>
+      <td>1.402843</td>
+      <td>1.008533</td>
+      <td>1.012209</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>2019-11-07</td>
+      <td>1.0</td>
+      <td>6.477168</td>
+      <td>1.493707</td>
+      <td>1.008533</td>
+      <td>1.012209</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>2019-11-08</td>
+      <td>-1.0</td>
+      <td>-7.033943</td>
+      <td>1.598774</td>
+      <td>1.006554</td>
+      <td>1.012584</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>2019-11-08</td>
+      <td>1.0</td>
+      <td>-2.715918</td>
+      <td>1.555352</td>
+      <td>1.006554</td>
+      <td>1.012584</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>2019-11-12</td>
+      <td>-1.0</td>
+      <td>-81.593292</td>
+      <td>2.824416</td>
+      <td>1.008846</td>
+      <td>1.015951</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>2019-11-12</td>
+      <td>1.0</td>
+      <td>61.463168</td>
+      <td>4.560391</td>
+      <td>1.008846</td>
+      <td>1.015951</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>2019-11-13</td>
+      <td>-1.0</td>
+      <td>57.880368</td>
+      <td>1.920820</td>
+      <td>1.009691</td>
+      <td>1.015892</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>2019-11-14</td>
+      <td>-1.0</td>
+      <td>-47.194235</td>
+      <td>2.827336</td>
+      <td>1.017461</td>
+      <td>1.024044</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>2019-11-14</td>
+      <td>1.0</td>
+      <td>-1.215418</td>
+      <td>2.792972</td>
+      <td>1.017461</td>
+      <td>1.024044</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>2019-11-15</td>
+      <td>-1.0</td>
+      <td>-79.287734</td>
+      <td>5.007457</td>
+      <td>1.017973</td>
+      <td>1.025189</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>2019-11-18</td>
+      <td>-1.0</td>
+      <td>-23.444321</td>
+      <td>6.181421</td>
+      <td>1.017369</td>
+      <td>1.021452</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>2019-11-19</td>
+      <td>-1.0</td>
+      <td>-18.513147</td>
+      <td>7.325797</td>
+      <td>1.013548</td>
+      <td>1.017323</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>2019-11-19</td>
+      <td>1.0</td>
+      <td>-6.115108</td>
+      <td>6.877816</td>
+      <td>1.013548</td>
+      <td>1.017323</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>2019-11-20</td>
+      <td>-1.0</td>
+      <td>-3.454947</td>
+      <td>7.115441</td>
+      <td>1.011944</td>
+      <td>1.015319</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>2019-11-21</td>
+      <td>-1.0</td>
+      <td>11.144323</td>
+      <td>6.322473</td>
+      <td>1.014145</td>
+      <td>1.019317</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>2019-11-25</td>
+      <td>-1.0</td>
+      <td>0.956193</td>
+      <td>6.262018</td>
+      <td>1.024001</td>
+      <td>1.028314</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>2019-11-26</td>
+      <td>-1.0</td>
+      <td>-0.795961</td>
+      <td>6.311862</td>
+      <td>1.028276</td>
+      <td>1.029862</td>
+    </tr>
+    <tr>
+      <th>25</th>
       <td>2019-11-27</td>
       <td>-1.0</td>
       <td>0.000000</td>
-      <td>0.438626</td>
-      <td>1.021583</td>
-      <td>1.020325</td>
-      <td>76.271995</td>
       <td>6.311862</td>
+      <td>1.028276</td>
+      <td>1.029862</td>
     </tr>
     <tr>
-      <th>72</th>
+      <th>26</th>
       <td>2019-11-27</td>
       <td>1.0</td>
       <td>0.000000</td>
-      <td>0.438626</td>
-      <td>1.021583</td>
-      <td>1.020325</td>
-      <td>76.271995</td>
       <td>6.311862</td>
-    </tr>
-    <tr>
-      <th>73</th>
-      <td>2019-11-27</td>
-      <td>1.0</td>
-      <td>0.000000</td>
-      <td>0.438626</td>
-      <td>1.021583</td>
-      <td>1.020325</td>
-      <td>76.271995</td>
-      <td>6.311862</td>
-    </tr>
-    <tr>
-      <th>74</th>
-      <td>2019-11-27</td>
-      <td>1.0</td>
-      <td>0.000000</td>
-      <td>0.438626</td>
-      <td>1.021583</td>
-      <td>1.020325</td>
-      <td>76.271995</td>
-      <td>6.311862</td>
-    </tr>
-    <tr>
-      <th>75</th>
-      <td>2019-11-27</td>
-      <td>1.0</td>
-      <td>0.000000</td>
-      <td>0.438626</td>
-      <td>1.021583</td>
-      <td>1.020325</td>
-      <td>76.271995</td>
-      <td>6.311862</td>
+      <td>1.028276</td>
+      <td>1.029862</td>
     </tr>
   </tbody>
 </table>
-<p>76 rows × 8 columns</p>
 </div>
 </div>
 
@@ -367,12 +486,12 @@ window.onload = wrap_img;
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 
-<div id="altair-viz-ddfc4979ba3d428088d03a68ae8273cd"></div>
+<div id="altair-viz-230089a96b434e2ba9c7343547ead896"></div>
 <script type="text/javascript">
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-ddfc4979ba3d428088d03a68ae8273cd") {
-      outputDiv = document.getElementById("altair-viz-ddfc4979ba3d428088d03a68ae8273cd");
+    if (outputDiv.id !== "altair-viz-230089a96b434e2ba9c7343547ead896") {
+      outputDiv = document.getElementById("altair-viz-230089a96b434e2ba9c7343547ead896");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
@@ -414,7 +533,7 @@ window.onload = wrap_img;
         .catch(showError)
         .then(() => displayChart(vegaEmbed));
     }
-  })({"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "layer": [{"mark": {"type": "trail", "color": "steelblue"}, "encoding": {"size": {"type": "quantitative", "field": "cumreturn1"}, "x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturn1"}}, "height": 1000, "title": "10KPortfolio (blue) vs 8KPortfolio (brown) vs 10QPortfolio (yellow) vs  Dow (black) vs SP500 (red)", "width": 1000}, {"mark": {"type": "circle", "color": "black", "size": 40}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturndow"}}, "height": 1000, "width": 1000}, {"mark": {"type": "tick", "color": "red"}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturnsp500"}}, "height": 1000, "width": 1000}, {"mark": {"type": "line", "color": "brown"}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturn1a"}}, "height": 1000, "width": 1000}, {"mark": {"type": "line", "color": "yellow"}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturn1b"}}, "height": 1000, "width": 1000}], "data": {"name": "data-1cb5e377adf2603343c1315ac62e4f23"}, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-1cb5e377adf2603343c1315ac62e4f23": [{"Date": "2019-11-05T00:00:00", "pred": -1.0, "labelr1": -34.54545454545454, "cumreturn1": 1.3454545454545455, "cumreturndow": 1.0007024971924359, "cumreturnsp500": 0.999997442514674, "cumreturn1a": 6.1445925629891285, "cumreturn1b": 0.6204446307688968}, {"Date": "2019-11-05T00:00:00", "pred": -1.0, "labelr1": -34.54545454545454, "cumreturn1": 1.3454545454545455, "cumreturndow": 1.0007024971924359, "cumreturnsp500": 0.999997442514674, "cumreturn1a": 6.1445925629891285, "cumreturn1b": 0.6176576526725575}, {"Date": "2019-11-05T00:00:00", "pred": -1.0, "labelr1": -34.54545454545454, "cumreturn1": 1.3454545454545455, "cumreturndow": 1.0007024971924359, "cumreturnsp500": 0.999997442514674, "cumreturn1a": 6.549318276141238, "cumreturn1b": 0.6204446307688968}, {"Date": "2019-11-05T00:00:00", "pred": -1.0, "labelr1": -34.54545454545454, "cumreturn1": 1.3454545454545455, "cumreturndow": 1.0007024971924359, "cumreturnsp500": 0.999997442514674, "cumreturn1a": 6.549318276141238, "cumreturn1b": 0.6176576526725575}, {"Date": "2019-11-06T00:00:00", "pred": -1.0, "labelr1": 0.2143622722400939, "cumreturn1": 1.3425703985189514, "cumreturndow": 1.0034345104754934, "cumreturnsp500": 1.0066261363975784, "cumreturn1a": 5.405838964845531, "cumreturn1b": 1.0309486874999039}, {"Date": "2019-11-06T00:00:00", "pred": -1.0, "labelr1": 0.2143622722400939, "cumreturn1": 1.3425703985189514, "cumreturndow": 1.0034345104754934, "cumreturnsp500": 1.0066261363975784, "cumreturn1a": 5.405838964845531, "cumreturn1b": 1.1217958995290092}, {"Date": "2019-11-06T00:00:00", "pred": -1.0, "labelr1": 0.2143622722400939, "cumreturn1": 1.3425703985189514, "cumreturndow": 1.0034345104754934, "cumreturnsp500": 1.0066261363975784, "cumreturn1a": 5.327911366962298, "cumreturn1b": 1.0309486874999039}, {"Date": "2019-11-06T00:00:00", "pred": -1.0, "labelr1": 0.2143622722400939, "cumreturn1": 1.3425703985189514, "cumreturndow": 1.0034345104754934, "cumreturnsp500": 1.0066261363975784, "cumreturn1a": 5.327911366962298, "cumreturn1b": 1.1217958995290092}, {"Date": "2019-11-08T00:00:00", "pred": -1.0, "labelr1": 1.3631291655357638, "cumreturn1": 1.32426942984889, "cumreturndow": 1.0040297313256665, "cumreturnsp500": 1.0072331882685177, "cumreturn1a": 5.754863067888157, "cumreturn1b": 1.598773841212178}, {"Date": "2019-11-08T00:00:00", "pred": -1.0, "labelr1": 1.3631291655357638, "cumreturn1": 1.32426942984889, "cumreturndow": 1.0040297313256665, "cumreturnsp500": 1.0072331882685177, "cumreturn1a": 5.754863067888157, "cumreturn1b": 1.5553524561736312}, {"Date": "2019-11-08T00:00:00", "pred": -1.0, "labelr1": 1.3631291655357638, "cumreturn1": 1.32426942984889, "cumreturndow": 1.0040297313256665, "cumreturnsp500": 1.0072331882685177, "cumreturn1a": 5.126335230355112, "cumreturn1b": 1.598773841212178}, {"Date": "2019-11-08T00:00:00", "pred": -1.0, "labelr1": 1.3631291655357638, "cumreturn1": 1.32426942984889, "cumreturndow": 1.0040297313256665, "cumreturnsp500": 1.0072331882685177, "cumreturn1a": 5.126335230355112, "cumreturn1b": 1.5553524561736312}, {"Date": "2019-11-08T00:00:00", "pred": 1.0, "labelr1": -0.005163525804887992, "cumreturn1": 1.3242010508551536, "cumreturndow": 1.0040297313256665, "cumreturnsp500": 1.0072331882685177, "cumreturn1a": 5.754863067888157, "cumreturn1b": 1.598773841212178}, {"Date": "2019-11-08T00:00:00", "pred": 1.0, "labelr1": -0.005163525804887992, "cumreturn1": 1.3242010508551536, "cumreturndow": 1.0040297313256665, "cumreturnsp500": 1.0072331882685177, "cumreturn1a": 5.754863067888157, "cumreturn1b": 1.5553524561736312}, {"Date": "2019-11-08T00:00:00", "pred": 1.0, "labelr1": -0.005163525804887992, "cumreturn1": 1.3242010508551536, "cumreturndow": 1.0040297313256665, "cumreturnsp500": 1.0072331882685177, "cumreturn1a": 5.126335230355112, "cumreturn1b": 1.598773841212178}, {"Date": "2019-11-08T00:00:00", "pred": 1.0, "labelr1": -0.005163525804887992, "cumreturn1": 1.3242010508551536, "cumreturndow": 1.0040297313256665, "cumreturnsp500": 1.0072331882685177, "cumreturn1a": 5.126335230355112, "cumreturn1b": 1.5553524561736312}, {"Date": "2019-11-12T00:00:00", "pred": -1.0, "labelr1": 27.011609911139203, "cumreturn1": 0.9665130285589535, "cumreturndow": 1.0063162020870884, "cumreturnsp500": 1.0105831626842927, "cumreturn1a": 6.479971848043329, "cumreturn1b": 2.824415734420924}, {"Date": "2019-11-12T00:00:00", "pred": -1.0, "labelr1": 27.011609911139203, "cumreturn1": 0.9665130285589535, "cumreturndow": 1.0063162020870884, "cumreturnsp500": 1.0105831626842927, "cumreturn1a": 6.479971848043329, "cumreturn1b": 4.560391115456079}, {"Date": "2019-11-12T00:00:00", "pred": -1.0, "labelr1": 27.011609911139203, "cumreturn1": 0.9665130285589535, "cumreturndow": 1.0063162020870884, "cumreturnsp500": 1.0105831626842927, "cumreturn1a": 4.898128479980468, "cumreturn1b": 2.824415734420924}, {"Date": "2019-11-12T00:00:00", "pred": -1.0, "labelr1": 27.011609911139203, "cumreturn1": 0.9665130285589535, "cumreturndow": 1.0063162020870884, "cumreturnsp500": 1.0105831626842927, "cumreturn1a": 4.898128479980468, "cumreturn1b": 4.560391115456079}, {"Date": "2019-11-12T00:00:00", "pred": 1.0, "labelr1": -2.40667479332844, "cumreturn1": 0.9432522031263898, "cumreturndow": 1.0063162020870884, "cumreturnsp500": 1.0105831626842927, "cumreturn1a": 6.479971848043329, "cumreturn1b": 2.824415734420924}, {"Date": "2019-11-12T00:00:00", "pred": 1.0, "labelr1": -2.40667479332844, "cumreturn1": 0.9432522031263898, "cumreturndow": 1.0063162020870884, "cumreturnsp500": 1.0105831626842927, "cumreturn1a": 6.479971848043329, "cumreturn1b": 4.560391115456079}, {"Date": "2019-11-12T00:00:00", "pred": 1.0, "labelr1": -2.40667479332844, "cumreturn1": 0.9432522031263898, "cumreturndow": 1.0063162020870884, "cumreturnsp500": 1.0105831626842927, "cumreturn1a": 4.898128479980468, "cumreturn1b": 2.824415734420924}, {"Date": "2019-11-12T00:00:00", "pred": 1.0, "labelr1": -2.40667479332844, "cumreturn1": 0.9432522031263898, "cumreturndow": 1.0063162020870884, "cumreturnsp500": 1.0105831626842927, "cumreturn1a": 4.898128479980468, "cumreturn1b": 4.560391115456079}, {"Date": "2019-11-13T00:00:00", "pred": -1.0, "labelr1": 12.486384285969486, "cumreturn1": 0.8254741082581553, "cumreturndow": 1.0071585318388778, "cumreturnsp500": 1.0105239138620046, "cumreturn1a": 5.875076464310554, "cumreturn1b": 1.9208199774201993}, {"Date": "2019-11-13T00:00:00", "pred": -1.0, "labelr1": 12.486384285969486, "cumreturn1": 0.8254741082581553, "cumreturndow": 1.0071585318388778, "cumreturnsp500": 1.0105239138620046, "cumreturn1a": 7.015025321951155, "cumreturn1b": 1.9208199774201993}, {"Date": "2019-11-13T00:00:00", "pred": 1.0, "labelr1": 11.427668051237283, "cumreturn1": 0.9198065491988084, "cumreturndow": 1.0071585318388778, "cumreturnsp500": 1.0105239138620046, "cumreturn1a": 5.875076464310554, "cumreturn1b": 1.9208199774201993}, {"Date": "2019-11-13T00:00:00", "pred": 1.0, "labelr1": 11.427668051237283, "cumreturn1": 0.9198065491988084, "cumreturndow": 1.0071585318388778, "cumreturnsp500": 1.0105239138620046, "cumreturn1a": 7.015025321951155, "cumreturn1b": 1.9208199774201993}, {"Date": "2019-11-14T00:00:00", "pred": -1.0, "labelr1": 9.718102268673867, "cumreturn1": 0.8304188080737083, "cumreturndow": 1.014909108200569, "cumreturnsp500": 1.0186326208149088, "cumreturn1a": 4.399380119336666, "cumreturn1b": 2.8273362771870754}, {"Date": "2019-11-14T00:00:00", "pred": -1.0, "labelr1": 9.718102268673867, "cumreturn1": 0.8304188080737083, "cumreturndow": 1.014909108200569, "cumreturnsp500": 1.0186326208149088, "cumreturn1a": 4.399380119336666, "cumreturn1b": 2.792972325710239}, {"Date": "2019-11-14T00:00:00", "pred": -1.0, "labelr1": 9.718102268673867, "cumreturn1": 0.8304188080737083, "cumreturndow": 1.014909108200569, "cumreturnsp500": 1.0186326208149088, "cumreturn1a": 6.420444651078139, "cumreturn1b": 2.8273362771870754}, {"Date": "2019-11-14T00:00:00", "pred": -1.0, "labelr1": 9.718102268673867, "cumreturn1": 0.8304188080737083, "cumreturndow": 1.014909108200569, "cumreturnsp500": 1.0186326208149088, "cumreturn1a": 6.420444651078139, "cumreturn1b": 2.792972325710239}, {"Date": "2019-11-14T00:00:00", "pred": 1.0, "labelr1": -0.1066666666666644, "cumreturn1": 0.829533028011763, "cumreturndow": 1.014909108200569, "cumreturnsp500": 1.0186326208149088, "cumreturn1a": 4.399380119336666, "cumreturn1b": 2.8273362771870754}, {"Date": "2019-11-14T00:00:00", "pred": 1.0, "labelr1": -0.1066666666666644, "cumreturn1": 0.829533028011763, "cumreturndow": 1.014909108200569, "cumreturnsp500": 1.0186326208149088, "cumreturn1a": 4.399380119336666, "cumreturn1b": 2.792972325710239}, {"Date": "2019-11-14T00:00:00", "pred": 1.0, "labelr1": -0.1066666666666644, "cumreturn1": 0.829533028011763, "cumreturndow": 1.014909108200569, "cumreturnsp500": 1.0186326208149088, "cumreturn1a": 6.420444651078139, "cumreturn1b": 2.8273362771870754}, {"Date": "2019-11-14T00:00:00", "pred": 1.0, "labelr1": -0.1066666666666644, "cumreturn1": 0.829533028011763, "cumreturndow": 1.014909108200569, "cumreturnsp500": 1.0186326208149088, "cumreturn1a": 6.420444651078139, "cumreturn1b": 2.792972325710239}, {"Date": "2019-11-15T00:00:00", "pred": -1.0, "labelr1": -1.2053570025944536, "cumreturn1": 0.8395318624537366, "cumreturndow": 1.015419762505899, "cumreturnsp500": 1.0197722017506394, "cumreturn1a": 9.328862078626257, "cumreturn1b": 5.007456785581852}, {"Date": "2019-11-15T00:00:00", "pred": -1.0, "labelr1": -1.2053570025944536, "cumreturn1": 0.8395318624537366, "cumreturndow": 1.015419762505899, "cumreturnsp500": 1.0197722017506394, "cumreturn1a": 8.30452546909859, "cumreturn1b": 5.007456785581852}, {"Date": "2019-11-15T00:00:00", "pred": 1.0, "labelr1": -10.418019607980321, "cumreturn1": 0.7520692684080639, "cumreturndow": 1.015419762505899, "cumreturnsp500": 1.0197722017506394, "cumreturn1a": 9.328862078626257, "cumreturn1b": 5.007456785581852}, {"Date": "2019-11-15T00:00:00", "pred": 1.0, "labelr1": -10.418019607980321, "cumreturn1": 0.7520692684080639, "cumreturndow": 1.015419762505899, "cumreturnsp500": 1.0197722017506394, "cumreturn1a": 8.30452546909859, "cumreturn1b": 5.007456785581852}, {"Date": "2019-11-18T00:00:00", "pred": -1.0, "labelr1": -1.3417521704814581, "cumreturn1": 0.762160174140453, "cumreturndow": 1.0148180306074537, "cumreturnsp500": 1.0160547993483686, "cumreturn1a": 11.026229006307497, "cumreturn1b": 6.181421020798097}, {"Date": "2019-11-18T00:00:00", "pred": -1.0, "labelr1": -1.3417521704814581, "cumreturn1": 0.762160174140453, "cumreturndow": 1.0148180306074537, "cumreturnsp500": 1.0160547993483686, "cumreturn1a": 13.548221463010812, "cumreturn1b": 6.181421020798097}, {"Date": "2019-11-18T00:00:00", "pred": 1.0, "labelr1": 1.2350676710825201, "cumreturn1": 0.771573368053128, "cumreturndow": 1.0148180306074537, "cumreturnsp500": 1.0160547993483686, "cumreturn1a": 11.026229006307497, "cumreturn1b": 6.181421020798097}, {"Date": "2019-11-18T00:00:00", "pred": 1.0, "labelr1": 1.2350676710825201, "cumreturn1": 0.771573368053128, "cumreturndow": 1.0148180306074537, "cumreturnsp500": 1.0160547993483686, "cumreturn1a": 13.548221463010812, "cumreturn1b": 6.181421020798097}, {"Date": "2019-11-19T00:00:00", "pred": -1.0, "labelr1": -2.789833132928025, "cumreturn1": 0.7930989775199229, "cumreturndow": 1.0110061870124682, "cumreturnsp500": 1.011947164557825, "cumreturn1a": 23.665714150820598, "cumreturn1b": 7.32579656960065}, {"Date": "2019-11-19T00:00:00", "pred": -1.0, "labelr1": -2.789833132928025, "cumreturn1": 0.7930989775199229, "cumreturndow": 1.0110061870124682, "cumreturnsp500": 1.011947164557825, "cumreturn1a": 23.665714150820598, "cumreturn1b": 6.877816203833704}, {"Date": "2019-11-19T00:00:00", "pred": -1.0, "labelr1": -2.789833132928025, "cumreturn1": 0.7930989775199229, "cumreturndow": 1.0110061870124682, "cumreturnsp500": 1.011947164557825, "cumreturn1a": 21.014152645804128, "cumreturn1b": 7.32579656960065}, {"Date": "2019-11-19T00:00:00", "pred": -1.0, "labelr1": -2.789833132928025, "cumreturn1": 0.7930989775199229, "cumreturndow": 1.0110061870124682, "cumreturnsp500": 1.011947164557825, "cumreturn1a": 21.014152645804128, "cumreturn1b": 6.877816203833704}, {"Date": "2019-11-19T00:00:00", "pred": 1.0, "labelr1": -0.2960938389705103, "cumreturn1": 0.7907506603105482, "cumreturndow": 1.0110061870124682, "cumreturnsp500": 1.011947164557825, "cumreturn1a": 23.665714150820598, "cumreturn1b": 7.32579656960065}, {"Date": "2019-11-19T00:00:00", "pred": 1.0, "labelr1": -0.2960938389705103, "cumreturn1": 0.7907506603105482, "cumreturndow": 1.0110061870124682, "cumreturnsp500": 1.011947164557825, "cumreturn1a": 23.665714150820598, "cumreturn1b": 6.877816203833704}, {"Date": "2019-11-19T00:00:00", "pred": 1.0, "labelr1": -0.2960938389705103, "cumreturn1": 0.7907506603105482, "cumreturndow": 1.0110061870124682, "cumreturnsp500": 1.011947164557825, "cumreturn1a": 21.014152645804128, "cumreturn1b": 7.32579656960065}, {"Date": "2019-11-19T00:00:00", "pred": 1.0, "labelr1": -0.2960938389705103, "cumreturn1": 0.7907506603105482, "cumreturndow": 1.0110061870124682, "cumreturnsp500": 1.011947164557825, "cumreturn1a": 21.014152645804128, "cumreturn1b": 6.877816203833704}, {"Date": "2019-11-20T00:00:00", "pred": -1.0, "labelr1": -1.5979814970563606, "cumreturn1": 0.8033867095501618, "cumreturndow": 1.0094060146943347, "cumreturnsp500": 1.0099538747456913, "cumreturn1a": 24.58132669383207, "cumreturn1b": 7.115441141777101}, {"Date": "2019-11-20T00:00:00", "pred": -1.0, "labelr1": -1.5979814970563606, "cumreturn1": 0.8033867095501618, "cumreturndow": 1.0094060146943347, "cumreturnsp500": 1.0099538747456913, "cumreturn1a": 22.17660017729696, "cumreturn1b": 7.115441141777101}, {"Date": "2019-11-20T00:00:00", "pred": 1.0, "labelr1": -22.43213079161847, "cumreturn1": 0.6231699521013895, "cumreturndow": 1.0094060146943347, "cumreturnsp500": 1.0099538747456913, "cumreturn1a": 24.58132669383207, "cumreturn1b": 7.115441141777101}, {"Date": "2019-11-20T00:00:00", "pred": 1.0, "labelr1": -22.43213079161847, "cumreturn1": 0.6231699521013895, "cumreturndow": 1.0094060146943347, "cumreturnsp500": 1.0099538747456913, "cumreturn1a": 22.17660017729696, "cumreturn1b": 7.115441141777101}, {"Date": "2019-11-21T00:00:00", "pred": -1.0, "labelr1": 0.0, "cumreturn1": 0.6231699521013895, "cumreturndow": 1.0116014078626414, "cumreturnsp500": 1.0139305795783686, "cumreturn1a": 23.053411452924806, "cumreturn1b": 6.322473407031931}, {"Date": "2019-11-21T00:00:00", "pred": -1.0, "labelr1": 0.0, "cumreturn1": 0.6231699521013895, "cumreturndow": 1.0116014078626414, "cumreturnsp500": 1.0139305795783686, "cumreturn1a": 35.103767830275295, "cumreturn1b": 6.322473407031931}, {"Date": "2019-11-21T00:00:00", "pred": 1.0, "labelr1": 0.2506453850661674, "cumreturn1": 0.6247318988274506, "cumreturndow": 1.0116014078626414, "cumreturnsp500": 1.0139305795783686, "cumreturn1a": 23.053411452924806, "cumreturn1b": 6.322473407031931}, {"Date": "2019-11-21T00:00:00", "pred": 1.0, "labelr1": 0.2506453850661674, "cumreturn1": 0.6247318988274506, "cumreturndow": 1.0116014078626414, "cumreturnsp500": 1.0139305795783686, "cumreturn1a": 35.103767830275295, "cumreturn1b": 6.322473407031931}, {"Date": "2019-11-25T00:00:00", "pred": -1.0, "labelr1": 26.207283407468676, "cumreturn1": 0.5183012238711732, "cumreturndow": 1.0214335106427066, "cumreturnsp500": 1.0228806341679768, "cumreturn1a": 80.0982404273965, "cumreturn1b": 6.262018357776345}, {"Date": "2019-11-25T00:00:00", "pred": -1.0, "labelr1": 26.207283407468676, "cumreturn1": 0.5183012238711732, "cumreturndow": 1.0214335106427066, "cumreturnsp500": 1.0228806341679768, "cumreturn1a": 90.43951993394788, "cumreturn1b": 6.262018357776345}, {"Date": "2019-11-25T00:00:00", "pred": 1.0, "labelr1": -20.54695351179211, "cumreturn1": 0.41180611235131365, "cumreturndow": 1.0214335106427066, "cumreturnsp500": 1.0228806341679768, "cumreturn1a": 80.0982404273965, "cumreturn1b": 6.262018357776345}, {"Date": "2019-11-25T00:00:00", "pred": 1.0, "labelr1": -20.54695351179211, "cumreturn1": 0.41180611235131365, "cumreturndow": 1.0214335106427066, "cumreturnsp500": 1.0228806341679768, "cumreturn1a": 90.43951993394788, "cumreturn1b": 6.262018357776345}, {"Date": "2019-11-26T00:00:00", "pred": -1.0, "labelr1": 3.5239589463790217, "cumreturn1": 0.3972942340133739, "cumreturndow": 1.0256974074823564, "cumreturnsp500": 1.0244199670974825, "cumreturn1a": 65.8879804901907, "cumreturn1b": 6.311861556603798}, {"Date": "2019-11-26T00:00:00", "pred": -1.0, "labelr1": 3.5239589463790217, "cumreturn1": 0.3972942340133739, "cumreturndow": 1.0256974074823564, "cumreturnsp500": 1.0244199670974825, "cumreturn1a": 76.2719946731309, "cumreturn1b": 6.311861556603798}, {"Date": "2019-11-26T00:00:00", "pred": 1.0, "labelr1": 10.403206350201682, "cumreturn1": 0.43862557299523836, "cumreturndow": 1.0256974074823564, "cumreturnsp500": 1.0244199670974825, "cumreturn1a": 65.8879804901907, "cumreturn1b": 6.311861556603798}, {"Date": "2019-11-26T00:00:00", "pred": 1.0, "labelr1": 10.403206350201682, "cumreturn1": 0.43862557299523836, "cumreturndow": 1.0256974074823564, "cumreturnsp500": 1.0244199670974825, "cumreturn1a": 76.2719946731309, "cumreturn1b": 6.311861556603798}, {"Date": "2019-11-27T00:00:00", "pred": -1.0, "labelr1": 0.0, "cumreturn1": 0.43862557299523836, "cumreturndow": 1.0215831096118466, "cumreturnsp500": 1.020324693546638, "cumreturn1a": 76.2719946731309, "cumreturn1b": 6.311861556603798}, {"Date": "2019-11-27T00:00:00", "pred": -1.0, "labelr1": 0.0, "cumreturn1": 0.43862557299523836, "cumreturndow": 1.0215831096118466, "cumreturnsp500": 1.020324693546638, "cumreturn1a": 76.2719946731309, "cumreturn1b": 6.311861556603798}, {"Date": "2019-11-27T00:00:00", "pred": -1.0, "labelr1": 0.0, "cumreturn1": 0.43862557299523836, "cumreturndow": 1.0215831096118466, "cumreturnsp500": 1.020324693546638, "cumreturn1a": 76.2719946731309, "cumreturn1b": 6.311861556603798}, {"Date": "2019-11-27T00:00:00", "pred": -1.0, "labelr1": 0.0, "cumreturn1": 0.43862557299523836, "cumreturndow": 1.0215831096118466, "cumreturnsp500": 1.020324693546638, "cumreturn1a": 76.2719946731309, "cumreturn1b": 6.311861556603798}, {"Date": "2019-11-27T00:00:00", "pred": 1.0, "labelr1": 0.0, "cumreturn1": 0.43862557299523836, "cumreturndow": 1.0215831096118466, "cumreturnsp500": 1.020324693546638, "cumreturn1a": 76.2719946731309, "cumreturn1b": 6.311861556603798}, {"Date": "2019-11-27T00:00:00", "pred": 1.0, "labelr1": 0.0, "cumreturn1": 0.43862557299523836, "cumreturndow": 1.0215831096118466, "cumreturnsp500": 1.020324693546638, "cumreturn1a": 76.2719946731309, "cumreturn1b": 6.311861556603798}, {"Date": "2019-11-27T00:00:00", "pred": 1.0, "labelr1": 0.0, "cumreturn1": 0.43862557299523836, "cumreturndow": 1.0215831096118466, "cumreturnsp500": 1.020324693546638, "cumreturn1a": 76.2719946731309, "cumreturn1b": 6.311861556603798}, {"Date": "2019-11-27T00:00:00", "pred": 1.0, "labelr1": 0.0, "cumreturn1": 0.43862557299523836, "cumreturndow": 1.0215831096118466, "cumreturnsp500": 1.020324693546638, "cumreturn1a": 76.2719946731309, "cumreturn1b": 6.311861556603798}]}}, {"mode": "vega-lite"});
+  })({"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "layer": [{"mark": {"type": "trail", "color": "steelblue"}, "encoding": {"size": {"type": "quantitative", "field": "cumreturn1b"}, "x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturn1b"}}, "height": 1000, "title": "10QPortfolio (blue) vs  Dow (black) vs SP500 (red)", "width": 1000}, {"mark": {"type": "circle", "color": "black", "size": 40}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturndow"}}, "height": 1000, "width": 1000}, {"mark": {"type": "tick", "color": "red"}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturnsp500"}}, "height": 1000, "width": 1000}], "data": {"name": "data-b4c56f9805b9da27fcaaf556064fbfec"}, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-b4c56f9805b9da27fcaaf556064fbfec": [{"Date": "2019-11-01T00:00:00", "pred": -1.0, "labelr1": 37.83715477057465, "cumreturn1b": 0.6216284522942535, "cumreturndow": 1.0037040892383409, "cumreturnsp500": 1.0041960175542544}, {"Date": "2019-11-01T00:00:00", "pred": 1.0, "labelr1": -3.290761888450354, "cumreturn1b": 0.6011721400983904, "cumreturndow": 1.0037040892383409, "cumreturnsp500": 1.0041960175542544}, {"Date": "2019-11-04T00:00:00", "pred": -1.0, "labelr1": 18.30119963223934, "cumreturn1b": 0.4911504266055784, "cumreturndow": 1.0025139978744837, "cumreturnsp500": 1.0053120845054169}, {"Date": "2019-11-04T00:00:00", "pred": 1.0, "labelr1": -16.02353696561027, "cumreturn1b": 0.412450756441681, "cumreturndow": 1.0025139978744837, "cumreturnsp500": 1.0053120845054169}, {"Date": "2019-11-05T00:00:00", "pred": -1.0, "labelr1": -50.42877751555908, "cumreturn1b": 0.6204446307688968, "cumreturndow": 1.0032182611433682, "cumreturnsp500": 1.0053095134345127}, {"Date": "2019-11-05T00:00:00", "pred": 1.0, "labelr1": -0.449190460861181, "cumreturn1b": 0.6176576526725575, "cumreturndow": 1.0032182611433682, "cumreturnsp500": 1.0053095134345127}, {"Date": "2019-11-06T00:00:00", "pred": -1.0, "labelr1": -66.91263890912188, "cumreturn1b": 1.0309486874999039, "cumreturndow": 1.0059571427020124, "cumreturnsp500": 1.0119734194994836}, {"Date": "2019-11-06T00:00:00", "pred": 1.0, "labelr1": 8.812001327574693, "cumreturn1b": 1.1217958995290092, "cumreturndow": 1.0059571427020124, "cumreturnsp500": 1.0119734194994836}, {"Date": "2019-11-07T00:00:00", "pred": -1.0, "labelr1": -25.05330270417582, "cumreturn1b": 1.402842821961044, "cumreturndow": 1.0085330729466828, "cumreturnsp500": 1.0122088884130156}, {"Date": "2019-11-07T00:00:00", "pred": 1.0, "labelr1": 6.477168418918317, "cumreturn1b": 1.4937073141921673, "cumreturndow": 1.0085330729466828, "cumreturnsp500": 1.0122088884130156}, {"Date": "2019-11-08T00:00:00", "pred": -1.0, "labelr1": -7.033943398532084, "cumreturn1b": 1.598773841212178, "cumreturndow": 1.0065538599361377, "cumreturnsp500": 1.0125836960812606}, {"Date": "2019-11-08T00:00:00", "pred": 1.0, "labelr1": -2.7159179065392403, "cumreturn1b": 1.5553524561736312, "cumreturndow": 1.0065538599361377, "cumreturnsp500": 1.0125836960812606}, {"Date": "2019-11-12T00:00:00", "pred": -1.0, "labelr1": -81.59329245342587, "cumreturn1b": 2.824415734420924, "cumreturndow": 1.0088460788801936, "cumreturnsp500": 1.0159514658442232}, {"Date": "2019-11-12T00:00:00", "pred": 1.0, "labelr1": 61.4631677581655, "cumreturn1b": 4.560391115456079, "cumreturndow": 1.0088460788801936, "cumreturnsp500": 1.0159514658442232}, {"Date": "2019-11-13T00:00:00", "pred": -1.0, "labelr1": 57.880367521326065, "cumreturn1b": 1.9208199774201993, "cumreturndow": 1.0096905262471887, "cumreturnsp500": 1.0158919022871842}, {"Date": "2019-11-14T00:00:00", "pred": -1.0, "labelr1": -47.19423529655254, "cumreturn1b": 2.8273362771870754, "cumreturndow": 1.0174605875413794, "cumreturnsp500": 1.0240436833766517}, {"Date": "2019-11-14T00:00:00", "pred": 1.0, "labelr1": -1.215417909574775, "cumreturn1b": 2.792972325710239, "cumreturndow": 1.0174605875413794, "cumreturnsp500": 1.0240436833766517}, {"Date": "2019-11-15T00:00:00", "pred": -1.0, "labelr1": -79.28773369813041, "cumreturn1b": 5.007456785581852, "cumreturndow": 1.0179725256305474, "cumreturnsp500": 1.0251893178626137}, {"Date": "2019-11-18T00:00:00", "pred": -1.0, "labelr1": -23.44432084958738, "cumreturn1b": 6.181421020798097, "cumreturndow": 1.0173692809793886, "cumreturnsp500": 1.0214521683046414}, {"Date": "2019-11-19T00:00:00", "pred": -1.0, "labelr1": -18.513146814497357, "cumreturn1b": 7.32579656960065, "cumreturndow": 1.0135478544177075, "cumreturnsp500": 1.017322713410973}, {"Date": "2019-11-19T00:00:00", "pred": 1.0, "labelr1": -6.115107913669063, "cumreturn1b": 6.877816203833704, "cumreturndow": 1.0135478544177075, "cumreturnsp500": 1.017322713410973}, {"Date": "2019-11-20T00:00:00", "pred": -1.0, "labelr1": -3.454947484798229, "cumreturn1b": 7.115441141777101, "cumreturndow": 1.0119436592697673, "cumreturnsp500": 1.0153188350749134}, {"Date": "2019-11-21T00:00:00", "pred": -1.0, "labelr1": 11.144322873945155, "cumreturn1b": 6.322473407031931, "cumreturndow": 1.0141445716518327, "cumreturnsp500": 1.0193166644997151}, {"Date": "2019-11-25T00:00:00", "pred": -1.0, "labelr1": 0.9561930175672664, "cumreturn1b": 6.262018357776345, "cumreturndow": 1.0240013923173887, "cumreturnsp500": 1.0283142625356312}, {"Date": "2019-11-26T00:00:00", "pred": -1.0, "labelr1": -0.7959605989585965, "cumreturn1b": 6.311861556603798, "cumreturndow": 1.0282760085846303, "cumreturnsp500": 1.0298617725317403}, {"Date": "2019-11-27T00:00:00", "pred": -1.0, "labelr1": 0.0, "cumreturn1b": 6.311861556603798, "cumreturndow": 1.0282760085846303, "cumreturnsp500": 1.0298617725317403}, {"Date": "2019-11-27T00:00:00", "pred": 1.0, "labelr1": 0.0, "cumreturn1b": 6.311861556603798, "cumreturndow": 1.0282760085846303, "cumreturnsp500": 1.0298617725317403}]}}, {"mode": "vega-lite"});
 </script>
 </div>
 
@@ -465,68 +584,101 @@ window.onload = wrap_img;
       <th>Date</th>
       <th>pred</th>
       <th>labelr1</th>
-      <th>cumreturn1</th>
+      <th>cumreturn1b</th>
       <th>cumreturndow</th>
       <th>cumreturnsp500</th>
-      <th>cumreturn1a</th>
-      <th>cumreturn1b</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <th>0</th>
-      <td>2019-11-08</td>
+      <td>2019-11-01</td>
       <td>1.0</td>
-      <td>-0.005164</td>
-      <td>0.999948</td>
-      <td>0.998038</td>
-      <td>1.000370</td>
-      <td>3.623021</td>
-      <td>0.911267</td>
+      <td>-3.290762</td>
+      <td>0.967092</td>
+      <td>1.003704</td>
+      <td>1.004196</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>2019-11-12</td>
+      <td>2019-11-04</td>
       <td>1.0</td>
-      <td>-2.406675</td>
-      <td>0.975883</td>
-      <td>1.000310</td>
-      <td>1.003697</td>
-      <td>2.738595</td>
-      <td>1.471360</td>
+      <td>-16.023537</td>
+      <td>0.812130</td>
+      <td>1.002514</td>
+      <td>1.005312</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>2019-11-14</td>
+      <td>2019-11-05</td>
       <td>1.0</td>
-      <td>-0.106667</td>
-      <td>1.086244</td>
-      <td>1.008852</td>
-      <td>1.011692</td>
-      <td>4.772184</td>
-      <td>1.453477</td>
+      <td>-0.449190</td>
+      <td>0.808482</td>
+      <td>1.003218</td>
+      <td>1.005310</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>2019-11-19</td>
+      <td>2019-11-06</td>
       <td>1.0</td>
-      <td>-0.296094</td>
-      <td>0.982180</td>
-      <td>1.004972</td>
-      <td>1.005052</td>
-      <td>4.635013</td>
-      <td>1.364595</td>
+      <td>8.812001</td>
+      <td>0.879725</td>
+      <td>1.005957</td>
+      <td>1.011973</td>
     </tr>
     <tr>
       <th>4</th>
+      <td>2019-11-07</td>
+      <td>1.0</td>
+      <td>6.477168</td>
+      <td>0.936707</td>
+      <td>1.008533</td>
+      <td>1.012209</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>2019-11-08</td>
+      <td>1.0</td>
+      <td>-2.715918</td>
+      <td>0.911267</td>
+      <td>1.006554</td>
+      <td>1.012584</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>2019-11-12</td>
+      <td>1.0</td>
+      <td>61.463168</td>
+      <td>1.471360</td>
+      <td>1.008846</td>
+      <td>1.015951</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>2019-11-14</td>
+      <td>1.0</td>
+      <td>-1.215418</td>
+      <td>1.453477</td>
+      <td>1.017461</td>
+      <td>1.024044</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>2019-11-19</td>
+      <td>1.0</td>
+      <td>-6.115108</td>
+      <td>1.364595</td>
+      <td>1.013548</td>
+      <td>1.017323</td>
+    </tr>
+    <tr>
+      <th>9</th>
       <td>2019-11-27</td>
       <td>1.0</td>
       <td>0.000000</td>
-      <td>0.723456</td>
-      <td>1.015486</td>
-      <td>1.013373</td>
-      <td>10.055101</td>
       <td>1.364595</td>
+      <td>1.028276</td>
+      <td>1.029862</td>
     </tr>
   </tbody>
 </table>
@@ -553,12 +705,12 @@ window.onload = wrap_img;
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 
-<div id="altair-viz-6012f59d6696485fa011cec0845597d4"></div>
+<div id="altair-viz-90eb48a764fb491b80bc6a18d18a377b"></div>
 <script type="text/javascript">
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-6012f59d6696485fa011cec0845597d4") {
-      outputDiv = document.getElementById("altair-viz-6012f59d6696485fa011cec0845597d4");
+    if (outputDiv.id !== "altair-viz-90eb48a764fb491b80bc6a18d18a377b") {
+      outputDiv = document.getElementById("altair-viz-90eb48a764fb491b80bc6a18d18a377b");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
@@ -600,7 +752,7 @@ window.onload = wrap_img;
         .catch(showError)
         .then(() => displayChart(vegaEmbed));
     }
-  })({"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "layer": [{"mark": {"type": "trail", "color": "steelblue"}, "encoding": {"size": {"type": "quantitative", "field": "cumreturn1"}, "x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturn1"}}, "height": 1000, "title": "10KPortfolio (blue) vs 8KPortfolio (brown) vs 10QPortfolio (yellow) vs  Dow (black) vs SP500 (red)", "width": 1000}, {"mark": {"type": "circle", "color": "black", "size": 40}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturndow"}}, "height": 1000, "width": 1000}, {"mark": {"type": "tick", "color": "red"}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturnsp500"}}, "height": 1000, "width": 1000}, {"mark": {"type": "line", "color": "brown"}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturn1a"}}, "height": 1000, "width": 1000}, {"mark": {"type": "line", "color": "yellow"}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturn1b"}}, "height": 1000, "width": 1000}], "data": {"name": "data-82c49b5499df57851bd5d81447262f1c"}, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-82c49b5499df57851bd5d81447262f1c": [{"Date": "2019-11-08T00:00:00", "pred": 1.0, "labelr1": -0.005163525804887992, "cumreturn1": 0.9999483647419511, "cumreturndow": 0.9980375328646761, "cumreturnsp500": 1.0003702868770818, "cumreturn1a": 3.6230207767848204, "cumreturn1b": 0.9112665182457695}, {"Date": "2019-11-12T00:00:00", "pred": 1.0, "labelr1": -2.40667479332844, "cumreturn1": 0.9758828595014066, "cumreturndow": 1.0003103576292214, "cumreturnsp500": 1.0036974358495068, "cumreturn1a": 2.7385954239429626, "cumreturn1b": 1.4713597870791606}, {"Date": "2019-11-14T00:00:00", "pred": 1.0, "labelr1": -0.1066666666666644, "cumreturn1": 1.0862436161733453, "cumreturndow": 1.0088519800036033, "cumreturnsp500": 1.01169204805363, "cumreturn1a": 4.772184395475186, "cumreturn1b": 1.453476616712719}, {"Date": "2019-11-19T00:00:00", "pred": 1.0, "labelr1": -0.2960938389705103, "cumreturn1": 0.9821799110508851, "cumreturndow": 1.0049723520284493, "cumreturnsp500": 1.0050521439363918, "cumreturn1a": 4.6350125280777394, "cumreturn1b": 1.3645949531007904}, {"Date": "2019-11-27T00:00:00", "pred": 1.0, "labelr1": 0.0, "cumreturn1": 0.723456300028552, "cumreturndow": 1.0154861499838606, "cumreturnsp500": 1.0133725916494645, "cumreturn1a": 10.055100503425306, "cumreturn1b": 1.3645949531007904}]}}, {"mode": "vega-lite"});
+  })({"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "layer": [{"mark": {"type": "trail", "color": "steelblue"}, "encoding": {"size": {"type": "quantitative", "field": "cumreturn1b"}, "x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturn1b"}}, "height": 1000, "title": "10QPortfolio (blue) vs  Dow (black) vs SP500 (red)", "width": 1000}, {"mark": {"type": "circle", "color": "black", "size": 40}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturndow"}}, "height": 1000, "width": 1000}, {"mark": {"type": "tick", "color": "red"}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturnsp500"}}, "height": 1000, "width": 1000}], "data": {"name": "data-fe929c304054306ab4bc7a70678c7ff0"}, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-fe929c304054306ab4bc7a70678c7ff0": [{"Date": "2019-11-01T00:00:00", "pred": 1.0, "labelr1": -3.290761888450354, "cumreturn1b": 0.9670923811154964, "cumreturndow": 1.0037040892383409, "cumreturnsp500": 1.0041960175542544}, {"Date": "2019-11-04T00:00:00", "pred": 1.0, "labelr1": -16.02353696561027, "cumreturn1b": 0.8121299759358542, "cumreturndow": 1.0025139978744837, "cumreturnsp500": 1.0053120845054169}, {"Date": "2019-11-05T00:00:00", "pred": 1.0, "labelr1": -0.449190460861181, "cumreturn1b": 0.8084819655541562, "cumreturndow": 1.0032182611433682, "cumreturnsp500": 1.0053095134345127}, {"Date": "2019-11-06T00:00:00", "pred": 1.0, "labelr1": 8.812001327574693, "cumreturn1b": 0.8797254070919904, "cumreturndow": 1.0059571427020124, "cumreturnsp500": 1.0119734194994836}, {"Date": "2019-11-07T00:00:00", "pred": 1.0, "labelr1": 6.477168418918317, "cumreturn1b": 0.9367067033333535, "cumreturndow": 1.0085330729466828, "cumreturnsp500": 1.0122088884130156}, {"Date": "2019-11-08T00:00:00", "pred": 1.0, "labelr1": -2.7159179065392403, "cumreturn1b": 0.9112665182457695, "cumreturndow": 1.0065538599361377, "cumreturnsp500": 1.0125836960812606}, {"Date": "2019-11-12T00:00:00", "pred": 1.0, "labelr1": 61.4631677581655, "cumreturn1b": 1.4713597870791606, "cumreturndow": 1.0088460788801936, "cumreturnsp500": 1.0159514658442232}, {"Date": "2019-11-14T00:00:00", "pred": 1.0, "labelr1": -1.215417909574775, "cumreturn1b": 1.453476616712719, "cumreturndow": 1.0174605875413794, "cumreturnsp500": 1.0240436833766517}, {"Date": "2019-11-19T00:00:00", "pred": 1.0, "labelr1": -6.115107913669063, "cumreturn1b": 1.3645949531007904, "cumreturndow": 1.0135478544177075, "cumreturnsp500": 1.017322713410973}, {"Date": "2019-11-27T00:00:00", "pred": 1.0, "labelr1": 0.0, "cumreturn1b": 1.3645949531007904, "cumreturndow": 1.0282760085846303, "cumreturnsp500": 1.0298617725317403}]}}, {"mode": "vega-lite"});
 </script>
 </div>
 
@@ -651,167 +803,164 @@ window.onload = wrap_img;
       <th>Date</th>
       <th>pred</th>
       <th>labelr1</th>
-      <th>cumreturn1</th>
+      <th>cumreturn1b</th>
       <th>cumreturndow</th>
       <th>cumreturnsp500</th>
-      <th>cumreturn1a</th>
-      <th>cumreturn1b</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <th>0</th>
-      <td>2019-11-05</td>
+      <td>2019-11-01</td>
       <td>-1.0</td>
-      <td>-34.545455</td>
-      <td>1.345455</td>
-      <td>1.000702</td>
-      <td>0.999997</td>
-      <td>2.675363</td>
-      <td>0.763972</td>
+      <td>37.837155</td>
+      <td>0.621628</td>
+      <td>1.003704</td>
+      <td>1.004196</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>2019-11-06</td>
+      <td>2019-11-04</td>
       <td>-1.0</td>
-      <td>0.214362</td>
-      <td>1.342570</td>
-      <td>1.003435</td>
-      <td>1.006626</td>
-      <td>2.208258</td>
-      <td>1.275166</td>
+      <td>18.301200</td>
+      <td>0.507863</td>
+      <td>1.002514</td>
+      <td>1.005312</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>2019-11-08</td>
+      <td>2019-11-05</td>
       <td>-1.0</td>
-      <td>1.363129</td>
-      <td>1.324269</td>
-      <td>1.004030</td>
-      <td>1.007233</td>
-      <td>1.414934</td>
-      <td>1.706803</td>
+      <td>-50.428778</td>
+      <td>0.763972</td>
+      <td>1.003218</td>
+      <td>1.005310</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>2019-11-12</td>
+      <td>2019-11-06</td>
       <td>-1.0</td>
-      <td>27.011610</td>
-      <td>0.966563</td>
-      <td>1.006316</td>
-      <td>1.010583</td>
-      <td>1.788555</td>
-      <td>3.099440</td>
+      <td>-66.912639</td>
+      <td>1.275166</td>
+      <td>1.005957</td>
+      <td>1.011973</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>2019-11-13</td>
+      <td>2019-11-07</td>
       <td>-1.0</td>
-      <td>12.486384</td>
-      <td>0.845874</td>
-      <td>1.007159</td>
-      <td>1.010524</td>
-      <td>2.145288</td>
-      <td>1.305473</td>
+      <td>-25.053303</td>
+      <td>1.594637</td>
+      <td>1.008533</td>
+      <td>1.012209</td>
     </tr>
     <tr>
       <th>5</th>
-      <td>2019-11-14</td>
+      <td>2019-11-08</td>
       <td>-1.0</td>
-      <td>9.718102</td>
-      <td>0.763671</td>
-      <td>1.014909</td>
-      <td>1.018633</td>
-      <td>1.345389</td>
-      <td>1.921581</td>
+      <td>-7.033943</td>
+      <td>1.706803</td>
+      <td>1.006554</td>
+      <td>1.012584</td>
     </tr>
     <tr>
       <th>6</th>
-      <td>2019-11-15</td>
+      <td>2019-11-12</td>
       <td>-1.0</td>
-      <td>-1.205357</td>
-      <td>0.772876</td>
-      <td>1.015420</td>
-      <td>1.019772</td>
-      <td>1.954841</td>
-      <td>3.445158</td>
+      <td>-81.593292</td>
+      <td>3.099440</td>
+      <td>1.008846</td>
+      <td>1.015951</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>2019-11-18</td>
+      <td>2019-11-13</td>
       <td>-1.0</td>
-      <td>-1.341752</td>
-      <td>0.783246</td>
-      <td>1.014818</td>
-      <td>1.016055</td>
-      <td>2.595516</td>
-      <td>4.252852</td>
+      <td>57.880368</td>
+      <td>1.305473</td>
+      <td>1.009691</td>
+      <td>1.015892</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>2019-11-19</td>
+      <td>2019-11-14</td>
       <td>-1.0</td>
-      <td>-2.789833</td>
-      <td>0.805098</td>
-      <td>1.011006</td>
-      <td>1.011947</td>
-      <td>4.533786</td>
-      <td>5.040189</td>
+      <td>-47.194235</td>
+      <td>1.921581</td>
+      <td>1.017461</td>
+      <td>1.024044</td>
     </tr>
     <tr>
       <th>9</th>
-      <td>2019-11-20</td>
+      <td>2019-11-15</td>
       <td>-1.0</td>
-      <td>-1.597981</td>
-      <td>0.817963</td>
-      <td>1.009406</td>
-      <td>1.009954</td>
-      <td>5.303400</td>
-      <td>5.214325</td>
+      <td>-79.287734</td>
+      <td>3.445158</td>
+      <td>1.017973</td>
+      <td>1.025189</td>
     </tr>
     <tr>
       <th>10</th>
-      <td>2019-11-21</td>
+      <td>2019-11-18</td>
       <td>-1.0</td>
-      <td>0.000000</td>
-      <td>0.817963</td>
-      <td>1.011601</td>
-      <td>1.013931</td>
-      <td>5.513084</td>
-      <td>4.633224</td>
+      <td>-23.444321</td>
+      <td>4.252852</td>
+      <td>1.017369</td>
+      <td>1.021452</td>
     </tr>
     <tr>
       <th>11</th>
-      <td>2019-11-25</td>
+      <td>2019-11-19</td>
       <td>-1.0</td>
-      <td>26.207283</td>
-      <td>0.628438</td>
-      <td>1.021434</td>
-      <td>1.022881</td>
-      <td>10.411918</td>
-      <td>4.588921</td>
+      <td>-18.513147</td>
+      <td>5.040189</td>
+      <td>1.013548</td>
+      <td>1.017323</td>
     </tr>
     <tr>
       <th>12</th>
-      <td>2019-11-26</td>
+      <td>2019-11-20</td>
       <td>-1.0</td>
-      <td>3.523959</td>
-      <td>0.606292</td>
-      <td>1.025697</td>
-      <td>1.024420</td>
-      <td>7.585404</td>
-      <td>4.625447</td>
+      <td>-3.454947</td>
+      <td>5.214325</td>
+      <td>1.011944</td>
+      <td>1.015319</td>
     </tr>
     <tr>
       <th>13</th>
+      <td>2019-11-21</td>
+      <td>-1.0</td>
+      <td>11.144323</td>
+      <td>4.633224</td>
+      <td>1.014145</td>
+      <td>1.019317</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>2019-11-25</td>
+      <td>-1.0</td>
+      <td>0.956193</td>
+      <td>4.588921</td>
+      <td>1.024001</td>
+      <td>1.028314</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>2019-11-26</td>
+      <td>-1.0</td>
+      <td>-0.795961</td>
+      <td>4.625447</td>
+      <td>1.028276</td>
+      <td>1.029862</td>
+    </tr>
+    <tr>
+      <th>16</th>
       <td>2019-11-27</td>
       <td>-1.0</td>
       <td>0.000000</td>
-      <td>0.606292</td>
-      <td>1.025697</td>
-      <td>1.024420</td>
-      <td>7.585404</td>
       <td>4.625447</td>
+      <td>1.028276</td>
+      <td>1.029862</td>
     </tr>
   </tbody>
 </table>
@@ -838,12 +987,12 @@ window.onload = wrap_img;
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 
-<div id="altair-viz-8e33efef6544474189557b9e6178ef40"></div>
+<div id="altair-viz-7350789e990c4ec6b1fe89a62e1755d4"></div>
 <script type="text/javascript">
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-8e33efef6544474189557b9e6178ef40") {
-      outputDiv = document.getElementById("altair-viz-8e33efef6544474189557b9e6178ef40");
+    if (outputDiv.id !== "altair-viz-7350789e990c4ec6b1fe89a62e1755d4") {
+      outputDiv = document.getElementById("altair-viz-7350789e990c4ec6b1fe89a62e1755d4");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
@@ -885,7 +1034,7 @@ window.onload = wrap_img;
         .catch(showError)
         .then(() => displayChart(vegaEmbed));
     }
-  })({"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "layer": [{"mark": {"type": "trail", "color": "steelblue"}, "encoding": {"size": {"type": "quantitative", "field": "cumreturn1"}, "x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturn1"}}, "height": 1000, "title": "10KPortfolio (blue) vs 8KPortfolio (brown) vs 10QPortfolio (yellow) vs  Dow (black) vs SP500 (red)", "width": 1000}, {"mark": {"type": "circle", "color": "black", "size": 40}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturndow"}}, "height": 1000, "width": 1000}, {"mark": {"type": "tick", "color": "red"}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturnsp500"}}, "height": 1000, "width": 1000}, {"mark": {"type": "line", "color": "brown"}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturn1a"}}, "height": 1000, "width": 1000}, {"mark": {"type": "line", "color": "yellow"}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturn1b"}}, "height": 1000, "width": 1000}], "data": {"name": "data-0322692eea7e42f0c05c041d777e4a7f"}, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-0322692eea7e42f0c05c041d777e4a7f": [{"Date": "2019-11-05T00:00:00", "pred": -1.0, "labelr1": -34.54545454545454, "cumreturn1": 1.3454545454545455, "cumreturndow": 1.0007024971924359, "cumreturnsp500": 0.999997442514674, "cumreturn1a": 2.675363323037518, "cumreturn1b": 0.763972084707168}, {"Date": "2019-11-06T00:00:00", "pred": -1.0, "labelr1": 0.2143622722400939, "cumreturn1": 1.3425703985189514, "cumreturndow": 1.0034345104754934, "cumreturnsp500": 1.0066261363975784, "cumreturn1a": 2.2082578196697407, "cumreturn1b": 1.275165967113766}, {"Date": "2019-11-08T00:00:00", "pred": -1.0, "labelr1": 1.3631291655357638, "cumreturn1": 1.32426942984889, "cumreturndow": 1.0040297313256665, "cumreturnsp500": 1.0072331882685177, "cumreturn1a": 1.4149339863583061, "cumreturn1b": 1.7068030318591727}, {"Date": "2019-11-12T00:00:00", "pred": -1.0, "labelr1": 27.011609911139203, "cumreturn1": 0.9665629372856406, "cumreturndow": 1.0063162020870884, "cumreturnsp500": 1.0105831626842927, "cumreturn1a": 1.7885549786423955, "cumreturn1b": 3.099439821247967}, {"Date": "2019-11-13T00:00:00", "pred": -1.0, "labelr1": 12.486384285969486, "cumreturn1": 0.8458741745704013, "cumreturndow": 1.0071585318388778, "cumreturnsp500": 1.0105239138620046, "cumreturn1a": 2.1452882061169016, "cumreturn1b": 1.3054726616073122}, {"Date": "2019-11-14T00:00:00", "pred": -1.0, "labelr1": 9.718102268673867, "cumreturn1": 0.7636712572213488, "cumreturndow": 1.014909108200569, "cumreturnsp500": 1.0186326208149088, "cumreturn1a": 1.34538905436382, "cumreturn1b": 1.9215805012584342}, {"Date": "2019-11-15T00:00:00", "pred": -1.0, "labelr1": -1.2053570025944536, "cumreturn1": 0.7728762221970674, "cumreturndow": 1.015419762505899, "cumreturnsp500": 1.0197722017506394, "cumreturn1a": 1.9548410760220305, "cumreturn1b": 3.4451581318914206}, {"Date": "2019-11-18T00:00:00", "pred": -1.0, "labelr1": -1.3417521704814581, "cumreturn1": 0.7832463056835316, "cumreturndow": 1.0148180306074537, "cumreturnsp500": 1.0160547993483686, "cumreturn1a": 2.595515596328841, "cumreturn1b": 4.252852058107696}, {"Date": "2019-11-19T00:00:00", "pred": -1.0, "labelr1": -2.789833132928025, "cumreturn1": 0.8050975706319254, "cumreturndow": 1.0110061870124682, "cumreturnsp500": 1.011947164557825, "cumreturn1a": 4.533785511582908, "cumreturn1b": 5.0401888034285465}, {"Date": "2019-11-20T00:00:00", "pred": -1.0, "labelr1": -1.5979814970563606, "cumreturn1": 0.8179628808438739, "cumreturndow": 1.0094060146943347, "cumreturnsp500": 1.0099538747456913, "cumreturn1a": 5.3034002702095355, "cumreturn1b": 5.214324679721683}, {"Date": "2019-11-21T00:00:00", "pred": -1.0, "labelr1": 0.0, "cumreturn1": 0.8179628808438739, "cumreturndow": 1.0116014078626414, "cumreturnsp500": 1.0139305795783686, "cumreturn1a": 5.5130844020832726, "cumreturn1b": 4.6332235017176915}, {"Date": "2019-11-25T00:00:00", "pred": -1.0, "labelr1": 26.207283407468676, "cumreturn1": 0.6284376153252396, "cumreturndow": 1.0214335106427066, "cumreturnsp500": 1.0228806341679768, "cumreturn1a": 10.4119180317131, "cumreturn1b": 4.588920942105982}, {"Date": "2019-11-26T00:00:00", "pred": -1.0, "labelr1": 3.5239589463790217, "cumreturn1": 0.6062917317575748, "cumreturndow": 1.0256974074823564, "cumreturnsp500": 1.0244199670974825, "cumreturn1a": 7.585403512093049, "cumreturn1b": 4.625446944722505}, {"Date": "2019-11-27T00:00:00", "pred": -1.0, "labelr1": 0.0, "cumreturn1": 0.6062917317575748, "cumreturndow": 1.0256974074823564, "cumreturnsp500": 1.0244199670974825, "cumreturn1a": 7.585403512093049, "cumreturn1b": 4.625446944722505}]}}, {"mode": "vega-lite"});
+  })({"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "layer": [{"mark": {"type": "trail", "color": "steelblue"}, "encoding": {"size": {"type": "quantitative", "field": "cumreturn1b"}, "x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturn1b"}}, "height": 1000, "title": "10QPortfolio (blue) vs  Dow (black) vs SP500 (red)", "width": 1000}, {"mark": {"type": "circle", "color": "black", "size": 40}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturndow"}}, "height": 1000, "width": 1000}, {"mark": {"type": "tick", "color": "red"}, "encoding": {"x": {"type": "temporal", "field": "Date"}, "y": {"type": "quantitative", "field": "cumreturnsp500"}}, "height": 1000, "width": 1000}], "data": {"name": "data-7a35500cdfc6e710ccd871b42fb1726c"}, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-7a35500cdfc6e710ccd871b42fb1726c": [{"Date": "2019-11-01T00:00:00", "pred": -1.0, "labelr1": 37.83715477057465, "cumreturn1b": 0.6216284522942535, "cumreturndow": 1.0037040892383409, "cumreturnsp500": 1.0041960175542544}, {"Date": "2019-11-04T00:00:00", "pred": -1.0, "labelr1": 18.30119963223934, "cumreturn1b": 0.5078629882690825, "cumreturndow": 1.0025139978744837, "cumreturnsp500": 1.0053120845054169}, {"Date": "2019-11-05T00:00:00", "pred": -1.0, "labelr1": -50.42877751555908, "cumreturn1b": 0.763972084707168, "cumreturndow": 1.0032182611433682, "cumreturnsp500": 1.0053095134345127}, {"Date": "2019-11-06T00:00:00", "pred": -1.0, "labelr1": -66.91263890912188, "cumreturn1b": 1.275165967113766, "cumreturndow": 1.0059571427020124, "cumreturnsp500": 1.0119734194994836}, {"Date": "2019-11-07T00:00:00", "pred": -1.0, "labelr1": -25.05330270417582, "cumreturn1b": 1.594637156835409, "cumreturndow": 1.0085330729466828, "cumreturnsp500": 1.0122088884130156}, {"Date": "2019-11-08T00:00:00", "pred": -1.0, "labelr1": -7.033943398532084, "cumreturn1b": 1.7068030318591727, "cumreturndow": 1.0065538599361377, "cumreturnsp500": 1.0125836960812606}, {"Date": "2019-11-12T00:00:00", "pred": -1.0, "labelr1": -81.59329245342587, "cumreturn1b": 3.099439821247967, "cumreturndow": 1.0088460788801936, "cumreturnsp500": 1.0159514658442232}, {"Date": "2019-11-13T00:00:00", "pred": -1.0, "labelr1": 57.880367521326065, "cumreturn1b": 1.3054726616073122, "cumreturndow": 1.0096905262471887, "cumreturnsp500": 1.0158919022871842}, {"Date": "2019-11-14T00:00:00", "pred": -1.0, "labelr1": -47.19423529655254, "cumreturn1b": 1.9215805012584342, "cumreturndow": 1.0174605875413794, "cumreturnsp500": 1.0240436833766517}, {"Date": "2019-11-15T00:00:00", "pred": -1.0, "labelr1": -79.28773369813041, "cumreturn1b": 3.4451581318914206, "cumreturndow": 1.0179725256305474, "cumreturnsp500": 1.0251893178626137}, {"Date": "2019-11-18T00:00:00", "pred": -1.0, "labelr1": -23.44432084958738, "cumreturn1b": 4.252852058107696, "cumreturndow": 1.0173692809793886, "cumreturnsp500": 1.0214521683046414}, {"Date": "2019-11-19T00:00:00", "pred": -1.0, "labelr1": -18.513146814497357, "cumreturn1b": 5.0401888034285465, "cumreturndow": 1.0135478544177075, "cumreturnsp500": 1.017322713410973}, {"Date": "2019-11-20T00:00:00", "pred": -1.0, "labelr1": -3.454947484798229, "cumreturn1b": 5.214324679721683, "cumreturndow": 1.0119436592697673, "cumreturnsp500": 1.0153188350749134}, {"Date": "2019-11-21T00:00:00", "pred": -1.0, "labelr1": 11.144322873945155, "cumreturn1b": 4.6332235017176915, "cumreturndow": 1.0141445716518327, "cumreturnsp500": 1.0193166644997151}, {"Date": "2019-11-25T00:00:00", "pred": -1.0, "labelr1": 0.9561930175672664, "cumreturn1b": 4.588920942105982, "cumreturndow": 1.0240013923173887, "cumreturnsp500": 1.0283142625356312}, {"Date": "2019-11-26T00:00:00", "pred": -1.0, "labelr1": -0.7959605989585965, "cumreturn1b": 4.625446944722505, "cumreturndow": 1.0282760085846303, "cumreturnsp500": 1.0298617725317403}, {"Date": "2019-11-27T00:00:00", "pred": -1.0, "labelr1": 0.0, "cumreturn1b": 4.625446944722505, "cumreturndow": 1.0282760085846303, "cumreturnsp500": 1.0298617725317403}]}}, {"mode": "vega-lite"});
 </script>
 </div>
 
