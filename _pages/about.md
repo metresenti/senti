@@ -4,9 +4,13 @@ title: About Me
 permalink: /about/
 ---
 
-This is where you put the contents of your *About* page. Like all your pages, it's in [Markdown](https://guides.github.com/features/mastering-markdown/) format.
+Efficient market hypothesis says that market prices reflect all known material public information.
 
-This website is powered by **[fastpages](https://github.com/fastai/fastpages)** [^1].
+Sentimetre is investigating how quickly this information is incorporated into market prices given the limits of human attention and market frictions.
+
+Research has shown that positive news is incorporated into a stock within a 4 day period and negative news takes longer simply because of the mechanics required in shorting a stock.
+
+Email: erictwabe@gmail.com
 
 
 
