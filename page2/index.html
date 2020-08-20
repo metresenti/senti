@@ -123,13 +123,52 @@ Our models are targeted towards generating alpha from financial statements, regu
 
 <p>Sentimetre’s proof-of-concept was built on two datasets:</p>
 <ol>
-  <li>Reuters dataset 1 2017-2020 : (https://www.kaggle.com/miguelaenlle/reuters-articles-for-3500-stocks-since-2017)</li>
-  <li>Reuters dataset 2 : (https://github.com/mike0sv/Reuters-full-data-set/tree/master/data)</li>
+  <li>Reuters dataset 1 2017-2020 : (https://www.kaggle.com/miguelaenlle/reuters-articles-for-3500-stocks-since-2017) 86.297 news articles</li>
+  <li>Reuters dataset 2 2007-2016  : (https://github.com/mike0sv/Reuters-full-data-set/tree/master/data) 150,802 news articles</li>
   <li>10Q quartely financial statements 1993 -2020 EDGAR: Proved to be too noisy</li>
   <li>8K financial statements 1993 -2020 EDGAR: Proved to be too noisy</li>
 </ol>
 
-<p>Meta-model Analysis - Model Stacking</p>
+<p>Models tested:</p>
+<ol>
+  <li>NTLK VADER Sentiment Analyzer</li>
+  <li>Linear Classifier</li>
+  <li>Sentimetre Model 1</li>
+  <li>Sentimetre Model 2</li>
+</ol>
+
+<p>Backtest:
+We use a long-short equally-weighted portfolio backtest for all our models. Our papers are tended to use the top 10 long predictions and top 10 short predictions to build a portfolio but we prefer to include all predictions in our portfolio.
+We assume that we are able to buy at market open and liquidate at market close. We don’t take into account transaction costs and slippage as we did not have the adequate resources.</p>
+
+<p>Proof-of-Concept 1: Reuters dataset 1 2017-2020
+Data is segmented into training data (2017-2018) and test data (2019-2020). Preprocessing of the text data for text normalization, stemming, lemmatization and extraction of stop words.</p>
+
+<p>Model accuracy on the validation dataset:</p>
+<ol>
+  <li>NTLK VADER Sentiment Analyzer - N/A</li>
+  <li>Linear Classifier - 53%</li>
+  <li>Sentimetre Model 1 - 53%</li>
+  <li>Sentimetre Model 2 - 57%</li>
+</ol>
+
+<p>Prediction accuracy on the test dataset:</p>
+<ol>
+  <li>NTLK VADER Sentiment Analyzer - 50%</li>
+  <li>Linear Classifier - 52%</li>
+  <li>Sentimetre Model 1 - 51%</li>
+  <li>Sentimetre Model 2 - 55%</li>
+</ol>
+
+<p>Proof-of-Concept 2: Reuters dataset 2; 150,802 articles
+Given that this data set was collected by web scraping not a clean dataset, it presented problems when fed into the models and was thus held out as a second test dataset. The best performing model ,Sentimetre Model 2, was used to predict on this dataset and the charts are provided below.</p>
+
+<p>Meta-model Analysis - Model Stacking
+Meta-model analysis was carried out to see if the different models predict better on the differeent feature spaces of the test data set. Model outputs were trained as inputs into gradient boosting models (Catboost, LGBM and EXtraTreesClassifiers) but the meta-model accuracy (54%) failed to improve ont eh best score.</p>
+
+<p>Model Sanity check:
+Model sanity check was carried out across the different models to compare returns; given that models are picking different news articles, the check was to make sure a lower accuracy model was not picking news articles that led to higher average returns and thus would lead to a situation where lower accuracy models outperform higher accuracy models.</p>
+
 <h1 id="posts">Posts</h1>
 
 
