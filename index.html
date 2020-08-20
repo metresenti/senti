@@ -139,8 +139,15 @@ Our models are targeted towards generating alpha from financial statements, regu
 
 <p>Backtest:</p>
 
-<p>We use a long-short equally-weighted portfolio backtest for all our models. Other papers are tended to use the top 10 long predictions and top 10 short predictions to build a portfolio but we prefer to include all predictions in our portfolio.
+<p>We use a long-short equally-weighted portfolio backtest for all our models. Other papers are tended to use the top 10 long predictions and top 10 short predictions to build a portfolio but we prefer to include all predictions in our portfolio , may consequently lead to underperformance.
 We assume that we are able to buy at market open and liquidate at market close. We don’t take into account transaction costs and slippage as we did not have the adequate resources.</p>
+
+<p>Our backtest does not incorporate:</p>
+<ol>
+  <li>Use of options/derivatives</li>
+  <li>Self-financing portfolios</li>
+  <li>Leverage</li>
+</ol>
 
 <p>Proof-of-Concept 1: Reuters dataset 1 2017-2020</p>
 
