@@ -13,11 +13,43 @@ Application of artificial intelligence to finance suffers from:
 3. Data sets are available in high-resource languages like English but not in low-resource languages e.g. CoFiF corpus in French
 
 Sentimetre's proof-of-concept was built on two datasets:
-1. Reuters dataset 1 2017-2020 : (https://www.kaggle.com/miguelaenlle/reuters-articles-for-3500-stocks-since-2017)
-2. Reuters dataset 2 : (https://github.com/mike0sv/Reuters-full-data-set/tree/master/data)
+1. Reuters dataset 1 2017-2020 : (https://www.kaggle.com/miguelaenlle/reuters-articles-for-3500-stocks-since-2017) 86.297 news articles
+2. Reuters dataset 2 2007-2016  : (https://github.com/mike0sv/Reuters-full-data-set/tree/master/data) 150,802 news articles
 3. 10Q quartely financial statements 1993 -2020 EDGAR: Proved to be too noisy
 4. 8K financial statements 1993 -2020 EDGAR: Proved to be too noisy
 
+Models tested:
+1. NTLK VADER Sentiment Analyzer
+2. Linear Classifier 
+3. Sentimetre Model 1 
+4. Sentimetre Model 2
+
+Backtest:
+We use a long-short equally-weighted portfolio backtest for all our models. Our papers are tended to use the top 10 long predictions and top 10 short predictions to build a portfolio but we prefer to include all predictions in our portfolio.
+We assume that we are able to buy at market open and liquidate at market close. We don't take into account transaction costs and slippage as we did not have the adequate resources.
+
+Proof-of-Concept 1: Reuters dataset 1 2017-2020
+Data is segmented into training data (2017-2018) and test data (2019-2020). Preprocessing of the text data for text normalization, stemming, lemmatization and extraction of stop words.
+
+Model accuracy on the validation dataset:
+1. NTLK VADER Sentiment Analyzer - N/A
+2. Linear Classifier - 53%
+3. Sentimetre Model 1 - 53%
+4. Sentimetre Model 2 - 57%
+
+Prediction accuracy on the test dataset:
+1. NTLK VADER Sentiment Analyzer - 50%
+2. Linear Classifier - 52%
+3. Sentimetre Model 1 - 51%
+4. Sentimetre Model 2 - 55%
+
+Proof-of-Concept 2: Reuters dataset 2; 150,802 articles
+Given that this data set was collected by web scraping not a clean dataset, it presented problems when fed into the models and was thus held out as a second test dataset. The best performing model ,Sentimetre Model 2, was used to predict on this dataset and the charts are provided below.
 
 Meta-model Analysis - Model Stacking
+Meta-model analysis was carried out to see if the different models predict better on the differeent feature spaces of the test data set. Model outputs were trained as inputs into gradient boosting models (Catboost, LGBM and EXtraTreesClassifiers) but the meta-model accuracy (54%) failed to improve ont eh best score.
+
+Model Sanity check:
+Model sanity check was carried out across the different models to compare returns; given that models are picking different news articles, the check was to make sure a lower accuracy model was not picking news articles that led to higher average returns and thus would lead to a situation where lower accuracy models outperform higher accuracy models.
+
 # Posts
