@@ -162,23 +162,44 @@ window.onload = wrap_img;
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>**Backtest:</p>
-<p>We use a long-short equally-weighted portfolio backtest for all our models. Other papers are tended to use the top 10 long predictions and top 10 short predictions to build a portfolio but we prefer to include all predictions in our portfolio. We assume that we are able to buy at market open and liquidate at market close. We don’t take into account transaction costs and slippage as we did not have the adequate resources.</p>
-<p>Our backtest does not incorporate:</p>
-<p>1.Use of options/derivatives</p>
-<p>2.Self-financing portfolios</p>
-<p>3.Leverage</p>
+<p>We use a long-short equally-weighted portfolio backtest for all our models. Other papers are tended to use the top 10 long predictions and top 10 short predictions to build a portfolio but we prefer to include all predictions in our portfolio. We assume that we are able to buy at market open and liquidate at market close. 
+Our backtest does not incorporate:</p>
+<ol>
+<li><p>Use of options/derivatives</p>
+</li>
+<li><p>Self-financing portfolios</p>
+</li>
+<li><p>Leverage</p>
+</li>
+<li><p>Optimal sizing of trades: all positiona are the same size</p>
+</li>
+<li><p>Transaction costs</p>
+</li>
+<li><p>Slippage</p>
+</li>
+</ol>
 <p>**Proof-of-Concept 1: Reuters dataset 1 2017-2020</p>
 <p>Data is segmented into training data (2017-2018) and test data (2019-2020). Preprocessing of the text data for text normalization, stemming, lemmatization and extraction of stop words.</p>
 <p>*Model accuracy on the validation dataset:</p>
-<p>NTLK VADER Sentiment Analyzer - N/A</p>
-<p>Linear Classifier - 53%</p>
-<p>Sentimetre Model 1 - 53%</p>
-<p>Sentimetre Model 2 - 57%</p>
+
+<pre><code>NTLK VADER Sentiment Analyzer - N/A
+
+Linear Classifier - 53%
+
+Sentimetre Model 1 - 53%
+
+Sentimetre Model 2 - 57%
+
+</code></pre>
 <p>*Prediction accuracy on the test dataset:</p>
-<p>NTLK VADER Sentiment Analyzer - 50%</p>
-<p>Linear Classifier - 52%</p>
-<p>Sentimetre Model 1 - 51%</p>
-<p>Sentimetre Model 2 - 55%</p>
+
+<pre><code>NTLK VADER Sentiment Analyzer - 50%
+
+Linear Classifier - 52%
+
+Sentimetre Model 1 - 51%
+
+Sentimetre Model 2 - 55%</code></pre>
 
 </div>
 </div>
