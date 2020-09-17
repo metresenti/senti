@@ -10,7 +10,7 @@ Sentimetre is investigating how quickly this information is incorporated into ma
 
 Research has shown that positive news is incorporated into a stock within a 4 day period and negative news takes longer simply because of the mechanics required in shorting a stock.
 
-Email: erictwabe@gmail.com
+Email: erictwabe@gmail.com, clynton.kakai@gmail.com
 
 
 
