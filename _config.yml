@@ -14,7 +14,7 @@ github_repo: "fastpages"
 
 # OPTIONAL: override baseurl and url if using a custom domain
 # Note: leave out the trailing / from this value. 
-url: "https://sentimetre.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "3cfc3132e62af291dda60b6902d1869f.zbkrxsrfvj.acm-validations.aws" # the base hostname & protocol for your site, e.g. http://example.com
 
 ###########################################################
 #########  Special Instructions for baseurl ###############
