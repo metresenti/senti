@@ -30,7 +30,7 @@
       "page1": {
           "title": "About Us",
           "content": "Efficient market hypothesis says that market prices reflect all known material public information. . Sentimetre is investigating how quickly this information is incorporated into market prices given the limits of human attention and market frictions. . Research has shown that positive news is incorporated into a stock within a 4 day period and negative news takes longer simply because of the mechanics required in shorting a stock. . Email: erictwabe@gmail.com, clynton.kakai@gmail.com .",
-          "url": "https://sentimetre.com/about/",
+          "url": "3cfc3132e62af291dda60b6902d1869f.zbkrxsrfvj.acm-validations.aws/about/",
           "relUrl": "/about/",
           "date": ""
       }
@@ -62,7 +62,7 @@
       ,"page10": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
-          "url": "https://sentimetre.com/robots.txt",
+          "url": "3cfc3132e62af291dda60b6902d1869f.zbkrxsrfvj.acm-validations.aws/robots.txt",
           "relUrl": "/robots.txt",
           "date": ""
       }
