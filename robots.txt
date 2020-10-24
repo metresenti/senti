@@ -1,1 +1,1 @@
-Sitemap: http://sentimetre.com/sitemap.xml
+Sitemap: https://sentimetre.com/sitemap.xml
