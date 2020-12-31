@@ -107,27 +107,11 @@ window.onload = wrap_img;
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <html>
-  <head>
-    <script src="https://cdn.tryretool.com/embed.js"> </script>
-    <script>
-function incrementCompanyId () {
-  var d = document.getElementById('companyid');
-  var curValue = parseInt(d.textContent)
-  d.textContent = String(curValue + 1)
-}
-    </script>
-  </head>
-  <body>
-    <h1> Company id</h1><p id="companyid">13</p> <button onclick="incrementCompanyId()"> increment me </button>
-    <h1> User id</h1><p>1433</p>
-    <div style="height: 800px; width: 100%;" id='container'></div>
-
-    <script>
+        <script src="https://cdn.tryretool.com/embed.js"> </script>
+...
+<script>
 var rt = window.retool.RetoolDashboard(document.getElementById('container'), 'http://sentimetre.retool.com/embedded/public/39b8d484-991d-435b-af3f-c579b8ad2299/editor/test_embeds')
-    </script>
-  </body>
-</html>
+</script>
 
       </div>
     </main><footer class="site-footer h-card">
