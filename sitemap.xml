@@ -44,6 +44,9 @@
 <loc>https://sentimetre.com/about/</loc>
 </url>
 <url>
+<loc>https://sentimetre.com/example/</loc>
+</url>
+<url>
 <loc>https://sentimetre.com/</loc>
 </url>
 <url>
@@ -51,9 +54,5 @@
 </url>
 <url>
 <loc>https://sentimetre.com/categories/</loc>
-</url>
-<url>
-<loc>https://sentimetre.com/_pages/example.html</loc>
-<lastmod>2020-12-31T17:12:32-06:00</lastmod>
 </url>
 </urlset>
